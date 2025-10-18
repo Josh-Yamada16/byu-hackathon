@@ -1,7 +1,7 @@
 import { tool } from "ai";
 import { z } from "zod";
 import programsData from "@/scraping/programs.json" with { type: "json" };
-import { getSyllabusesForMajor, buildSyllabusSummary } from "@/lib/ai/tools/get-syllabus-data";
+import { getSyllabusesForMajor } from "@/lib/ai/tools/get-syllabus-data";
 
 const programs = (programsData as any)?.data || [];
 
@@ -26,18 +26,7 @@ export const getProgram = tool({
       if (!found) {
         return { error: `No program found for id: ${majorId}` };
       }
-      
-      // Attach syllabus data if available
-      const syllabusData = getSyllabusesForMajor(found.catalogDisplayName || found.longName);
-      const result = { ...found };
-      if (syllabusData && syllabusData.courses.length > 0) {
-        result.relatedCourses = syllabusData.courses.map((c) => ({
-          code: c.courseCode,
-          name: c.courseName,
-          instructor: c.instructor?.name,
-        }));
-      }
-      return result;
+      return found;
     }
 
     if (majorName) {
@@ -67,17 +56,7 @@ export const getProgram = tool({
         return { error: `No exact match for name: ${majorName}`, matches };
       }
 
-      // Attach syllabus data if available
-      const syllabusData = getSyllabusesForMajor(found.catalogDisplayName || found.longName);
-      const result = { ...found };
-      if (syllabusData && syllabusData.courses.length > 0) {
-        result.relatedCourses = syllabusData.courses.map((c) => ({
-          code: c.courseCode,
-          name: c.courseName,
-          instructor: c.instructor?.name,
-        }));
-      }
-      return result;
+      return found;
     }
 
     return { error: "No input provided" };
