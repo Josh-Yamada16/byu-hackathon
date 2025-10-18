@@ -1,0 +1,205 @@
+{
+  "courseCode": "101",
+  "courseName": "ME EN 101: Static Systems in Mechanical Engineering",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mechanical Engineering",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "meetingTime": "MWF 10:00-10:50",
+      "classroom": "321 EB"
+    },
+    {
+      "sectionNumber": 2,
+      "meetingTime": "MWF 2:00-2:50",
+      "classroom": "254 CB"
+    }
+  ],
+  "instructor": {
+    "name": "Dr. Ben Terry",
+    "email": "ben_terry@byu.edu",
+    "office": "EB 360M",
+    "officeHours": "MTuWF 3:00-4:00"
+  },
+  "courseSupport": {
+    "tas": "Several course TAs available in room CB 110",
+    "taOfficeHours": "Times and location posted to Learning Suite during first week"
+  },
+  "prerequisites": [
+    "PHSCS 121",
+    "MATH 112"
+  ],
+  "requiredMaterials": [
+    {
+      "title": "Statics: Engineering Mechanics",
+      "authors": "Plesha, Gray, and Costanzo",
+      "edition": "2nd edition"
+    }
+  ],
+  "courseStructure": {
+    "courseMeetingType": "In-person, attendance required",
+    "attendance": "Student success strongly correlated with regular attendance",
+    "sicknessPolicy": "Students with fever, cough, shortness of breath, chills, muscle pain, sore throat, or loss of taste/smell should not attend and should develop study plan with instructor"
+  },
+  "courseOverview": "The study of engineering statics provides exciting and insightful understanding of phenomena in the world around us. The course is rigorous and mathematically intensive, involving class discussions, text readings, problem-solving, special projects, and real-world static scenarios.",
+  "timeExpectation": "For each hour in class, expect to spend at least 2 hours outside of class on the subject (for B grade). More time required for excellence (A grade).",
+  "courseObjectives": "Provide understanding and ability to mathematically model engineering statics systems, learn structured approach to solving real-world problems, and understand the broader mechanical engineering discipline.",
+  "coreTopics": [
+    {
+      "topic": "Vector Analysis",
+      "competency": "Understanding of forces and moments with ability to perform mathematical manipulation using vector analysis"
+    },
+    {
+      "topic": "Free-Body Diagrams",
+      "competency": "Ability to construct free-body diagrams and calculate reactions for static equilibrium of particles and rigid bodies"
+    },
+    {
+      "topic": "Force and Moment Systems",
+      "competency": "Understanding of force and moment systems with ability to determine internal forces and moments in members"
+    },
+    {
+      "topic": "Basic Computing for Parametric Evaluation",
+      "competency": "Ability to apply computing techniques to explore solutions by changing variables and produce publication-quality figures"
+    },
+    {
+      "topic": "Centroids and Moments of Inertia",
+      "competency": "Ability to calculate centroids and moments of inertia for 2-D and 3-D objects"
+    },
+    {
+      "topic": "Friction",
+      "competency": "Understanding of friction and ability to model it in static systems"
+    },
+    {
+      "topic": "Static System Design",
+      "competency": "Understanding of design process with professional and ethical responsibilities; ability to apply to design, build, and test structures"
+    },
+    {
+      "topic": "Real World Problem Solving",
+      "competency": "Ability to describe ME EN problem-solving process and transform real-world scenarios into analyzable statics problems"
+    },
+    {
+      "topic": "Communicating Results",
+      "competency": "Ability to use SAFER method to effectively communicate steps, results, and objectives of engineering analysis"
+    },
+    {
+      "topic": "Mechanical Engineering Discipline",
+      "competency": "Understanding of ME as a discipline and how statics relates to core ME topics and becoming an influential engineer"
+    }
+  ],
+  "courseComponents": {
+    "homework": {
+      "frequency": "Weekly, due Tuesdays by 11:59 p.m.",
+      "purpose": "Solidify principles discussed in class and text to achieve mastery",
+      "types": [
+        {
+          "type": "Practice Problems",
+          "description": "Can be prepared using abbreviated SAFER method",
+          "collaboration": "Working with others encouraged if all contribute equally",
+          "copied": "Copying another's work or AI/online solutions not acceptable",
+          "submission": "Submit digitally with assessment on Learning Suite"
+        },
+        {
+          "type": "Mastery Problems",
+          "description": "Complete without class discussion",
+          "method": "Complete SAFER method with problem-solving template",
+          "grading": "Significant portion based on professional nature of solution",
+          "format": "Submit as single PDF file"
+        }
+      ],
+      "latePolicy": "Accepted until 11:59 p.m. Wednesday (day after due) with 15% penalty",
+      "resources": "Template available for purchase at bookstore ($2.95) or download from Learning Suite"
+    },
+    "reading": {
+      "requirement": "Reading of assigned material expected prior to class time",
+      "benefit": "Increases exposure to subject and prompts class discussion"
+    },
+    "lectures": {
+      "approach": "Active participation required",
+      "coverage": "Much information covered in class not found in text and vice versa"
+    },
+    "specialProblems": {
+      "description": "Multiple special problems and two design projects",
+      "reporting": "Due date and reporting type specified when assigned"
+    },
+    "quizzes": {
+      "frequency": "Most class days, typically 5 minutes",
+      "content": "Conceptual questions from text, lecture, homework, and special problems",
+      "scoring": "Lowest three scores dropped before final grade",
+      "makeups": "No make-up quizzes given"
+    },
+    "exams": {
+      "schedule": "Two mid-term exams and final exam",
+      "format": "Closed book, closed note",
+      "administration": "Testing center",
+      "materials": "Equation sheet provided",
+      "policy": "Plan to be present; university policy precludes final exam outside scheduled time"
+    },
+    "extraCredit": "Few opportunities given throughout semester"
+  },
+  "grading": {
+    "policy": "Refer to Learning Suite for breakdown of homework, mastery, quizzes, exams, etc.",
+    "finalExamReplacement": "If final exam score > lowest midterm, final replaces that score",
+    "curving": "If everyone scores 90-100, all get A's. May curve if class average below 80%",
+    "examMinimum": "If cumulative exam grade (midterm + final) < 80%, that becomes final grade",
+    "example": {
+      "exam1": "20%",
+      "exam2": "90%",
+      "final": "90%",
+      "cumulativeExamGrade": "90% (note: exam1's 20% replaced with final's 90%)",
+      "finalGradeIncludes": "All other course grades since 90% not less than 80%"
+    }
+  },
+  "academicHonor": {
+    "honorCode": "Students expected to be honest in all academic work",
+    "definition": "Any work presented as your own must be your own work, not another's nor AI's",
+    "violation": "May result in failing grade and additional university disciplinary action",
+    "dressAndGrooming": "Expected to adhere to BYU Honor Code standards",
+    "questions": "Call Honor Code Office at 422-2847"
+  },
+  "departmentBIG": {
+    "mission": "To be recognized as the best undergraduate mechanical engineering program in the world and the alma mater for the world's most influential engineers",
+    "influentialEngineersCharacteristics": [
+      {
+        "trait": "Character",
+        "description": "Integrity and strong desire to serve community and profession. Do the right thing even when no one is watching. Influence derived from moral principles and mutual respect."
+      },
+      {
+        "trait": "Resilience",
+        "description": "Learn from failures, persevere in pursuit of long-term goals, embrace challenge, recognize effort leads to mastery"
+      },
+      {
+        "trait": "Technical Excellence",
+        "description": "Innovative experts solving significant real-world problems using state-of-the-art practices and technologies"
+      },
+      {
+        "trait": "Communication Skills",
+        "description": "Clearly and concisely communicate results, persuasively present recommendations, collaborative and civil even with differing viewpoints"
+      },
+      {
+        "trait": "Leadership",
+        "description": "Lead in ethical behavior regardless of position, focus on greater good, make tough decisions, inspire with praise and recognize contributions"
+      },
+      {
+        "trait": "Lifelong Learning and Service",
+        "description": "Consistently develop new skills and use abilities to enhance lives of others"
+      }
+    ]
+  },
+  "aiPolicy": {
+    "overview": "Course components designed to help you learn mechanical engineering statics",
+    "permitted": "Encouraged to use AI to help learn material (explain concepts, generate quizzes, additional practice problems)",
+    "prohibited": "Not allowed in any way on graded work - constitutes ethics and honor code violation"
+  },
+  "policies": {
+    "sexualDiscrimination": {
+      "policy": "Sexual discrimination or harassment (including student-to-student) prohibited by law and BYU policy",
+      "reporting": "Lodge complaint with Equal Employment Office (D-240C ASB) or Honor Code Office"
+    },
+    "disability": {
+      "office": "Services for Students with Disabilities",
+      "location": "1520 WSC",
+      "process": "Can evaluate disability and assist professor in arranging reasonable accommodations"
+    }
+  }
+}

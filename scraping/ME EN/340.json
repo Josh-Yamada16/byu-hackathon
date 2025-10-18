@@ -1,0 +1,143 @@
+{
+  "courseCode": "340",
+  "courseName": "ME EN 340: Heat Transfer",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mechanical Engineering",
+  "section": {
+    "sectionNumber": 3,
+    "meetingTime": "MWF 3:00-3:50 p.m.",
+    "classroom": "321 EB",
+    "finalExam": "Wednesday, December 17, 3:00-6:00 p.m."
+  },
+  "instructor": {
+    "name": "Christopher R. Dillon",
+    "email": "chris.dillon@byu.edu",
+    "office": "EB 360F",
+    "phone": "801-422-3650",
+    "officeHours": [
+      "MWF 2:00-2:50 p.m. (right before class)",
+      "Monday 4:00-5:00 p.m.",
+      "Thursday 10:00-11:00 a.m."
+    ]
+  },
+  "teachingAssistants": [
+    {
+      "name": "Teagan Matthews",
+      "email": "tkm36@byu.edu"
+    },
+    {
+      "name": "Emma Bowden",
+      "email": "eebowden@byu.edu"
+    },
+    {
+      "name": "Muhammad Taha",
+      "email": "tahabyu@byu.edu"
+    },
+    {
+      "name": "Josh Cannon",
+      "email": "jrcannon@byu.edu"
+    }
+  ],
+  "taOffice": {
+    "location": "CB 350",
+    "officeHours": "Posted on Learning Suite under Content tab"
+  },
+  "requiredMaterials": [
+    {
+      "title": "Fundamentals of Heat and Mass Transfer",
+      "edition": "Eighth Edition",
+      "authors": "Bergman, Lavine, Incropera, and Dewitt",
+      "publisher": "Wiley, 2011",
+      "note": "7th edition acceptable; all sections referenced from 8th edition",
+      "options": "Looseleaf copy or rent E-book at https://booklist.byu.edu/Home/Mybooklist"
+    }
+  ],
+  "courseOverview": "Heat transfer is the study of energy transfer due to temperature difference, rates of transfer, and resulting temperature distributions. Course provides advanced undergraduate engineering students with knowledge and understanding of fundamentals of conduction, convection, and radiation heat transfer modes and relations used to calculate heat transfer rates.",
+  "learningOutcomes": [
+    {
+      "outcome": "Conservation Principles",
+      "description": "Model heat transfer processes by identifying relevant heat transfer modes and applying conservation of mass and energy"
+    },
+    {
+      "outcome": "Conduction",
+      "description": "Describe physical mechanisms of conduction; use Fourier's law to model conduction heat rate; apply conservation principles to develop heat diffusion equation; solve for simplified scenarios using analytical/numerical methods"
+    },
+    {
+      "outcome": "Convection",
+      "description": "Describe physical phenomena of convection; use non-dimensional parameters and empirical correlations to predict convective heat transfer coefficients for laminar or turbulent flows; apply Newton's law of cooling"
+    },
+    {
+      "outcome": "Radiation",
+      "description": "Describe physical mechanisms of radiation; apply relations to model intensity and radiative heat flux; determine radiative properties; apply models for net radiative heat rate and radiative exchange between diffuse, gray surfaces"
+    }
+  ],
+  "courseTopics": [
+    "Modes of heat transfer",
+    "Conduction and properties",
+    "Heat diffusion equation and boundary conditions",
+    "1D steady state conduction and thermal resistance",
+    "Radial systems and conduction with thermal energy generation",
+    "Extended surfaces: effectiveness and efficiency",
+    "2D steady state conduction",
+    "Transient conduction: lumped capacitance and spatial effects",
+    "Convection fundamentals",
+    "Boundary layer equations and similarity",
+    "External flow: flat plates, spheres, cylinders",
+    "Internal flow: boundary layers and energy balance",
+    "Convection correlations: laminar, turbulent, circular, non-circular",
+    "Laminar and free convection",
+    "Heat exchangers",
+    "Radiation concepts and intensity",
+    "Blackbody radiation",
+    "Real surfaces: absorption, reflection, transmission",
+    "Kirchoff's law and gray surfaces",
+    "Environmental radiation and view factors",
+    "Blackbody radiation exchange",
+    "Radiation exchange with diffuse, gray surfaces",
+    "Radiation shields and multimode heat transfer"
+  ],
+  "courseComponents": {
+    "homework": {
+      "frequency": "Weekly",
+      "submission": "Digital submission to Learning Suite",
+      "textbookEdition": "8th edition; (P) indicates practice problems with posted solutions",
+      "practice": "Practice problems have solutions posted on Learning Suite",
+      "collaboration": "Encouraged for practice problems",
+      "note": "Students held responsible for 8th edition content"
+    },
+    "exams": {
+      "schedule": "3 exams throughout semester plus comprehensive final",
+      "format": "In-class with specific dates on course schedule",
+      "coverage": "Progressive topics covering conduction, convection, radiation"
+    }
+  },
+  "courseStructure": [
+    {
+      "phase": "Phase 1: Conduction",
+      "dates": "Weeks 1-5",
+      "topics": "Properties, steady-state, transient conduction",
+      "assessment": "Exam 1"
+    },
+    {
+      "phase": "Phase 2: Convection",
+      "dates": "Weeks 6-9",
+      "topics": "External and internal flow, correlations",
+      "assessment": "Exam 2"
+    },
+    {
+      "phase": "Phase 3: Radiation",
+      "dates": "Weeks 10-14",
+      "topics": "Radiation fundamentals through multimode transfer",
+      "assessment": "Exam 3 and Final Exam"
+    }
+  ],
+  "officeHours": {
+    "purpose": "Available for all coursework and general discussion",
+    "note": "Can be for homework help, other engineering classes, research guidance, graduate programs, career planning, or anything else",
+    "letterWriting": "Important to attend if you need letter of recommendation for graduate/professional school or jobs"
+  },
+  "policies": {
+    "schedule": "Syllabus serves as outline and guide; may be modified with reasonable notice"
+  }
+}

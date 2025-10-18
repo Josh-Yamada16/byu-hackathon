@@ -1,0 +1,73 @@
+{
+  "courseCode": "415",
+  "courseName": "ME EN 415: Flight Vehicle Design",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mechanical Engineering",
+  "instructor": {
+    "name": "Andrew Ning"
+  },
+  "courseDescription": "The subject of this course is aircraft and rocket design. Students learn basics of aerodynamics, structures, stability, propulsion, and performance as applied to flight vehicle design. Introduces fundamentals of aerospace engineering with focus on understanding tradeoffs amongst multiple disciplines to enable vehicle-level design. Course involves combination of theory, analytic methods, computational tools, and hands-on design project.",
+  "courseApproach": "Rather than deep dive into any one discipline, focus is on understanding tradeoffs amongst multiple disciplines",
+  "instructionalMethods": [
+    "Theory",
+    "Analytic methods",
+    "Computational tools",
+    "Hands-on design project"
+  ],
+  "designProject": {
+    "name": "Glider Design and Build",
+    "timeline": "Approximately 3 weeks after homework fundamentals",
+    "teamSize": "Small teams",
+    "deliverable": "Glider aircraft",
+    "evaluation": "Glider golf competition day at park",
+    "learningObjectives": [
+      "Better feel for aerodynamic tradeoffs",
+      "Importance of static stability"
+    ]
+  },
+  "courseContext": {
+    "typicalPath": "Launching point for mechanical engineers wishing to specialize in aerospace engineering",
+    "subsequentCourses": "Greater depth on topics covered at introductory level in this class",
+    "emphasis": "Aerospace emphasis (see catalog for class options)"
+  },
+  "prerequisites": [
+    {
+      "code": "ME EN 273",
+      "required": true
+    },
+    {
+      "code": "ME EN 312",
+      "concurrent": true,
+      "note": "May be taken concurrently but may need to read ahead or ask classmates if unfamiliar with concepts"
+    }
+  ],
+  "priorExperience": "No prior exposure to aircraft or spacecraft assumed. Students from other departments (e.g., physics) welcome but should ask classmates for help explaining engineering concepts from fluids, dynamics, and structures",
+  "inClassExperience": {
+    "philosophy": "Most classes oriented around self-discovery",
+    "instructionalStrategy": "Read textbook or watch videos after lectures for better concept retention",
+    "rationale": "Concepts stick better when wrestling with problems before introduction to 'right way'",
+    "classActivities": [
+      "Lots of questions from instructor",
+      "Predict outcomes",
+      "Draw charts",
+      "Debate concepts with neighbor",
+      "Solve unfamiliar problems"
+    ]
+  },
+  "textbook": {
+    "description": "Custom textbook developed by Andrew Ning specifically for this class",
+    "reason": "No single existing textbook at appropriate level with right mix of topics",
+    "note": "May be updated periodically",
+    "location": "Linked on course schedule page"
+  },
+  "courseTopics": [
+    "Aerodynamics fundamentals",
+    "Structures",
+    "Stability",
+    "Propulsion",
+    "Performance analysis",
+    "Vehicle-level design tradeoffs",
+    "Static stability considerations"
+  ]
+}

@@ -58,7 +58,9 @@ export default function Home() {
     const grouped = (programsData as any).data
       .filter(
         (program: any) =>
-          program.catalogDisplayName && program.code && program.type === "MAJOR"
+          program.catalogDisplayName &&
+          program.code &&
+          program.type === "MAJOR",
       )
       .reduce((acc: Record<string, any[]>, program: any) => {
         const college = program.college || "Other";
@@ -124,9 +126,8 @@ export default function Home() {
 
         <div className="flex justify-center">
           <div
-            className="grid gap-6"
+            className="flex flex-wrap justify-center gap-6"
             style={{
-              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
               width: "100%",
               maxWidth: "1120px",
             }}

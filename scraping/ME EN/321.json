@@ -1,0 +1,240 @@
+{
+  "courseCode": "321",
+  "courseName": "ME EN 321: Thermodynamics",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mechanical Engineering",
+  "section": {
+    "sectionNumber": 1,
+    "meetingTime": "MWF 9:00-10:00 a.m.",
+    "classroom": "CB 254",
+    "finalExamTime": "Monday, December 13, 7:00-10:00 a.m."
+  },
+  "instructor": {
+    "name": "Dr. Hongjuan Ran",
+    "email": "hongjuan@byu.edu",
+    "office": "EB 360Q",
+    "phone": "801-422-3650",
+    "officeHours": [
+      "Monday 11:00 a.m.-12:00 p.m.",
+      "Tuesday 2:00-3:00 p.m.",
+      "Wednesday 11:00 a.m.-12:00 p.m."
+    ],
+    "personalNote": "Office hours are for you! Come for homework help, course concepts, career planning, or just to chat"
+  },
+  "teachingAssistants": [
+    {
+      "name": "Brian Easthope",
+      "email": "east03@byu.edu"
+    },
+    {
+      "name": "Forrest Holbrook",
+      "email": "fholbro@byu.edu"
+    },
+    {
+      "name": "Neil Jarvis",
+      "email": "ncsivraj@byu.edu"
+    },
+    {
+      "name": "Matthew Fogleman",
+      "email": "mdfogle@byu.edu"
+    }
+  ],
+  "taOffice": {
+    "location": "CB 350",
+    "officeHours": "Posted on Learning Suite under Content tab",
+    "purpose": "Guide through thermodynamics material; learn from and teach fellow students"
+  },
+  "prerequisites": [
+    "PYSCS 123",
+    "CHEM 105"
+  ],
+  "requiredMaterials": [
+    {
+      "title": "Thermodynamics: An Engineering Approach",
+      "edition": "Tenth Edition",
+      "authors": "Çengel, Boles, and Kanoglu",
+      "format": "Digital through Inclusive Access ($48.75 auto-added to tuition)",
+      "optOutDeadline": "9/10/25 on Learning Suite VitalSource tab",
+      "alternative": "Hard copy available",
+      "properties": "Steam, Refrigerant-134a, air, and select ideal gas properties in appendices"
+    },
+    {
+      "title": "International Steam Tables Smartphone App",
+      "author": "Hans-Joachim Kretzschmar",
+      "formulation": "IAPWS-IF97",
+      "platforms": "iOS and Android",
+      "recommendation": "Highly recommended to save time"
+    }
+  ],
+  "coursePurpose": "Advance along the path from BYU student to engineer in the world: solves problems, gives your best, embraces the Holy Ghost, lives authentic discipleship, and finds joy and balance in career, family, social, and gospel living",
+  "learningOutcomes": [
+    {
+      "outcome": "Problem Solving",
+      "description": "Use structured techniques to develop engineering problem statements based on real-world applications and solve engineering problems"
+    },
+    {
+      "outcome": "Writing",
+      "description": "Write technical theory section, results and discussion section, and create figures consistent with specified guidelines"
+    },
+    {
+      "outcome": "Thermodynamic Systems, States, Properties and Processes",
+      "description": "Characterize material comprising systems, use state postulate to fix state, obtain properties using appropriate methods, describe processes and sketch on diagrams"
+    },
+    {
+      "outcome": "1st Law Analysis",
+      "description": "Use conservation of mass and energy to model open and closed systems undergoing transient and steady processes"
+    },
+    {
+      "outcome": "2nd Law Analysis",
+      "description": "Identify irreversibilities, determine reversibility classifications, use entropy balance equations to model systems"
+    },
+    {
+      "outcome": "Engineering Devices",
+      "description": "Describe operation of engineering devices and models used to represent them"
+    },
+    {
+      "outcome": "Cycles",
+      "description": "List devices and describe processes in power and refrigeration cycles; build models to analyze and evaluate cycles"
+    },
+    {
+      "outcome": "Ethical and Professional Responsibility",
+      "description": "Recognize role of thermodynamics in addressing economic and environmental concerns; make informed judgements consistent with ethical and professional responsibilities"
+    }
+  ],
+  "courseExpectations": [
+    "Attend lectures, ask questions, give answers; actively engage during mini reviews and practice problems",
+    "Course is difficult - requires consistent and diligent effort",
+    "Reading assignments take approximately 30 minutes each",
+    "Homework problems take significant time - avoid procrastination",
+    "Material is challenging but can be fun; thermodynamics affects our lives in incredible ways",
+    "Put forth honest best effort; instructor provides every opportunity to thrive",
+    "Personal integrity expected; group study encouraged but copying without intellectual engagement is cheating"
+  ],
+  "courseComponents": {
+    "homework": {
+      "types": [
+        {
+          "type": "Practice Problems",
+          "purpose": "Help you learn material but not assess knowledge",
+          "solutions": "Posted on Learning Suite for review",
+          "collaboration": "Encouraged with other students",
+          "selfGrading": true,
+          "rubric": {
+            "problemSetup": 1,
+            "fundamentalLaws": 4,
+            "propertyRelationships": 4,
+            "numericalAnswer": 1,
+            "totalPerProblem": 10
+          }
+        },
+        {
+          "type": "Mastery Problems",
+          "purpose": "Assess ability to apply concepts to new problems",
+          "solutions": "Not posted prior to due date",
+          "collaboration": "Can confer with students and TA for conceptual questions",
+          "selfGrading": true
+        }
+      ],
+      "submission": "Scanned copies uploaded digitally by midnight on due date",
+      "selfGradesSubmission": "Submit graded score under Homework Report in Learning Suite within 48 hours of due date",
+      "scalingFormula": "(100 × sum of scores) / (10N) where N = number of problems",
+      "latePolicy": {
+        "general": "Late homework not accepted in general",
+        "exception": "One exception allowed - email to Brian Easthope with no penalty",
+        "lateReportScores": "If emailed within 24 hours: 5-point penalty; after 24 hours: 15-point penalty"
+      }
+    },
+    "writingAssignment": {
+      "description": "Practice writing high-quality technical reports",
+      "components": [
+        "Technical theory section",
+        "Results and discussion section",
+        "Based on thermodynamics problem of your choosing"
+      ],
+      "detailsProvided": "Later in semester"
+    },
+    "serviceAssignment": {
+      "description": "Reduced homework load to free time for service",
+      "quote": "Service and education in your 20s leads to happier, more regret-free life in your 30s",
+      "details": "Presented in class"
+    },
+    "readingQuizzes": {
+      "frequency": "Prior to each class period",
+      "format": "Learning Suite quiz, open book",
+      "deadline": "9:00 a.m. day it is due, found under Exams tab",
+      "scoring": "Partial credit for completing + credit for correct answers",
+      "makeups": "Cannot be made up",
+      "drops": "Five lowest scores dropped",
+      "prolongedAbsence": "Instructor works out equitable score for prolonged illness or special circumstances"
+    },
+    "exams": {
+      "schedule": "Three midterm exams and final exam",
+      "finalExam": "Comprehensive on scheduled date",
+      "format": "Presented in class"
+    }
+  },
+  "grading": {
+    "categories": [
+      {
+        "category": "Homework & Writing Assignment",
+        "weight": "18%"
+      },
+      {
+        "category": "Service Assignment",
+        "weight": "2%"
+      },
+      {
+        "category": "Reading Quizzes",
+        "weight": "10%"
+      },
+      {
+        "category": "Midterm Exams (3)",
+        "weight": "45%"
+      },
+      {
+        "category": "Final Exam",
+        "weight": "25%"
+      }
+    ],
+    "note": "Grade computed on Learning Suite throughout semester is not predictive of final grade"
+  },
+  "honorCode": {
+    "standard": "Students expected to be honest in all academic work",
+    "definition": "Work presented as your own must be your own work, not another's",
+    "collaboration": "Group studying encouraged; copying from others or AI without intellectual engagement is cheating",
+    "plagiarism": "Using online or prior semester's solution manual (other than posted on Learning Suite) is plagiarism and honor code violation",
+    "violation": "May result in failing grade and additional university disciplinary action",
+    "dressAndGrooming": "Expected to adhere to BYU standards"
+  },
+  "aiPolicy": {
+    "overview": "You will need to use generative AI (ChatGPT, etc.) in your engineering career; learn now so not disadvantaged at graduation",
+    "principle1Preparation": "May use AI to prepare for class, study for exams, and brainstorm for assignments; not to replace course materials or reading quizzes",
+    "principle2Homework": "May use AI sparingly to get unstuck but sparingly discouraged; growth comes from overcoming challenges; work should reflect intellectual engagement",
+    "principle3Exams": "Generative AI may not be used in any exam situation"
+  },
+  "policies": {
+    "titleIX": {
+      "prohibition": "Unlawful sex discrimination, including sexual harassment, prohibited",
+      "scope": "Sexual assault, dating violence, domestic violence, stalking on basis of sex",
+      "reporting": {
+        "coordinator": "Title IX Coordinator at t9coordinator@byu.edu or 801-422-8692 or 1085 WSC",
+        "online": "https://titleix.byu.edu/report or 1-888-238-1062 (24 hours)",
+        "facultyDuty": "All faculty must promptly report incidents"
+      },
+      "resources": "Sexual Assault Survivor Advocate and non-confidential resources available"
+    },
+    "disability": {
+      "office": "University Accessibility Center (UAC)",
+      "location": "2170 WSC",
+      "phone": "801-422-2767",
+      "accommodation": "Request reasonable accommodations",
+      "assessment": "UAC can assess students for learning, attention, and emotional concerns",
+      "discrimination": "Contact Equal Opportunity Office at 801-422-5895 for unlawful discrimination"
+    },
+    "devotional": {
+      "encouragement": "Attendance at devotional and forum strongly encouraged",
+      "facultyGroup": "Faculty walks to Marriott Center Tuesday 10:45 a.m. (meet at ME EN front offices)"
+    }
+  }
+}

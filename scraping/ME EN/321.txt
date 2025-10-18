@@ -1,0 +1,409 @@
+ME EN 321 THERMODYNAMICS
+Fall 2025, Section 1: MWF 9:00 – 10:00 am, CB 254
+Class Date Topic Reading* Homework** Due
+0 W Sep 3 Syllabus, Syllabus none
+1 F Sep 5 thermodynamics and energy, units 1.1 – 1.2 HW1: 1-11, 1-16E(P), 1-18, 1-87E Tu Sep 9
+2 M Sep 8 Systems, properties, states, T & P, problem solving 1.3 – 1.11 HW2: 1-30C, 1-37E(P), 1-43, 1-53E, 1-62, 1-90E(P), 1-91E Tu Sep 9
+3 W Sep 10 Energy, heat and work 2.1 – 2.5 HW3: 2-16, 2-17(P), 2-29E, 2-35(P) Tu Sep 16
+4 F Sep 12 1st Law (conservation of energy), efficiency, environment 2.6 – 2.8 HW4: 2-43, 2-48, 2-75(P), 2-117, 2-120(P) Tu Sep 16
+5 M Sep 15 Phases of a pure substance 3.1 – 3.3 HW5: 3-63 Tu Sep 16
+6 W Sep 17 Phase diagram, property tables 3.4 – 3.5 HW6: 3-28, 3-29E(P), 3-39(P), 3-40, 3-56E(P), 3-59 Tu Sep 23
+7 F Sep 19 Property tables practice 3.4 – 3.5 HW7: 3-25(P), 3-30, 3-46, 3-54(P) Tu Sep 23
+8 M Sep 22 Ideal gas and compressibility 3.6 – 3.7 HW8: 3-84, 3-86(P), 3-93(P), 3-98 Tu Sep 23
+9 W Sep 24 Review
+10 F Sep 26 Exam 1
+11 M Sep 29 Boundary work 4.1 HW9: 4-5(P), 4-6, 4-24, 4-115(P) Tu Oct 7
+12 W Oct 1 Energy balance (1st Law): Closed systems 4.2 HW10: 4-30, 4-34(P), 4-43(P), 4-137E Tu Oct 7
+13 F Oct 3 Specific heat: ideal gases, solids, and liquids 4.3 – 4.5 HW11: 4-57E(P), 4-64(P), 4-91, 4-111 Tu Oct 7
+14 M Oct 6 Specific heat: practice properties 4.3 – 4.5 HW12: 4-74(P), 4-81, 4-84E(P), 4-139 Tu Oct 7
+15 W Oct 8 Energy balance (1st Law): Control volumes 5.1 – 5.3 HW13: 5-6, 5-11(P), 5-16(P), 5-25 Tu Oct 14
+16 F Oct 10 Steady flow devices 5.4 HW14: 5-36(P), 5-51, 5-67, 5-79(P) Tu Oct 14
+17 M Oct 13 Steady flow devices 5.4 HW15: 5-37, 5-49(P), 5-68, 5-84(P) Tu Oct 14
+18 W Oct 15 Unsteady flow 5.5 HW16: 5-120(P), 5-125, 5-137, 5-182(P) M Oct 20
+19 F Oct 17 Practice problems 5.5 HW17: 5-119 (P), 5-171E, 5-189 M Oct 20
+20 M Oct 20 Review
+21 W Oct 22 Exam 2
+22 F Oct 24 2nd Law, reservoirs, heat engines 6.1 – 6.3 HW18: 6-18, 6-19E(P), 6-24 Tu Oct 28
+23 M Oct 27 Heat pumps, refrigerators, perpetual motion 6.4 – 6.5 HW19: 6-35C, 6-41(P), 6-45, 6-49(P), 6-57, 6-61C Tu Oct 28
+24 W Oct 29 Irreversibility, temperature, Carnot heat engine 6.6 – 6.10 HW20: 6-77C, 6-81E(P), 6-90, 6-131, 6-132(P) Tu Nov 4
+25 F Oct 31 Carnot refrigerator and heat pump 6.11 HW21: 6-98, 6-103E(P), 6-108, 6-109, 6-112(P) Tu Nov 4
+26 M Nov 3 Entropy, increase of entropy principle, T – s diagram 7.1 – 7.5 HW22: 7-29, 7-36, 7-58(P), 7-62(P) Tu Nov 4
+27 W Nov 5 Finding s 7.6 – 7.9 HW23: 7-53, 7-71(P), 7-88(P), 7-94 Tu Nov 11
+28 F Nov 7 Reversible steady-flow work 8.1 HW24: 8-10(P), 8-12E Tu Nov 11
+29 M Nov 10 Isentropic efficiency, entropy balance 8.3 – 8.6 HW25: 8-23, 8-26(P), 8-36(P), 8-45(P), 8-56(P), 8-58 Tu Nov 11
+30 W Nov 12 Entropy balance (2nd Law) 8.4 – 8.6
+31 F Nov 14 Entropy balance examples
+32 M Nov 17 Review
+33 W Nov 19 Exam 3
+34 F Nov 21 Intro to power cycles, air-standard assumptions 10.1 – 10.3 HW26: 10-24 Tu Nov 25
+35 M Nov 24 Overview of reciprocating engines, Otto cycle 10.4 – 10.5 HW27: 10-34E(P), 10-35E Tu Nov 25
+36 W Nov 26 Otto cycle 10.5 HW28: 10-36, 10-42E(P) Tu Dec 2
+-- F Nov 28 Thanksgiving: No class
+-- M Dec 1 Thanksgiving: No class
+37 W Dec 3 Diesel cycle 10.6 HW29: 10-57(P), 10-60 Tu Dec 9
+38 F Dec 5 Brayton cycle 10.8 HW30: 10-95(P), 10-97, 10-98(P) Tu Dec 9
+39 M Dec 8 Rankine cycle 11.1 – 11.2 HW31: 11-20, 11-24(P) Tu Dec 9
+40 W Dec 10 Vapor-compression refrigeration cycle 12.1 – 12.3 HW32: 12-15E(P), 12-16(P) F Dec 11
+41 F Dec 12 Review
+M Dec 13 Final Exam (07:00 am – 10:00 pm)
+* This schedule and syllabus serve as an outline and guide for our course. I may modify it with reasonable notice to you; changes will be
+announced in class and posted on Learning Suite.
+** Homework is from the 10th edition of the textbook. (P) indicates Practice Problems for which solutions are posted on Learning Suite.
+- 1 -\nInstructor: Hongjuan Ran
+Email: hongjuan@byu.edu
+Office: EB 360Q
+Phone: 801-422-3650 (office)
+Office hours: Monday 11-12:00 am
+Tuesday 2-3:00 pm
+Wednesday 11-12:00 pm
+Favorite book: Old Testament of bible, by Bryce Courtenay
+e
+mFavorite song: God will make a way.
+Hobbies: Running, Hiking, Swimming, Skiing
+t
+u
+reading with my kids
+o
+bMission: maybe senior someday
+A
+Weakness: Cookies
+Office hours : Give me a chance to know you
+My office hours are right after class! If you are unable to meet during office hours or would like to meet
+n
+ea different time, feel free to email or drop by my office. If my door is closed, don’t hesitate to knock. If
+h
+another student is already talking to me, and we’re jabbering away, make your presence known.
+W
+Office hours are for YOU! This is time that I have set aside each week to dedicate to helping students.
+e
+sDo not feel like you are taking advantage of my time by coming—that is what the time is for! Don’t feel
+o
+like you need to stop by exactly at the start time—any time during the entire window is fair game. And
+p
+rdon’t feel pressured into making it quick, especially if no one else is waiting: if you want to spend the
+u
+Pwhole block of time hashing out some things or getting help for whatever reason, that’s okay!
+s
+sMany think that office hours are only for homework help or if you didn’t understand the lecture. That’s
+u
+cjust the start! You can come into office hours to talk about anything—other things related to the class,
+s
+iother engineering classes, some fun project idea you’re thinking about, guidance on picking a research
+d
+olab, talking about graduate programs or career plans, shooting the breeze about baking, etc. This is your
+t chance to have dedicated one-on-one time with me, regardless of whether it has to do with
+t
+athermodynamics. I love it when students come by and you should feel comfortable doing so, for
+h
+Wwhatever reason.
+Office hours are a good way for me to get to know you. If you end up applying to graduate/law/med
+s
+uschool or jobs that require letters of recommendations, I can’t really write a good one if you were “just”
+n
+another student in my class. But if you’ve come to office hours and given me a chance to get to know
+o
+Byou, I can write a better letter for you when it’s needed.
+t
+n
+iSince I just came from China last October, I’m still not very familiar with American students, culture,
+o
+pand daily life. So, I really hope to learn more about you and also find ways we can help each other.
+l aMeeting and talking with you will also help me improve my English, which has gotten a bit rusty over
+i
+cthe years. I truly appreciate your kindness and support!
+e
+p
+S
+- 2 -\nTA hours
+Gaining mastery of thermodynamics isn’t easy. Along the way, it can be messy and frustrating and very
+demanding. Don’t try to push through alone! TAs can help guide your path through the muck. That’s
+why we have them! The TA office is also a fantastic place to find fellow students grappling with the
+material. Learn from and teach one another. Effective teamwork is essential for influential engineers.
+TA office hours are held in room CB 350. They are posted on Learning Suite under the “Content” tab.
+Brian Easthope Forrest Holbrook Neil Jarvis Matthew Fogleman
+east03@byu.edu fholbro@byu.edu ncsivraj@byu.edu mdfogle@byu.edu
+TA Offic e
+Prerequisites
+CB 350
+PYSCS 123 and CHEM 105
+Textbook
+Thermodynamics: An Engineering Approach Tenth Edition, by Çengel, Boles, and Kanoglu.
+• The digital textbook is available through Inclusive Access, and the cost
+($48.75) will be automatically added to your tuition and fees. If you
+prefer a hard copy of the textbook, you may opt out of Inclusive Access
+on Learning Suite, tab VitalSource by 9/10/25.
+• Thermodynamic properties of steam, Refrigerant-134a, air, and select
+ideal gases are found in the textbook appendices.
+• Steam properties are also available from the
+smartphone app “International Steam Tables” by
+Hans-Joachim Kretzchmar (IAPWS-IF97
+formulation), available on both iOS and Android. I
+highly recommend purchasing this app to save time!
+ME EN 321 Course Learning Outcomes
+s 1. Problem Solving – Each student can use structured techniques to develop engineering problem
+l
+l i k p statements based on real-world applications and to solve engineering problems.
+s o 2. Writing – Each student can write a technical theory section, a results and discussion of results
+& l e
+section and create a figure consistent with specified guidelines.
+v
+e e 3. Thermodynamic Systems, States, Properties and Processes – Each student can characterize the
+g d
+d material comprising a thermodynamic system, use the state postulate to fix the state of a system and
+e l l
+l w ’ u obtain thermodynamic properties using appropriate methods. Each student can use properties and
+o
+o y boundary interactions to describe processes and can sketch processes on thermodynamic diagrams.
+n
+4. 1st Law Analysis – Each student can use conservation of mass and conservation of energy to model
+K
+open and closed systems undergoing transient and steady processes.
+- 3 -\n5. 2nd Law Analysis – Each student can identify irreversibilities and determine whether a process may
+s be approximated as reversible, internally reversible or externally reversible. Each student can use the
+l
+l i k p entropy balance equation to model open and closed systems undergoing transient and steady
+s o processes.
+& l e
+6. Engineering Devices – Each student can describe the operation of engineering devices and the
+v
+e e
+models typically used to represent these devices.
+g d
+d
+e l l 7. Cycles – Each student can list the devices and describe the processes executed in power and
+l w ’ u refrigeration cycles. Each student can build thermodynamic models to analyze and evaluate cycles
+o
+o y and to draw conclusions regarding their performance.
+n
+8. Ethical and Professional Responsibility – Each student recognizes the role of thermodynamics in
+K
+addressing economic and environmental concerns related to energy and can make informed
+judgements consistent with ethical and professional responsibilities.
+ME EN 321 Course Expectations
+• Attend the lectures, ask questions, give answers! When we do mini reviews or practice problems
+during lectures, actively work with the people around you. The value of class time increases with the
+level of your engagement.
+l
+u
+f • This is a difficult course. To be successful, it will require your consistent and diligent effort. Each
+s
+s reading assignment will take about ½ hour. Homework problems take a significant amount of time to
+e
+c be mastered, so avoid procrastination.
+c
+u • While this material is difficult, it can also be fun! There are incredible ways that thermodynamics
+s
+affects and enriches our lives. I’m excited to share with you and learn about these things together.
+e
+b
+• As you put forth your honest best effort, I will provide every opportunity I can for you to thrive. If
+o
+you’re struggling with an assignment, come talk to me. If you have questions about the reading,
+t
+w come talk to me. If you feel overwhelmed, come talk to me. If you have special circumstances or
+o
+needs, come talk to me. I want to help you succeed in this course and in your engineering career.
+H
+• Finally, I expect personal integrity from my students and myself. I encourage group studying and
+hope you will collaborate on homework but copying from others or from AI without being
+intellectually engaged is cheating. I consider using an online or prior semester’s solution manual
+(other than what I post for you on Learning Suite) for Homework Practice or Homework Mastery
+problems to be plagiarism. This will be considered a violation of the Honor Code. Cheating isn’t
+worth it. Let’s work together to learn the material and we can have a great semester.
+e
+r
+u Course Purpose
+t
+c
+i p Advance along the path of a BYU student to an engineer in the world that solves
+g
+problems, gives your best, embraces the Holy Ghost, lives authentic discipleship,
+i
+b
+e and finds joy and balance in career, family, social, and gospel living.
+h
+T
+Homework
+This class has two types of homework. 1. Practice and 2. Mastery.
+Practice problems are intended to help you learn the material but not necessarily to assess your
+knowledge. To facilitate learning, solutions to Practice problems are posted on Learning Suite. You
+should attempt these problems on your own or with other students and check the posted solution as
+a last resort for clues or to confirm that you are doing the problems correctly. Please do not to
+copy/save the posted Practice solutions. They are only for review as you do the homework.
+Mastery problems are intended to assess your ability to apply concepts to new problems. Solutions
+to the Mastery problems are not posted prior to the due date. You may confer with other students on
+- 4 -\nthese problems and with the TA and the instructor if you have a conceptual question. The TA will
+not show you the key or give answers to these problems so please do not request that.
+Homework Practice and Mastery problems are due at midnight on the date specified in the syllabus.
+Your solutions to homework should be orderly and follow a structured format. Scanned copies of both
+Practice and Mastery solutions should be uploaded digitally on Learning Suite. Immediately after the
+due date/time, all homework solutions will be posted on Learning Suite. You will have 48 hours to
+grade your own homework following the ME EN 321 Homework Self-Grading Procedure below and
+to submit a grade under “Homework Report” in Learning Suite. Self-grading helps you learn where you
+went wrong while the homework is still fresh in your mind.
+ME EN 321 HOMEWORK SELF-GRADING PROCEDURE
+Homework solutions will be published on Learning Suite (“Content” tab) immediately after the
+homework submission deadline. Students should review the posted solutions and grade their own work.
+Each assigned homework problem (Practice and Mastery) should be graded using the following general
+grading rubric, with 10 points possible for each problem:
+Work Points
+Problem setup (Appropriate control volume, process diagram, etc.) 1
+Fundamental laws (Correct use of mass, energy, and entropy balances) 4
+Property relationships (State postulate, properties correctly determined) 4
+Correct numerical answer and units 1
+The total score for the assignment should be summed and scaled to 100 points as follows. If N problems
+were assigned, the scaled possible score for the assignment would be
+(100  sum of scores for all problems) / (10 N)
+For example, if 8 problems are assigned and the total self-graded score for the assignment is 71 of a
+possible 80, the scaled score would be
+(100  71) / 80 = 88.75
+Each student will submit this score in the “HW XX Report” in the “Exams” tab on Learning Suite.
+Scoring buttons are listed in 5-point increments (e.g., 5, 10, 15, ..., 90, 95, 100). Enter the self-graded
+total homework score for the assignment using the buttons, rounded up the nearest 5-point option.
+Late Policy
+In general, late Homework will not be accepted. However, you are allowed one exception to submit a
+late assignment with no penalty. To do so, complete the work when you can and email the scanned copy
+of your solutions and self-graded score directly to our TA Brian Easthope (east03@byu.edu).
+Late Homework Reports have their own policy. If you email Brian your self-graded score with 24
+hours of the deadline, there is a 5-point penalty applied to your score. If the score is emailed to Brian
+greater than 24 hours from the deadline, a 15-point penalty will be applied.
+Writing Assignment
+To practice writing high quality technical reports that you will produce throughout your engineering
+career, you will write a technical theory section, results and discussion section for a thermodynamics
+problem of your choosing. More details regarding this assignment will be provided later in the semester.
+Service Assignment
+“I have tried to imagine [Jesus Christ] bustling between meetings or multitasking to get a list of urgent
+things accomplished,” President Dieter F. Uchtdorf said. “I can’t see it. Instead, I see the compassionate
+and caring Son of God purposefully living each day” (Of Regrets and Resolutions, October 2012 GC).
+While each of our semesters will unquestionably be busy, it is important to take time for the most
+- 5 -\nimportant things. I will reduce your Homework load this semester to free up time for service. Details of
+this assignment will be presented in class.
+Education and service in your 20s leads to a happier, more regret-free life in your 30s
+Service and BYU’s 150th
+Reading Quizzes
+There will be a Learning Suite reading quiz on the assigned reading material prior to each class period.
+The quizzes are designed to encourage self-learning in the textbook prior to the lecture. Each quiz is
+open book and must be taken in Learning Suite by 9:00 am the day it is due. The quiz is found under the
+“Exams” tab in Learning Suite titled by the assigned reading section (e.g., “Quiz 1.1-1.11”). A portion
+of the total credit for each quiz will be given just for completing the quiz, and the remaining credit will
+be given for answering quiz questions correctly. These quizzes cannot be made up. However, the five
+lowest scores on quizzes will be dropped. If there is a prolonged illness or other reason for missing more
+than five quizzes, I will work out an equitable score with you for missed quizzes.
+Exams
+There will be three midterm exams and a final exam. The format for each exam will be presented in
+class. The final exam will be comprehensive on the date shown in the syllabus.
+Grades
+The total score for each category is averaged and then weighted by the percentage given below. The
+grade scale can be found on Learning Suite. Importantly, note that the grade computed on Learning
+Suite throughout the semester is not predictive of your final grade.
+Homework & Writing Assignment 18%
+Service Assignment 2%
+Reading Quizzes 10%
+Midterm Exams (3) 45%
+Final Exam 25%
+Honor Code
+In keeping with the principles of the BYU Honor Code, students are expected to be honest in all
+academic work. Academic honesty means, most fundamentally, that any work you present as your own
+must in fact be your own work and not that of another. Violations of this principle may result in a failing
+grade in the course and additional disciplinary action by the university. Students are also expected to
+adhere to the Dress and Grooming Standards. Adherence demonstrates respect for yourself and others
+and ensures an effective learning and working environment. It is the university's expectation, and every
+instructor's expectation in class, that each student will abide by all Honor Code standards. Please call the
+Honor Code Office at 801-422-2847 if you have questions about those standards.
+Why do pandas have fur coats?
+Because they’d look silly in denim jackets.
+Use of AI
+Elder Gerrit W. Gong recently taught, “As Church members, we will not grow spiritually if we let
+artificial intelligence write our sacrament meeting talks or do our seminary homework. AI cannot
+replace our individual effort and spiritual preparation as we prepare lessons, prayers, or blessings.
+However, AI may be helpful as we research, edit, translate, or do similar tasks… We are not afraid of
+artificial intelligence, nor do we think it is the answer to every problem. As we work hard and smart, AI
+can be a valuable tool to enhance but not replace our own efforts… Artificial intelligence cannot replace
+revelation or generate truth from God. We have the responsibility to ensure that the Holy Ghost can
+- 6 -\nattest to the truth and authenticity of all we say and share—in our form and in our content. As we seek
+the Lord’s wisdom and understanding, He will continue to guide and bless us.” (Devotional, 8/19/2025)
+You will need to know how to use generative AI software, like ChatGPT, in your engineering career. I
+want you to learn to use such tools now, so you’re not disadvantaged at graduation. At the same time, I
+want you to learn thermodynamics and how to solve problems. Leaning too much on AI, which can
+easily solve many of the problems we look at in this class, will impede your growth as an engineer.
+With that in mind, here are a few principles:
+1. You may use generative AI to help you prepare for class, study for exams, and brainstorm for
+assignments. AI software should not be used to replace course materials such as assigned readings,
+nor should it be used for reading quizzes.
+2. For homework, you may use generative AI sparingly to help you get unstuck. I discourage it though,
+and prefer you look to the textbook, fellow students, TAs, and my office hours first. Growth comes
+from overcoming difficult challenges. The work you submit should reflect your intellectual
+engagement with and understanding of the material. A copy or cut and paste approach from AI is no
+different than copying from another student. Please don’t do it.
+3. Generative AI software may not be used for any purpose in any exam situation.
+What happens when you let a panda drink NH+?
+4
+Pandamonium!
+Preventing & Responding to Sexual Misconduct
+The health and well-being of students is of paramount importance at Brigham Young University.
+If you or someone you know has experienced sexual harassment (including sexual violence),
+there are many resources available for assistance.
+In accordance with Title IX of the Education Amendments of 1972, BYU prohibits unlawful sex
+discrimination, including sexual harassment, against any participant in its education programs or
+activities. The university also prohibits sexual harassment by its personnel and students. Sexual
+harassment occurs when
+• a person is subjected to unwelcome sexual speech or conduct so severe, pervasive, and offensive
+that it effectively denies their ability to access any BYU education program or activity;
+• any aid, benefit, or service of BYU is conditioned on a person’s participation in unwelcome
+sexual conduct; or
+• a person suffers sexual assault, dating violence, domestic violence, or stalking on the basis of
+sex.
+University policy requires all faculty members to promptly report incidents of sexual harassment that
+come to their attention in any way, including through face-to-face conversations, a written class
+assignment or paper, class discussion, email, text, or social media post. Incidents of sexual harassment
+should be reported to the Title IX Coordinator at t9coordinator@byu.edu or 801-422-8692 or 1085
+WSC. Reports may also be submitted online at https://titleix.byu.edu/report or 1-888-238-1062 (24-
+hours a day).
+BYU offers confidential resources for those affected by sexual harassment, including the university’s
+Sexual Assault Survivor Advocate, as well as a number of non-confidential resources and services that
+may be helpful. Additional information about Title IX, the university’s Sexual Harassment Policy,
+reporting requirements, and resources can be found at http://titleix.byu.edu or by contacting the
+university’s Title IX Coordinator.
+What did the woman say when she saw twin pandas?
+“That bears repeating.”
+Student Disability
+- 7 -\nBrigham Young University is committed to providing a working and learning atmosphere that
+reasonably accommodates qualified persons with disabilities. A disability is a physical or mental
+impairment that substantially limits one or more major life activities. Whether an impairment is
+substantially limiting depends on its nature and severity, its duration or expected duration, and its
+permanent or expected permanent or long-term impact. Examples include vision or hearing impairments,
+physical disabilities, chronic illnesses, emotional disorders (e.g., depression, anxiety), learning disorders,
+and attention disorders (e.g., ADHD). If you have a disability which impairs your ability to complete
+this course successfully, please contact the University Accessibility Center (UAC), 2170 WSC or 801-
+422-2767 to request a reasonable accommodation. The UAC can also assess students for learning,
+attention, and emotional concerns. If you feel you have been unlawfully discriminated against on the
+basis of disability, please contact the Equal Opportunity Office at 801-422-5895, eo_manager@byu.edu,
+or visit https://hrs.byu.edu/equal-opportunity for help.”
+What do you call a bear that doesn’t want to grow up?
+Peter Panda.
+Devotional Attendance
+President C. Shane Reese recently said, "Our BYU devotionals are such an important part of our
+uniqueness at BYU. They provide us as students, faculty, and staff an opportunity to blend the sacred
+elements of the restored gospel of Jesus Christ with elements of academic disciplines. Devotionals help
+each of us to develop our full divine potential, which is central to all that we do at BYU. BYU strives to
+emit a unique light for the benefit of the world—a light that will enable BYU to be counted among the
+exceptional universities in the world and an essential example for the world. I love that each of you has
+made it a priority to participate in our devotional today." (Opening remarks, 5/23/23 Devotional). Your
+attendance at each devotional and forum is strongly encouraged. You are welcome to join the faculty
+each Tuesday (meet at 10:45 am in the Me En front offices) to walk to the Marriott Center and enjoy the
+devotional together.
+Why is panda one of the easiest words to spell?
+All you need is P and A.
+An Apostle’s Message
+I have observed a common characteristic among the instructors who have had the greatest influence in
+my life. They have helped me to seek learning by faith. They refused to give me easy answers to hard
+questions. In fact, they did not give me any answers at all. Rather, they pointed the way and helped me
+take the steps to find my own answers. I certainly did not always appreciate this approach, but
+experience has enabled me to understand that an answer given by another person usually is not
+remembered for very long, if remembered at all. But an answer we discover or obtain through the
+exercise of faith, typically, is retained for a lifetime. The most important learnings of life are caught—
+not taught.
+-Elder David A. Bednar, Seek Learning by Faith, Ensign 9/2007
+What’s the difference between a panda and a polar bear?
+About one thousand miles.
+- 8 -

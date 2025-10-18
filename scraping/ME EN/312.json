@@ -1,0 +1,221 @@
+{
+  "courseCode": "312",
+  "courseName": "ME EN 312: Fluid Mechanics",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mechanical Engineering",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "meetingTime": "MWF 10:00-10:50 a.m.",
+      "classroom": "CB 230",
+      "finalExam": "Tuesday, December 16th, 7:00-10:00 a.m."
+    },
+    {
+      "sectionNumber": 2,
+      "meetingTime": "MWF 1:00-1:50 p.m.",
+      "classroom": "CB 254",
+      "finalExam": "Monday, December 15th, 11:00 a.m.-1:00 p.m."
+    }
+  ],
+  "professor": {
+    "name": "Dr. Daniel Maynes",
+    "email": "maynes@byu.edu",
+    "office": "360K EB",
+    "officeHours": "MTuWTh 2-3 p.m., TuW 3-4 p.m."
+  },
+  "teachingAssistants": [
+    {
+      "name": "Dallin Rummler",
+      "office": "350 CB",
+      "officeHours": "TBD - check Learning Suite"
+    },
+    {
+      "name": "Porter Nelson",
+      "office": "350 CB",
+      "officeHours": "TBD - check Learning Suite"
+    }
+  ],
+  "courseMeetingStructure": {
+    "format": "In-person, attendance required",
+    "attendance": "Student success strongly correlated with regular attendance",
+    "sicknessPolicy": "Students with fever, cough, shortness of breath, chills, muscle pain, sore throat, or loss of taste/smell should not attend; work with instructor to develop study plan"
+  },
+  "prerequisites": [
+    "ME EN 321",
+    "ME EN 335",
+    "Math 334"
+  ],
+  "exceptionsToPrerequisites": "Any exceptions must be approved by instructor",
+  "requiredMaterials": [
+    {
+      "title": "Munson, Young, and Okiishi's Fundamentals of Fluid Mechanics",
+      "edition": "9th edition",
+      "authors": "Gerhart, Gerhart, and Hochstein",
+      "publishYear": 2021,
+      "alternativeVersions": "7th or 8th editions also acceptable",
+      "format": "Electronic or hard copy available; must be legal paid version",
+      "note": "Some assigned problems have 'R' number (e.g., 5.1.3R) not in all printed versions; located on Learning Suite"
+    },
+    {
+      "title": "ME EN 312 Course Packet",
+      "author": "D. Maynes",
+      "location": "Bookstore and Learning Suite",
+      "cost": "Cost of printing",
+      "requirement": "Bring to each class session; includes examples worked in class"
+    }
+  ],
+  "courseOverview": "The study of fluid mechanics is exciting and insightful into phenomena in the world around us. Rigorous and mathematically intensive, utilizing multivariable calculus, differential equations, and linear algebra. Approach involves class discussions, text readings, problem-solving, special projects, and hands-on laboratory experiences.",
+  "timeExpectation": "For each hour in class, expect to spend 2 hours outside of class on the subject. More time required for excellence.",
+  "courseObjectives": "Provide understanding and ability to mathematically model fluid dynamics phenomena with competencies in 10 core topics.",
+  "coreTopics": [
+    {
+      "topic": "Fluid Properties",
+      "competencies": "Understand viscosity as fluid property and compute shear stress in Newtonian fluids; understand surface tension and cavitation"
+    },
+    {
+      "topic": "Pressure in Fluids",
+      "competencies": "Understand pressure variation in static gas or liquid; compute hydrostatic forces and moments"
+    },
+    {
+      "topic": "Flowing Fluids",
+      "competencies": "Evaluate local, convective, and total acceleration; understand pressure distributions; appropriately apply Bernoulli's principle and recognize limitations"
+    },
+    {
+      "topic": "Conservation of Mass",
+      "competencies": "Apply integral form for steady and unsteady flow; recognize and utilize differential form of conservation of mass"
+    },
+    {
+      "topic": "Global Force/Momentum Balances",
+      "competencies": "Apply integral form of linear momentum principle; apply global force/momentum balances for stationary and constant velocity frames; recognize Navier-Stokes equations and solve for simplified viscous flows"
+    },
+    {
+      "topic": "Dimensional Analysis",
+      "competencies": "Determine appropriate dimensionless variables; predict prototype behavior based on similitude; understand pitfalls of modeling"
+    },
+    {
+      "topic": "Mechanical Energy Equation",
+      "competencies": "Understand mechanical energy equation and apply to laminar and turbulent flow with minor and major losses through pipe networks"
+    },
+    {
+      "topic": "Velocity Distributions, Form Drag and Flow Separation",
+      "competencies": "Model velocity distributions in flat plate boundary layers; predict skin friction drag; understand flow separation and impact on total drag"
+    },
+    {
+      "topic": "Real World Problem Solving",
+      "competencies": "Utilize fluid dynamics principles to analyze and solve real-world flow phenomena; use 5 Ps problem definition and SAFER problem-solving techniques"
+    },
+    {
+      "topic": "Investigate Phenomena and Communicate Results",
+      "competencies": "Present results graphically with dimensionless variables; effectively communicate results"
+    }
+  ],
+  "courseComponents": {
+    "homework": {
+      "schedule": "Weekly, due Wednesday by 11:59 p.m.",
+      "submission": "Electronic submission to Learning Suite",
+      "purpose": "Solidify principles for mastery of topics",
+      "types": [
+        {
+          "type": "Practice Problems",
+          "sources": "Munson text on Learning Suite Content tab",
+          "solution": "Abbreviated SAFER method on paper of choice",
+          "collaboration": "Encouraged as long as all contribute equally; copying not acceptable",
+          "assessment": "Assessment on Learning Suite for each set"
+        },
+        {
+          "type": "Mastery Problems",
+          "restriction": "Completed without class discussion",
+          "method": "Complete SAFER method with problem-solving template",
+          "grading": "Significant portion based on professional nature of solution; all graded and returned"
+        }
+      ],
+      "latePolicy": "Accepted until 5:00 p.m. Thursday (day after due) with 15% penalty"
+    },
+    "reading": {
+      "requirement": "Reading of assigned material expected before class",
+      "benefit": "Increases exposure and prompts questions and class discussion",
+      "schedule": "Reading for each lecture shown on Learning Suite"
+    },
+    "lectures": {
+      "coverage": "Much information covered in class not in text and vice versa",
+      "expectation": "Active participation and being well-versed in text essential"
+    },
+    "labsAndSpecialProblems": {
+      "frequency": "Generally one per week",
+      "types": "Real-world problem, do-at-home experiment, laboratory exercise, or special problem",
+      "deliverables": "Due date and specifications given when assigned"
+    },
+    "quizzes": {
+      "frequency": "Approximately 10-12 in-class quizzes, generally at least one per week",
+      "duration": "Typically about 5 minutes each",
+      "content": "Conceptual questions from text, lecture, homework, videos, and laboratory",
+      "scoring": "Lowest two scores dropped",
+      "identifier": "No name on quiz; use chosen 4-digit identifier",
+      "registration": "Choose identifier by completing extra-credit quiz assignment due Friday September 5th",
+      "pickup": "Returned quizzes in Return Work box, south hallway, 3rd floor EB"
+    },
+    "exams": {
+      "schedule": "Two mid-term exams and comprehensive final exam",
+      "administration": "Testing Center",
+      "format": "Closed book, closed note",
+      "timing": "90 minutes for midterms",
+      "materials": "Equation sheet provided plus any relevant needed information"
+    }
+  },
+  "grading": {
+    "breakdown": {
+      "homeworkPracticeProblems": 60,
+      "homeworkMasteryProblems": 60,
+      "quizzes": 100,
+      "specialProblemsLaboratories": 60,
+      "twoMidTermExams": 200,
+      "comprehensiveFinalExam": 150
+    },
+    "totalPoints": 630,
+    "finalExamReplacement": "If final exam score > lowest midterm or composite quiz score, final replaces that score",
+    "allA": "If everyone scores 90-100 range, all receive A's",
+    "curving": "May curve if class average below 80%",
+    "extraCredit": "Few opportunities throughout semester"
+  },
+  "citizenship": {
+    "overview": "Expected to adhere to honor code; academic dishonesty justifies failing grade",
+    "attendance": "Class attendance and participation expected",
+    "goodCitizenship": [
+      "Asking well-thought questions",
+      "Respectful response to questions",
+      "Respectfully addressing classmates, TA, and professor",
+      "Assisting others with difficult concepts"
+    ],
+    "badCitizenship": [
+      "Talking or texting with others during lecture",
+      "Arriving late to class",
+      "Cell phone interruption of class"
+    ],
+    "record": "Citizenship record kept throughout semester by instructor"
+  },
+  "honorCode": {
+    "standard": "Students expected to be honest in all academic work",
+    "definition": "Work presented as your own must in fact be your own work, not another's",
+    "violation": "May result in failing grade and additional university disciplinary action",
+    "dressAndGrooming": "Expected to adhere to BYU Dress and Grooming Standards",
+    "standards": "Adherence demonstrates respect for yourself and others and ensures effective learning environment",
+    "questions": "Call Honor Code Office at 422-2847"
+  },
+  "policies": {
+    "sexualDiscrimination": {
+      "prohibition": "Sexual discrimination or harassment (including student-to-student) prohibited by law and BYU policy",
+      "reporting": "Bring concerns to professor or lodge complaint with Equal Employment Office (D-240C ASB) or Honor Code Office"
+    },
+    "disability": {
+      "office": "Services for Students with Disabilities",
+      "location": "1520 WSC",
+      "process": "Can evaluate disability and assist professor in arranging reasonable accommodations"
+    },
+    "bYUMission": "Assist individuals in their quest for perfection and eternal life; develop students of faith, intellect, and character with skills and desire to continue learning and serve others"
+  },
+  "officeHours": {
+    "purpose": "Available for questions on all coursework",
+    "readiness": "If preceded by reasonable personal effort, requests for help always cordially received by professor and TA"
+  }
+}
