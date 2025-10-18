@@ -43,6 +43,7 @@ export function Chat({
   initialLastContext,
   majorId,
   majorName,
+  autoDescribeMajor,
 }: {
   id: string;
   initialMessages: ChatMessage[];
@@ -53,6 +54,7 @@ export function Chat({
   initialLastContext?: AppUsage;
   majorId?: string;
   majorName?: string;
+  autoDescribeMajor?: boolean;
 }) {
   const { visibilityType } = useChatVisibility({
     chatId: id,
@@ -144,6 +146,24 @@ export function Chat({
       window.history.replaceState({}, "", `/chat/${id}`);
     }
   }, [query, sendMessage, hasAppendedQuery, id]);
+
+  // When there's no scraped description available, prompt the model to generate
+  // a short description of the major automatically. This runs once on mount.
+  useEffect(() => {
+    if (autoDescribeMajor && majorName) {
+      // send a targeted user prompt asking the assistant to provide a short description
+      sendMessage({
+        role: "user",
+        parts: [
+          {
+            type: "text",
+            text: `Please provide a concise (1-2 sentence) description of the major "${majorName}" that a student would find helpful. Keep it short and friendly.`,
+          },
+        ],
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoDescribeMajor, majorName, sendMessage]);
 
   const { data: votes } = useSWR<Vote[]>(
     messages.length >= 2 ? `/api/vote?chatId=${id}` : null,
