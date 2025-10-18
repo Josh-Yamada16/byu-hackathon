@@ -171,26 +171,17 @@ export function Chat({
         // Extract major names from comparison format
         const [major1, major2] = majorName.split(" vs ").map((m) => m.trim());
         
-        instruction = `Compare these two majors side-by-side in an HTML table format:
+        instruction = `Compare these two majors side-by-side:
 
 **${major1}** vs **${major2}**
 
-Create an HTML table with a two-column structure where the left column is ${major1} and the right column is ${major2}.
-
-Table rows should include these sections with bullet points in each cell:
+Include these sections with bullet points in each cell:
 1. Overview/Description
 2. Curriculum & Coursework
 3. Career Outcomes
 4. Skills Developed
 5. Student Fit
-6. Key Advantages
-
-For each section, format as:
-| ${major1} | ${major2} |
-|-----------|-----------|
-| **Section Title**<br>• Bullet point 1<br>• Bullet point 2<br>• Bullet point 3 | **Section Title**<br>• Bullet point 1<br>• Bullet point 2<br>• Bullet point 3 |
-
-Use proper HTML table formatting with <table>, <tr>, <td> tags. Make section titles bold. Use <br> tags to separate bullet points within cells. Keep the tone student-friendly and concise.`;
+6. Key Advantages`
       } else {
         instruction = `Reply with exactly one assistant message only. Format the response exactly like this:
 
