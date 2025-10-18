@@ -19,7 +19,7 @@ import { useLocalStorage, useWindowSize } from "usehooks-ts";
 import { myProvider } from "@/lib/ai/providers";
 import type { Attachment, ChatMessage } from "@/lib/types";
 import type { AppUsage } from "@/lib/usage";
-import { cn } from "@/lib/utils";
+import { cn, getTextFromMessage } from "@/lib/utils";
 import { Context } from "./elements/context";
 import {
   PromptInput,
@@ -220,15 +220,48 @@ function PureMultimodalInput({
 
   return (
     <div className={cn("relative flex w-full flex-col gap-4", className)}>
-      {messages.length === 0 &&
-        attachments.length === 0 &&
-        uploadQueue.length === 0 && (
-          <SuggestedActions
-            chatId={chatId}
-            selectedVisibilityType={selectedVisibilityType}
-            sendMessage={sendMessage}
-          />
-        )}
+      {/* Always show suggested actions when the input area is visible and not uploading files. Suggestions update based on the last user message. */}
+      {(() => {
+        // Find last indices for user and assistant messages
+        const lastUserIndex = messages.map((m) => m.role).lastIndexOf("user");
+        const lastAssistantIndex = messages
+          .map((m) => m.role)
+          .lastIndexOf("assistant");
+
+        // Only show suggestions when assistant has replied after the last user message
+        // and the assistant message contains real text parts (not just step-start markers).
+        const assistantMessage =
+          lastAssistantIndex !== -1 ? messages[lastAssistantIndex] : undefined;
+
+        const assistantHasText = Boolean(
+          assistantMessage &&
+            Array.isArray((assistantMessage as any).parts) &&
+            (assistantMessage as any).parts.some(
+              (p: any) => p?.type === "text" && String(p.text).trim().length > 0
+            )
+        );
+
+        const shouldShowSuggestions =
+          attachments.length === 0 &&
+          uploadQueue.length === 0 &&
+          lastAssistantIndex > lastUserIndex &&
+          assistantHasText;
+
+        const assistantText = assistantHasText
+          ? getTextFromMessage(assistantMessage as any)
+          : "";
+
+        return (
+          shouldShowSuggestions && (
+            <SuggestedActions
+              chatId={chatId}
+              lastMessageText={assistantText}
+              selectedVisibilityType={selectedVisibilityType}
+              sendMessage={sendMessage}
+            />
+          )
+        );
+      })()}
 
       <input
         className="-top-4 -left-4 pointer-events-none fixed size-0.5 opacity-0"
