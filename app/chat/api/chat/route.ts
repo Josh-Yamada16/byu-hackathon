@@ -23,6 +23,7 @@ import type { ChatModel } from "@/lib/ai/models";
 import { type RequestHints, systemPrompt } from "@/lib/ai/prompts";
 import { myProvider } from "@/lib/ai/providers";
 import { createDocument } from "@/lib/ai/tools/create-document";
+import { getProgram } from "@/lib/ai/tools/get-program";
 import { getWeather } from "@/lib/ai/tools/get-weather";
 import { requestSuggestions } from "@/lib/ai/tools/request-suggestions";
 import { updateDocument } from "@/lib/ai/tools/update-document";
@@ -197,9 +198,24 @@ export async function POST(request: Request) {
 
     const stream = createUIMessageStream({
       execute: ({ writer: dataStream }) => {
+        const system = systemPrompt({
+          selectedChatModel,
+          requestHints,
+          majorId,
+          majorName,
+        });
+        // Log the resolved system prompt (includes program summary from programs.json when applicable)
+        if (process.env.NODE_ENV !== "production") {
+          try {
+            console.info("[chat] resolved system prompt:\n", system);
+          } catch {
+            // ignore logging errors
+          }
+        }
+
         const result = streamText({
           model: myProvider.languageModel(selectedChatModel),
-          system: systemPrompt({ selectedChatModel, requestHints, majorId, majorName }),
+          system,
           messages: convertToModelMessages(uiMessages),
           stopWhen: stepCountIs(5),
           experimental_activeTools:
@@ -207,6 +223,7 @@ export async function POST(request: Request) {
               ? []
               : [
                   "getWeather",
+                  "getProgram",
                   "createDocument",
                   "updateDocument",
                   "requestSuggestions",
@@ -214,6 +231,7 @@ export async function POST(request: Request) {
           experimental_transform: smoothStream({ chunking: "word" }),
           tools: {
             getWeather,
+            getProgram,
             createDocument: createDocument({ session, dataStream }),
             updateDocument: updateDocument({ session, dataStream }),
             requestSuggestions: requestSuggestions({

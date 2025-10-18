@@ -1,5 +1,6 @@
 import type { Geo } from "@vercel/functions";
 import type { ArtifactKind } from "@/components/artifact";
+import programsData from "@/scraping/programs.json" with { type: "json" };
 
 export const artifactsPrompt = `
 Artifacts is a special user interface mode that helps users with writing, editing, and other content creation tasks. When artifact is open, it is on the right side of the screen, while the conversation is on the left side. When creating or updating documents, changes are reflected in real-time on the artifacts and visible to the user.
@@ -50,6 +51,46 @@ About the origin of user's request:
 - country: ${requestHints.country}
 `;
 
+const findProgram = (majorId?: string, majorName?: string) => {
+  const programs = (programsData as any)?.data || [];
+  if (majorId) {
+    const byGroup = programs.find(
+      (p: any) => p.programGroupId === majorId || p.id === majorId
+    );
+    if (byGroup) { return byGroup; }
+  }
+  if (majorName) {
+    const name = majorName.toLowerCase();
+    const byName = programs.find((p: any) =>
+      (p.catalogDisplayName || p.longName || p.name || "")
+        .toString()
+        .toLowerCase()
+        .includes(name)
+    );
+    if (byName) { return byName; }
+  }
+  return;
+};
+
+const buildProgramSummary = (p: any) => {
+  if (!p) { return ""; }
+  const lines: string[] = [];
+  if (p.catalogDisplayName) { lines.push(`Title: ${p.catalogDisplayName}`); }
+  if (p.college) { lines.push(`College: ${p.college}`); }
+  if (p.degreeDesignation) { lines.push(`Degree: ${p.degreeDesignation}`); }
+  if (p.description) { lines.push(`Short description: ${p.description}`); }
+  if (p.longName && p.longName !== p.catalogDisplayName) {
+    lines.push(`Long name: ${p.longName}`);
+  }
+  if (p.startTerm?.id || p.startTerm?.semester) {
+    lines.push(
+      `Start term: ${p.startTerm.id ?? p.startTerm.semester ?? "unknown"}`
+    );
+  }
+  if (p.cipCode) { lines.push(`CIP: ${p.cipCode}`); }
+  return lines.join(" | ");
+};
+
 export const systemPrompt = ({
   selectedChatModel,
   requestHints,
@@ -62,10 +103,22 @@ export const systemPrompt = ({
   majorName?: string;
 }) => {
   const requestPrompt = getRequestPromptFromHints(requestHints);
-  
+
   let basePrompt = regularPrompt;
-  if (majorId && majorName) {
-    basePrompt = `You are a helpful academic assistant specialized in ${majorName}. Help students with questions related to their major, coursework, and career advice in this field. Keep your responses concise and helpful.`;
+
+  // If we have a major, try to attach a brief program summary from scraping/programs.json
+  if (majorId || majorName) {
+    const program = findProgram(majorId, majorName);
+    if (program) {
+      const summary = buildProgramSummary(program);
+      basePrompt = `You are a helpful academic assistant specialized in ${
+        majorName || program.catalogDisplayName
+      }. Use the following program reference data when it is relevant to the user's question:\n\n${summary}\n\nKeep responses concise and helpful.`;
+    } else {
+      basePrompt = `You are a helpful academic assistant specialized in ${
+        majorName || "the given major"
+      }. (No matching program data found in programs.json.) Keep your responses concise and helpful.`;
+    }
   }
 
   if (selectedChatModel === "chat-model-reasoning") {
