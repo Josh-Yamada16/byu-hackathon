@@ -2,7 +2,7 @@
 
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport } from "ai";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import useSWR, { useSWRConfig } from "swr";
 import { unstable_serialize } from "swr/infinite";
@@ -70,8 +70,6 @@ export function Chat({
   const [currentModelId, setCurrentModelId] = useState(initialChatModel);
   const currentModelIdRef = useRef(currentModelId);
 
-  const router = useRouter();
-
   useEffect(() => {
     currentModelIdRef.current = currentModelId;
   }, [currentModelId]);
@@ -133,7 +131,7 @@ export function Chat({
   });
 
   const searchParams = useSearchParams();
-  const query = searchParams.get("query");
+  const query = searchParams?.get("query") ?? null;
 
   const [hasAppendedQuery, setHasAppendedQuery] = useState(false);
 
@@ -225,11 +223,11 @@ Constraints:
       try {
         const storageKey = `major-chat-${majorId}`;
         localStorage.setItem(storageKey, id);
-      } catch (e) {
+      } catch (_e) {
         // localStorage might be unavailable, ignore
       }
     }
-  }, [id, majorId]);
+  }, [id, majorId, majorName]);
 
   // Removed automatic redirect - Keeping users on the current page to view the autoprompt response.
   // The persistent chat URL is available in the address bar and will be maintained after page refresh.
