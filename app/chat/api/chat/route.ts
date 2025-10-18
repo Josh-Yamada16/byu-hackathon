@@ -161,9 +161,9 @@ export async function POST(request: Request) {
           chatId: id,
           id: message.id,
           role: "user",
-          parts: message.parts,
-          attachments: [],
-          createdAt: new Date(),
+          parts: JSON.stringify(message.parts),
+          attachments: JSON.stringify([]),
+          createdAt: Date.now(),
         },
       ],
     });

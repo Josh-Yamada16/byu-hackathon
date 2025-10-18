@@ -9,7 +9,7 @@ async function geocodeCity(
       `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1&language=en&format=json`
     );
 
-    if (!response.ok) return null;
+    if (!response.ok) { return null; }
 
     const data = await response.json();
 
@@ -43,7 +43,7 @@ export const getWeather = tool({
     .refine(
       (data) => {
         // Require either both latitude and longitude, or a city
-        if (data.city) return true;
+        if (data.city) { return true; }
         return (
           typeof data.latitude === "number" &&
           typeof data.longitude === "number"
@@ -55,7 +55,7 @@ export const getWeather = tool({
     let latitude: number;
     let longitude: number;
 
-    if ("city" in input) {
+    if (input.city) {
       const coords = await geocodeCity(input.city);
       if (!coords) {
         return {
@@ -65,8 +65,10 @@ export const getWeather = tool({
       latitude = coords.latitude;
       longitude = coords.longitude;
     } else {
-      latitude = input.latitude;
-      longitude = input.longitude;
+      // biome-ignore lint/style/noNonNullAssertion: false positive
+      latitude = input.latitude!;
+      // biome-ignore lint/style/noNonNullAssertion: false positive
+      longitude = input.longitude!;
     }
 
     const response = await fetch(
@@ -75,7 +77,7 @@ export const getWeather = tool({
 
     const weatherData = await response.json();
 
-    if ("city" in input) {
+    if (input.city) {
       weatherData.cityName = input.city;
     }
 
