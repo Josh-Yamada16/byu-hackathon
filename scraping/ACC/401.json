@@ -1,0 +1,104 @@
+{
+  "courseCode": "401",
+  "courseName": "ACC 401: Accounting Information Systems",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Marriott School of Business",
+  "instructors": [
+    {
+      "name": "Professor William G. Heninger",
+      "office": "Tanner Building 5th Floor Office 530",
+      "phone": "(801) 422-6899",
+      "email": "heninger@byu.edu",
+      "officeHours": "Tuesday & Thursday 3:30 pm - 5:00 pm and by appointment"
+    },
+    {
+      "name": "Professor Jeffrey Pickerd",
+      "office": "Tanner Building 5th Floor Office 521",
+      "phone": "(801) 422-0155",
+      "email": "jeffrey.pickerd@byu.edu",
+      "officeHours": "Tuesday & Thursday 3:30 pm - 5:00 pm and by appointment"
+    }
+  ],
+  "requiredMaterials": [
+    {
+      "title": "Accounting Information Systems",
+      "edition": "16th Ed.",
+      "authors": "Romney, Steinbart, Summers & Wood",
+      "publisher": "Pearson 2024",
+      "availability": "Inclusive Access Program at bookstore - discounted rate"
+    },
+    {
+      "title": "System Understanding Aid",
+      "edition": "10th Ed.",
+      "authors": "Arens and Dewey",
+      "publisher": "Armond Dalton Publishers 2020"
+    }
+  ],
+  "inclusiveAccessProgram": {
+    "description": "Access to required materials at discounted rate starting first day of class",
+    "charging": "Student account charged after add/drop period",
+    "optOut": "Can opt out by add/drop deadline if purchasing elsewhere"
+  },
+  "catalogDescription": "Inputs, processing, outputs, and files of several transaction-processing subsystems. Foundation for understanding internal control. Variety of tools used to design, create, or document accounting information systems (AIS) to achieve organizational objectives.",
+  "courseDescription": "Explores business processes and data flows through organizations. Examines control environment from corporate and information systems perspectives. Assesses risks and controls to mitigate those risks. Focuses on management information needs and their role as organizational stakeholders.",
+  "coursePurpose": "Provide accounting professionals with information, skills, and insights to use, manage, and evaluate information systems that provide reliable and timely information to organizational stakeholders. Material based on professional standards: COBIT and COSO.",
+  "courseGoals": [
+    "Understand the transaction processing systems that are common to most businesses",
+    "Understand the control environment and control frameworks relevant to an accounting information system"
+  ],
+  "competenciesAndLearningOutcomes": [
+    {
+      "competency": "Analyze a set of business processes and report control deficiencies",
+      "evaluation": "Cycle reports, homework, quizzes, and exams"
+    },
+    {
+      "competency": "Learn how to evaluate the appropriateness of various controls",
+      "evaluation": "Homework, quizzes, and exams"
+    },
+    {
+      "competency": "Learn data visualization and Excel to support accounting decision making",
+      "evaluation": "Homework, quizzes, and exams"
+    },
+    {
+      "competency": "Communicate effectively both in writing and in presentations",
+      "evaluation": "Cycle presentations, cycle reports, and data visualizations"
+    },
+    {
+      "competency": "Develop the Christlike attributes necessary to work in teams",
+      "evaluation": "Peer evaluations"
+    },
+    {
+      "competency": "Serve the community by applying the principles taught in class",
+      "evaluation": "Cycle presentations and cycle reports"
+    },
+    {
+      "competency": "Learn how integrity and accountability are important spiritual and accounting principles",
+      "evaluation": "Homework, quizzes, and exams"
+    }
+  ],
+  "participation": "Expected for all students. Come prepared with thoughtful questions. Read assigned material before class. Challenge material and apply to live scenarios.",
+  "grading": {
+    "pointAllocation": {
+      "exam1": 165,
+      "exam2": 200,
+      "finalExam": 250,
+      "quizzes": "140 (16+ quizzes @ 10 pts, drop 2-3)",
+      "homework": 50,
+      "excelDataVisualization": 50,
+      "cycleProject": 60,
+      "warenCase": 85,
+      "total": 1000
+    },
+    "note": "Point allocation is subject to change"
+  },
+  "assignmentPreparation": {
+    "format": "Word processor with professional appearance",
+    "submission": "Via Canvas unless otherwise noted",
+    "includes": "Reports, appeals, memos, and other assignments"
+  },
+  "professionalism": {
+    "note": "Unprofessional behavior outside of classroom or during Jr. Core year can affect professionalism score in Jr. Core classes"
+  },
+  "classroomPolicies": "Abides by all Marriott School classroom policies available at https://marriottschool.byu.edu/policies/classroom/"
+}

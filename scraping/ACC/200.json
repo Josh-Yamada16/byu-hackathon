@@ -1,0 +1,156 @@
+{
+  "courseCode": "200",
+  "courseName": "ACC 200-002: Principles of Accounting",
+  "institution": "Brigham Young University",
+  "school": "Marriott School of Business",
+  "description": "An excellent introduction to the world of business. Accounting is sometimes referred to as the language of business because its very purpose is to provide meaningful information to managers, investors, creditors, and government agencies with interest in a business.",
+  "coreValues": [
+    "Faith in Jesus Christ",
+    "Integrity in Action",
+    "Respect for All",
+    "Excellence"
+  ],
+  "learningOutcomes": [
+    "Apply the Marriott Values to class and peer interactions to improve learning and the experience in ACC 200 for yourself and others",
+    "Interpret and analyze the primary financial statements, including the balance sheet, income statement, statement of cash flows, and statement of equity",
+    "Use internal accounting tools such as product costing, cost-profit-volume analysis, non-routine decision, and the balanced scorecard analyses to understand how to make better business management decisions",
+    "Manage workload in a self-paced learning environment by meeting regular deadlines"
+  ],
+  "requiredMaterials": [
+    "Required course packet to purchase at the bookstore",
+    "Basic calculator for exams (any calculator except phone)",
+    "Financial calculator HP 10bII+ recommended for future business classes"
+  ],
+  "courseStructure": {
+    "preClassWork": {
+      "reviewQuiz": "Weekly review quiz with unlimited attempts before deadline. Highest score kept. One dropped.",
+      "lessonContent": "Videos with self-check questions and interactive activities. Videos can be played at 1X-1.75X speed.",
+      "applications": "Real-world accounting assignments. Two dropped in final grade calculation.",
+      "moduleQuiz": "Graded quiz with 59 minute limit, typically takes 15-20 minutes. Open-book. One attempt. Two dropped."
+    },
+    "classTime": "In-person class meetings to practice, answer questions, and learn new concepts. Attendance required. Material covered will be on exams.",
+    "syllabusQuiz": "First week assessment of syllabus comprehension. Unlimited attempts. Cannot be dropped."
+  },
+  "assessments": {
+    "exams": {
+      "total": 3,
+      "types": ["Midterm Exam 1", "Midterm Exam 2", "Comprehensive Final Exam"],
+      "format": "Multiple-choice only",
+      "location": "BYU Testing Center (in-person required, includes Salt Lake Center)",
+      "secondChanceExam": "Optional retake with maximum score capped at 75%. Different exam version."
+    },
+    "quizzes": {
+      "syllabus": 1,
+      "review": "12% (1 dropped)",
+      "module": "17% (2 dropped)"
+    }
+  },
+  "grading": {
+    "breakdown": {
+      "exams": "60%",
+      "exam1": "14%",
+      "exam2": "18%",
+      "exam3Comprehensive": "28%",
+      "quizzes": "30%",
+      "applications": "8% (2 dropped)",
+      "professionalism": "2%"
+    },
+    "scale": {
+      "A": "94%",
+      "A-": "90%",
+      "B+": "87%",
+      "B": "84%",
+      "B-": "80%",
+      "C+": "77%",
+      "C": "74%",
+      "C-": "70%",
+      "D+": "67%",
+      "D": "64%",
+      "D-": "50%",
+      "E": "Below 50%"
+    },
+    "note": "No make-up or grade improvement projects. Scale subject to adjustment."
+  },
+  "professionalism": {
+    "startWith": "Full credit",
+    "canLose": "Points based on unprofessional behaviors",
+    "includes": [
+      "Being courteous, respectful, and helpful to peers, TAs, and faculty",
+      "Asking questions and offering assistance where needed",
+      "Checking syllabus and Canvas before asking TAs or instructor",
+      "Taking responsibility for learning and participating actively in class"
+    ]
+  },
+  "communication": {
+    "email": "ACC200@byu.edu",
+    "note": "Do not use Canvas messaging for TA communication",
+    "studentEmail": "BYU email address required for all course communication",
+    "emailFrequency": "Check at least once daily for announcements"
+  },
+  "support": {
+    "accountingLab": "Online and in-person open office hours, no appointment needed",
+    "hours": "See course home page for specific hours",
+    "taEmail": "ACC200@byu.edu"
+  },
+  "policies": {
+    "chatGPT": {
+      "allowed": true,
+      "caution": "Do not use for calculations or highly specific issues. ChatGPT is not accurate with math.",
+      "restriction": "Cannot be used for quizzes or assessments",
+      "usage": "Good for general accounting questions with verification from authoritative sources"
+    },
+    "illnessAccommodations": {
+      "covidOrIllness": "Use allowed drops first for missed deadlines",
+      "longTerm": "Contact University Accessibility Center for accommodations lasting more than a week",
+      "examExtension": "Requires positive COVID test or doctor's note"
+    },
+    "honorCode": "Students must be honest in all academic work. Academic honesty is fundamental.",
+    "academicHonesty": {
+      "requirement": "Present only your own work",
+      "violations": "May result in failing grade and university disciplinary action"
+    },
+    "plagiarism": {
+      "types": [
+        "Direct Plagiarism: Verbatim copying without acknowledgment",
+        "Paraphrased Plagiarism: Paraphrasing without acknowledgment",
+        "Plagiarism Mosaic: Blending without acknowledgment",
+        "Insufficient Acknowledgement: Partial attribution"
+      ],
+      "consequences": "May violate Honor Code, subject to disciplinary action and academic sanctions"
+    },
+    "respectfulEnvironment": "No demeaning comments about career or major choices. Personal agency is fundamental.",
+    "courseMatePriorityials": "Proprietary and cannot be posted or sold without professor permission",
+    "sexualMisconduct": {
+      "contact": "title9@byu.edu or 801-422-8692",
+      "sasas": "Sexual Assault Survivor Advocacy Services - 801-422-9071, advocate@byu.edu"
+    },
+    "disability": {
+      "contact": "University Accessibility Center - 2170 WSC, 801-422-2767",
+      "note": "Reasonable academic accommodations reviewed for qualified students"
+    },
+    "mentalHealth": {
+      "service": "BYU Counseling and Psychological Services",
+      "contact": "1500 WSC, 801-422-3035",
+      "website": "caps.byu.edu"
+    }
+  },
+  "keysToSuccess": [
+    "Math proficiency not required - just basic addition, subtraction, multiplication, and division",
+    "Focus on organizing and analyzing information",
+    "Master business language and terminology for proper communication",
+    "High self-discipline required to not fall behind",
+    "Set up personal study schedule with dedicated times for coursework",
+    "Allocate 2-3 hours outside of class for every hour spent in class"
+  ],
+  "quizDeadlines": {
+    "policy": "Quizzes and assignments will not be reopened and deadlines will not be extended",
+    "exception": "University accommodations may apply",
+    "cautions": [
+      "Do not click a quiz until ready to take it",
+      "Ensure stable internet connection",
+      "Allocate sufficient time for timed quizzes (59 minutes)",
+      "Verify you are clicking the correct quiz"
+    ],
+    "drops": "1 review quiz, 2 module quizzes, 1 application assignment automatically dropped to lowest scores"
+  }
+}
