@@ -163,7 +163,31 @@ export function Chat({
     if (autoDescribeMajor && majorName && !(window as any).__autoDescribeSent) {
       (window as any).__autoDescribeSent = true;
 
-      const instruction = `Reply with exactly one assistant message only. Format the response exactly like this:\n\n## ${majorName}\n\nSHORT_DESCRIPTION\n\nSHORT_DESCRIPTION should be 3-4 sentences, student-friendly, concise, and should not repeat only the major name. It should give the prospective student information on the major as if the student was not familiar with it. Do NOT include HTML tags, angle brackets, or any extra commentary.`;
+      const instruction = `Reply with exactly one assistant message only. Format the response exactly like this:
+
+## ${majorName}
+
+SHORT_DESCRIPTION
+
+#### Skills students will learn:
+- SKILL_1
+- SKILL_2
+- SKILL_3
+
+#### Reasons someone might like this major:
+- LIKE_REASON_1
+- LIKE_REASON_2
+- LIKE_REASON_3
+
+#### Reasons someone might dislike this major:
+- DISLIKE_REASON_1
+- DISLIKE_REASON_2
+- DISLIKE_REASON_3
+
+Constraints:
+- SHORT_DESCRIPTION must be 3-4 sentences, student-friendly, concise, and should NOT repeat only the major name.
+- Each list should contain 3-4 short bullet points (phrases, not full sentences).
+- Use Markdown header and bullet lists exactly as shown. Do NOT include HTML tags, angle brackets, or any extra commentary. Do not add any text before or after this block.`;
 
       // Send the user instruction to the model. We optimistically remove the user
       // message from the visible message list immediately so it doesn't appear in UI.
