@@ -150,20 +150,49 @@ export function Chat({
   // When there's no scraped description available, prompt the model to generate
   // a short description of the major automatically. This runs once on mount.
   useEffect(() => {
-    if (autoDescribeMajor && majorName) {
-      // send a targeted user prompt asking the assistant to provide a short description
+    // run only once in the client (avoid React strict-mode double call)
+    // store in a ref-like closure on window to avoid re-running across fast refreshes
+    const runOnce =
+      (window as any).__autoDescribeSent ||
+      (window as any).__autoDescribeSent === true;
+
+    if (!runOnce) {
+      (window as any).__autoDescribeSent = false;
+    }
+
+    if (autoDescribeMajor && majorName && !(window as any).__autoDescribeSent) {
+      (window as any).__autoDescribeSent = true;
+
+      const instruction = `Please reply with exactly one assistant message in this exact format: \n\nHere's a short description of ${majorName}: SHORT_DESCRIPTION\n\nMake SHORT_DESCRIPTION 1-2 sentences, concise, student-friendly, and do NOT repeat only the major name. Do not include any tags or angle brackets.`;
+
+      // Send the user instruction to the model. We optimistically remove the user
+      // message from the visible message list immediately so it doesn't appear in UI.
       sendMessage({
         role: "user",
         parts: [
           {
             type: "text",
-            text: `Please provide a concise (1-2 sentence) description of the major "${majorName}" that a student would find helpful. Keep it short and friendly.`,
+            text: instruction,
           },
         ],
       });
+
+      // Remove the instruction message from UI to keep it hidden.
+      // Use a small timeout to allow the optimistic message to be created, then filter it out.
+      setTimeout(() => {
+        setMessages((prev) =>
+          prev.filter(
+            (m) =>
+              !(
+                m.role === "user" &&
+                m.parts.some((p) => p.type === "text" && p.text === instruction)
+              )
+          )
+        );
+      }, 50);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [autoDescribeMajor, majorName, sendMessage]);
+  }, [autoDescribeMajor, majorName, sendMessage, setMessages]);
 
   const { data: votes } = useSWR<Vote[]>(
     messages.length >= 2 ? `/api/vote?chatId=${id}` : null,
