@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
+import { toast } from "@/components/toast";
 import programsData from "@/scraping/programs.json" with { type: "json" };
 
 const colors = [
@@ -20,6 +21,9 @@ const colors = [
 ];
 
 export default function Home() {
+  const [recentlyClicked, setRecentlyClicked] = useState<
+    Record<string, boolean>
+  >({});
   // Extract and group majors by college
   const collegeGroups = useMemo(() => {
     const grouped = (programsData as any).data
@@ -96,8 +100,28 @@ export default function Home() {
                         <Link
                           key={major.id}
                           href={`/chat?majorId=${major.id}&majorName=${encodeURIComponent(major.name)}`}
-                          className={`${idx % 2 === 0 ? "bg-gray-200" : "bg-gray-100"} block truncate rounded px-3 py-2 font-medium text-gray-900 text-sm transition-opacity hover:opacity-90`}
+                          className={`${idx % 2 === 0 ? "bg-gray-200" : "bg-gray-100"} block truncate rounded px-3 py-2 font-medium text-gray-900 text-sm transition-opacity hover:opacity-90 ${recentlyClicked[major.id] ? "ring-2 ring-indigo-400 ring-offset-1" : ""}`}
                           title={major.name}
+                          onClick={() => {
+                            // show toast feedback and add a short-lived highlight
+                            toast({
+                              type: "success",
+                              description: `Opening ${major.name}`,
+                            });
+                            setRecentlyClicked((s) => ({
+                              ...s,
+                              [major.id]: true,
+                            }));
+                            setTimeout(
+                              () =>
+                                setRecentlyClicked((s) => {
+                                  const copy = { ...s };
+                                  delete copy[major.id];
+                                  return copy;
+                                }),
+                              1200
+                            );
+                          }}
                         >
                           {major.name}
                         </Link>
