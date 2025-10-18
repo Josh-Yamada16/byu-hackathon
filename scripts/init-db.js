@@ -2,8 +2,8 @@
 // scripts/init-db.js
 // Ensures the users table exists in the configured SQLite file.
 
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 const Database = require("better-sqlite3");
 require("dotenv").config({ path: path.resolve(process.cwd(), ".env.local") });
 
