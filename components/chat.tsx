@@ -231,30 +231,9 @@ Constraints:
     }
   }, [id, majorId]);
 
-  // Redirect from /chat?majorId=... to /chat/{id} after first response
-  const redirectedRef = useRef(false);
-  useEffect(() => {
-    const hasMajorParams = majorId && majorName;
-    const hasAssistantResponse = messages.some((m) => m.role === "assistant");
-    const currentUrl = new URL(window.location.href);
-    const isOnMajorPage = currentUrl.pathname === "/chat" && currentUrl.search.includes("majorId");
-
-    // Only redirect if we have a solid assistant response (more than just step-start)
-    const hasRealContent = messages.some(
-      (m) =>
-        m.role === "assistant" &&
-        m.parts.some((p) => p.type === "text" || p.type?.startsWith("data-"))
-    );
-
-    if (hasMajorParams && hasRealContent && isOnMajorPage && !redirectedRef.current) {
-      // Redirect to the actual chat page to prevent duplicate chats on refresh
-      redirectedRef.current = true;
-      // Use longer timeout to ensure messages are saved to database
-      setTimeout(() => {
-        router.push(`/chat/${id}`);
-      }, 1500);
-    }
-  }, [id, majorId, majorName, messages, router]);
+  // Removed automatic redirect - Keeping users on the current page to view the autoprompt response.
+  // The persistent chat URL is available in the address bar and will be maintained after page refresh.
+  // This prevents the UI from disappearing while the user is reading the autoprompt content.
 
   const { data: votes } = useSWR<Vote[]>(
     messages.length >= 2 ? `/api/vote?chatId=${id}` : null,

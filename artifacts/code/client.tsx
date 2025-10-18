@@ -16,6 +16,28 @@ import {
 } from "@/components/icons";
 import { generateUUID } from "@/lib/utils";
 
+let pyodideScriptLoaded = false;
+
+const loadPyodideScript = async () => {
+  if (pyodideScriptLoaded || typeof window === "undefined") {
+    return;
+  }
+
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js";
+    script.async = true;
+    script.onload = () => {
+      pyodideScriptLoaded = true;
+      resolve(undefined);
+    };
+    script.onerror = () => {
+      reject(new Error("Failed to load Pyodide"));
+    };
+    document.head.appendChild(script);
+  });
+};
+
 const OUTPUT_HANDLERS = {
   matplotlib: `
     import io
@@ -133,6 +155,9 @@ export const codeArtifact = new Artifact<"code", Metadata>({
         }));
 
         try {
+          // Load Pyodide script only when needed
+          await loadPyodideScript();
+
           // @ts-expect-error - loadPyodide is not defined
           const currentPyodideInstance = await globalThis.loadPyodide({
             indexURL: "https://cdn.jsdelivr.net/pyodide/v0.23.4/full/",
