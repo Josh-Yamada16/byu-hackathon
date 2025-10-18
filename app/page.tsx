@@ -25,7 +25,11 @@ export default function Home() {
   // Extract majors from the imported JSON data
   const majors = useMemo(() => {
     return programsData.data
-      .filter((program: any) => program.catalogDisplayName && program.code)
+      .filter((program: any) => 
+        program.catalogDisplayName && 
+        program.code && 
+        program.type === 'MAJOR'
+      )
       .map((program: any, index: number) => ({
         id: program.code,
         name: program.catalogDisplayName,
@@ -42,7 +46,7 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {majors.length > 0 ? (
-            majors.map((major) => (
+            majors.map((major: Major) => (
               <Link
                 key={major.id}
                 href={`/chat?majorId=${major.id}&majorName=${encodeURIComponent(major.name)}`}
