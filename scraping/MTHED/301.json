@@ -1,0 +1,137 @@
+{
+  "courseCode": "301",
+  "courseName": "MathEd 301: Teaching Statistics",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mathematics Education",
+  "instructor": {
+    "name": "Dr. Steven Jones",
+    "email": "sjones@mathed.byu.edu",
+    "office": "A-180T, ESC",
+    "officeHours": [
+      "Monday 3:00-4:00 p.m.",
+      "Thursday 3:00-5:00 p.m."
+    ]
+  },
+  "requiredMaterials": [
+    {
+      "title": "Putting Essential Understanding Into Practice: Statistics 9-12",
+      "author": "NCTM"
+    }
+  ],
+  "courseWebsite": "learningsuite.byu.edu",
+  "courseGoals": [
+    "Develop your own understanding of statistics",
+    "Learn to teach statistics/probability to middle and high school students"
+  ],
+  "coursePhilosophy": "Very practical class focused on developing understanding and pedagogical skills for teaching statistics and probability",
+  "aiPolicy": {
+    "note": "These tools can be helpful if used well; students expected to understand material and construct conceptual explanations on own",
+    "guidelines": [
+      {
+        "guideline": "Reading/watching explanations from others or AI is easier than constructing it yourself",
+        "caution": "Be careful of this trap"
+      },
+      {
+        "guideline": "AI-generated explanations cannot be included in anything submitted for class",
+        "applies": "Including all tools and people-generated content"
+      }
+    ]
+  },
+  "grading": {
+    "inClassParticipation": "10%",
+    "homeworkAssignments": "30%",
+    "unitCheckInTests": "45%",
+    "comprehensiveProject": "15%",
+    "meaActivitiesRequired": "Attendance at 2 MEA activities",
+    "extraCredit": "NO extra credit available"
+  },
+  "courseComponents": {
+    "inClassParticipation": {
+      "percentage": "10%",
+      "description": "Colleagues working together toward becoming great teachers",
+      "requirements": [
+        "Attend all class sessions, arriving on time and staying until end",
+        "Participate in group work and discussions",
+        "Participate in whole-class discussions",
+        "Make regular contributions (beyond personal comfort zone recommended)"
+      ],
+      "weeklyScoring": {
+        "3Points": "Contributions to discussion in both small groups and whole class",
+        "2Points": "Contributions to small groups, but only little to whole class",
+        "1Point": "Only minor contributions to small groups, or no contribution to whole class",
+        "minus1": "Arrive late or leave early (each time)",
+        "minus2": "Absent on one day",
+        "0Points": "Absent on both days"
+      ],
+      "drops": "One free dropped weekly participation score for illness, emergency, or other issues",
+      "comportment": "Everyone should be absolutely respectful; disagreements fine if respectful and professional"
+    },
+    "homework": {
+      "frequency": "Each class period",
+      "dueTime": "10 minutes before start of next class",
+      "submission": "Electronic through Learning Suite (typed or handwritten scans)",
+      "focus": "Developing you as teacher and conceptual understanding, not just getting answers",
+      "timeExpectation": "Expect 2-3 hours per assignment depending on assignment",
+      "warning": "Don't plan on rushing right before due date - won't have time"
+    },
+    "unitCheckInTests": {
+      "structure": "4 units, each lasting approximately 3 weeks",
+      "testing": "Check-in test at end of each unit in testing center",
+      "duration": "Typically 1-1.25 hours",
+      "preparation": "See unit schedules in Learning Suite for exact dates and prep details"
+    },
+    "comprehensiveProject": {
+      "percentage": "15%",
+      "purpose": "Carry out and report on statistical studies of your own",
+      "components": [
+        "Design a study",
+        "Collect data",
+        "Run statistical tests",
+        "Discuss results"
+      ],
+      "function": "Essentially serves as final exam",
+      "timing": "Good time to start is about halfway through semester",
+      "details": "Detailed instructions posted in Learning Suite"
+    },
+    "meaActivities": {
+      "requirement": "Attend 2 MEA activities this semester",
+      "options": "Usually around 4-5 to choose from",
+      "gradePenalty": "For each uncompleted activity, grade lowered by one step (A to A-, etc.); no activities = two step drop"
+    }
+  },
+  "policies": {
+    "lateAndMakeup": {
+      "homework": "No late work accepted",
+      "makeupWork": "No make-up work if not turned in",
+      "exams": "NO make-up tests allowed",
+      "emergency": "Contact instructor BEFORE emergency occurs if possible to arrange alternative"
+    },
+    "drops": {
+      "participation": "Lowest single participation score dropped",
+      "homework": "Lowest single homework assignment score dropped",
+      "purpose": "Already meant to account for illness and emergencies",
+      "flexibility": "Long-term emergencies can be worked out with instructor"
+    }
+  },
+  "honorCode": {
+    "standard": "Students expected to be honest in all academic work",
+    "definition": "Work presented as your own must in fact be your own work, not another's",
+    "violation": "May result in failing grade and additional university disciplinary action",
+    "dressAndGrooming": "Expected to adhere to BYU Honor Code standards",
+    "questions": "Call Honor Code Office at 422-2847"
+  },
+  "universityPolicies": {
+    "sexualDiscrimination": {
+      "prohibition": "Title IX prohibits sex discrimination in education programs or activities",
+      "scope": "Covers discrimination, admissions, activities, student-to-student sexual harassment",
+      "reporting": "Talk to professor, contact Equal Employment Office (422-5895 or 367-5689, 24 hours), or Honor Code Office (422-2847)"
+    },
+    "disability": {
+      "office": "Services for Students with Disabilities Office",
+      "phone": "422-2767",
+      "process": "Contact for evaluation if disability impairs ability to complete course",
+      "accommodations": "Reasonable academic accommodations reviewed for qualified students with documented disabilities"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "courseCode": "305",
+  "courseName": "MTHED 305: Elementary Mathematics Content and Pedagogy",
+  "section": 1,
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mathematics Education",
+  "meetingStructure": {
+    "days": "Monday and Wednesday",
+    "time": "11:00 a.m. - 12:20 p.m.",
+    "location": "TMCB 173"
+  },
+  "instructor": {
+    "name": "Lacey Campbell",
+    "email": "laceyeb@byu.edu",
+    "office": "A180Q ESC",
+    "officeHours": [
+      "Wednesday 9:30-10:30 a.m.",
+      "Thursday 3:00-4:00 p.m."
+    ]
+  },
+  "requiredMaterials": [
+    {
+      "title": "Children's Mathematics",
+      "edition": "2nd edition",
+      "authors": "Thomas Carpenter, et al.",
+      "isbn": "978-0-325-05287-8"
+    }
+  ],
+  "courseDescription": "Designed to help develop deeper understanding of important elementary mathematics concepts and improve ability to reason mathematically, communicate mathematical ideas, and solve mathematics problems. Engage in mathematical exploration related to topics likely to teach in elementary school, communicate thinking orally and in writing, examine how children think and learn, and consider teaching practices promoting learning with understanding.",
+  "gradingScale": {
+    "A": "94.0-100%",
+    "AMinus": "91.0-93.9%",
+    "BPlus": "88.0-90.9%",
+    "B": "84.0-87.9%",
+    "BMinus": "81.0-83.9%",
+    "CPlus": "78.0-80.9%",
+    "C": "74.0-77.9%",
+    "CMinus": "71.0-73.9%",
+    "DPlus": "68.0-70.9%",
+    "D": "64.0-67.9%",
+    "DMinus": "61.0-63.9%",
+    "E": "below 61%"
+  },
+  "gradedComponents": {
+    "exams": {
+      "percentage": "60%",
+      "description": "Two take-home midterm exams and cumulative take-home final",
+      "midterms": {
+        "count": 2,
+        "format": "Take-home exams",
+        "revision": "Test revision option available for students earning A- or lower on either midterm"
+      },
+      "final": {
+        "format": "Cumulative take-home exam",
+        "pickupDate": "Friday, December 12 at 8:00 a.m.",
+        "dueDate": "Monday, December 15 at 8:00 a.m.",
+        "revisions": "Not available for final exam"
+      }
+    },
+    "homeworkAndReadings": {
+      "percentage": "20%",
+      "homework": "Assigned every class period, completed before next class, scored for completion only",
+      "readings": "Children's Mathematics and occasional additional readings posted to Learning Suite",
+      "purpose": "Help think about teaching mathematics to children in context of mathematics learning in class",
+      "work": "Class discussions and periodic assignments included in homework grade"
+    },
+    "analysesOfChildrensThinking": {
+      "percentage": "15%",
+      "opportunities": "Three points during semester including two in-person interviews and one classroom observation",
+      "components": [
+        "Advance preparation",
+        "Written analysis according to principles learned in class"
+      ]
+    },
+    "professionalActivities": {
+      "percentage": "5%",
+      "requirement": "Complete two professional activities related to teaching mathematics",
+      "organization": "Mathematics Education Association (MEA) - student-led affiliate of NCTM",
+      "alternatives": "Other options for fulfilling requirement found on Learning Suite",
+      "submission": "Description of what you did and learned for each activity (1-2 paragraphs) before semester end",
+      "note": "Description required for all professional activities including MEA"
+    }
+  },
+  "classPolicies": {
+    "cellPhoneAndDevices": {
+      "permitted": "Phones, laptops, tablets may be used for classroom activities (calculator, reference, note-taking)",
+      "prohibited": "Other uses are distracting and disruptive",
+      "expectation": "Should remain in backpack unless used for class purposes; cell communication outside classroom"
+    },
+    "attendance": {
+      "importance": "Crucial to success in course",
+      "penalties": [
+        {
+          "absences": "4 or more",
+          "maxGrade": "A-"
+        },
+        {
+          "absences": "5 or more",
+          "maxGrade": "B"
+        },
+        {
+          "absences": "6 or more",
+          "maxGrade": "B-"
+        },
+        {
+          "absences": "7 or more",
+          "maxGrade": "C"
+        },
+        {
+          "absences": "8 or more",
+          "maxGrade": "C-"
+        },
+        {
+          "absences": "9 or more",
+          "action": "Required to withdraw or take E"
+        }
+      ],
+      "tardiness": "More than 15 minutes late or leaving 15+ minutes early = half absence; missing more than half class = full absence",
+      "note": "Partial attendance still beneficial"
+    },
+    "missedSessions": {
+      "resources": "Content section of Learning Suite has class summary, handouts, notes, homework by end of day",
+      "responsibility": "Student expected to complete homework and assignments by due date regardless of absence reason"
+    },
+    "lateAssignments": {
+      "general": "Late assignments accepted for half credit up to one week after due date",
+      "afterOneWeek": "No credit if more than one week late",
+      "exams": "Must be turned in on time; exceptions case-by-case"
+    }
+  },
+  "anticipatedSchedule": {
+    "unit1": {
+      "name": "Early Number and Operations",
+      "dates": "September 3-October 1",
+      "topics": [
+        "Setting the Stage",
+        "Early Numerical Abilities",
+        "How to Count",
+        "Part-Part-Whole",
+        "Addition and Subtraction Problem Types",
+        "Addition and Subtraction Strategies",
+        "Interview Prep 1"
+      ],
+      "assessment": "Exam 1 Review, Interview 1"
+    },
+    "unit2": {
+      "name": "Multiplication, Division, and Fractions",
+      "dates": "October 6 - November 3",
+      "topics": [
+        "Multiplication and Division Strategies",
+        "Other Multiplication and Division Contexts",
+        "Algebraic Structure",
+        "Equal Sharing Problems",
+        "Unit Fractions",
+        "Interview Prep 2"
+      ],
+      "assessment": "Exam 2 Review, Interview 2"
+    },
+    "unit3": {
+      "name": "Multidigit Arithmetic",
+      "dates": "November 5 - December 10",
+      "topics": [
+        "Multidigit Strategies",
+        "Children's Multidigit Addition/Subtraction Strategies",
+        "Algorithms for Addition and Subtraction",
+        "Standard Algorithms",
+        "Multidigit Multiplication and Division Strategies",
+        "Multiplication Algorithms",
+        "Division Strategies",
+        "Division Algorithms"
+      ],
+      "assessment": "Final Exam Review"
+    }
+  },
+  "universityPolicies": {
+    "honorCode": {
+      "standard": "Students expected to be honest in all academic work",
+      "definition": "Work presented as your own must in fact be your own work, not another's",
+      "violation": "May result in failing grade and additional university disciplinary action",
+      "dressAndGrooming": "Expected to adhere to Dress and Grooming Standards",
+      "questions": "Call Honor Code Office at (801) 422-2847"
+    },
+    "sexualMisconduct": {
+      "prohibition": "BYU prohibits all forms of sexual harassment including assault, dating violence, domestic violence, stalking",
+      "reporting": "Title IX Coordinator at title9@byu.edu or (801) 422-8692 or 1320 WSC",
+      "online": "https://titleix.byu.edu/report (24 hours)",
+      "resources": "Confidential Sexual Assault Survivor Advocate and other resources available"
+    },
+    "studentDisability": {
+      "center": "University Accessibility Center (UAC)",
+      "location": "2170 WSC",
+      "phone": "801-422-2767",
+      "accommodation": "Request reasonable accommodations; UAC can assess learning and emotional concerns",
+      "discrimination": "Contact Equal Opportunity Office at 801-422-2845 for unlawful discrimination"
+    }
+  }
+}

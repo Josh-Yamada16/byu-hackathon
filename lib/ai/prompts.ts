@@ -1,6 +1,7 @@
 import type { Geo } from "@vercel/functions";
 import type { ArtifactKind } from "@/components/artifact";
 import programsData from "@/scraping/programs.json" with { type: "json" };
+import { getSyllabusesForMajor, buildSyllabusSummary } from "@/lib/ai/tools/get-syllabus-data";
 
 export const artifactsPrompt = `
 Artifacts is a special user interface mode that helps users with writing, editing, and other content creation tasks. When artifact is open, it is on the right side of the screen, while the conversation is on the left side. When creating or updating documents, changes are reflected in real-time on the artifacts and visible to the user.
@@ -106,18 +107,28 @@ export const systemPrompt = ({
 
   let basePrompt = regularPrompt;
 
-  // If we have a major, try to attach a brief program summary from scraping/programs.json
+  // If we have a major, try to attach program summary and syllabus data
   if (majorId || majorName) {
     const program = findProgram(majorId, majorName);
+    const displayName = majorName || program?.catalogDisplayName || "the given major";
+    
+    let fullSummary = "";
+    
     if (program) {
-      const summary = buildProgramSummary(program);
-      basePrompt = `You are a helpful academic assistant specialized in ${
-        majorName || program.catalogDisplayName
-      }. Use the following program reference data when it is relevant to the user's question:\n\n${summary}\n\nKeep responses concise and helpful.`;
+      const programSummary = buildProgramSummary(program);
+      fullSummary += programSummary;
+    }
+    
+    // Try to get syllabus data for this major
+    const syllabusData = getSyllabusesForMajor(displayName);
+    if (syllabusData && syllabusData.courses.length > 0) {
+      fullSummary += buildSyllabusSummary(syllabusData);
+    }
+    
+    if (fullSummary) {
+      basePrompt = `You are a helpful academic assistant specialized in ${displayName}. Use the following program and course reference data when it is relevant to the user's question:\n\n${fullSummary}\n\nKeep responses concise and helpful.`;
     } else {
-      basePrompt = `You are a helpful academic assistant specialized in ${
-        majorName || "the given major"
-      }. (No matching program data found in programs.json.) Keep your responses concise and helpful.`;
+      basePrompt = `You are a helpful academic assistant specialized in ${displayName}. Keep your responses concise and helpful.`;
     }
   }
 

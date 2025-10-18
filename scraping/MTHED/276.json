@@ -1,0 +1,149 @@
+{
+  "course_code": "MTHED 276",
+  "course_title": "Mathematics Education 276",
+  "semester": "Fall 2025",
+  "instructor": {
+    "name": "Professor Sharon Christensen",
+    "email": "sharonc@mathed.byu.edu",
+    "office": "A180R ESC",
+    "phone": "801-422-8954",
+    "office_hours": [
+      "Thursday 8:00 am - 9:00 am",
+      "Friday 3:00 pm - 4:00 pm",
+      "By appointment"
+    ]
+  },
+  "meeting_times": [
+    {
+      "type": "Classroom Instruction",
+      "location": "197 TMCB",
+      "days": "Monday-Friday",
+      "time": "2:00 pm - 2:50 pm"
+    },
+    {
+      "type": "Classroom Observations",
+      "location": "Secondary Schools (various)",
+      "days": "Tuesday",
+      "time": "7:00 am - 10:50 am"
+    }
+  ],
+  "prerequisites": [
+    "MTHED 177 & MATH 213 & MATH 290",
+    "OR MTHED 177 & MATH 290 & MATH 313"
+  ],
+  "required_materials": [
+    {
+      "title": "NCTM Principles to Actions",
+      "isbn": "9780873537742",
+      "required": true
+    },
+    {
+      "title": "NCTM Membership (free student e-membership)",
+      "description": "Provides access to Professional Standards for Teaching Mathematics and Principles and Standards for School Mathematics, plus articles and lesson ideas",
+      "required": true
+    },
+    {
+      "title": "Teaching in the Savior's Way",
+      "format": "Paper or digital copy (free in Gospel Library App)",
+      "required": true
+    }
+  ],
+  "course_description": "This course is designed to give prospective secondary mathematics teachers an opportunity to reflect on their own beliefs about mathematics and teaching mathematics. Students examine how students best learn mathematics for understanding, extension, and application. The course provides insight through reflecting on current recommendations and research, observing secondary students engaging in mathematical tasks, and analyzing how teachers orchestrate classroom discourse. The course aligns with NCTM principles and INTASC standards for improving curriculum and teaching pedagogy.",
+  "learning_outcomes": [
+    {
+      "outcome": "Mathematical Practices",
+      "description": "Students understand authentic mathematical practices and use them to engage in meaningful mathematical exploration and reflect on their own use of these practices to make inferences about how adolescents might engage in mathematical tasks."
+    },
+    {
+      "outcome": "Philosophy of Teaching and Learning Mathematics",
+      "description": "Students articulate a philosophy of teaching and learning mathematics based on professional standards for teaching mathematics, moral dimensions of teaching, and INTASC standards."
+    },
+    {
+      "outcome": "Aligning Curriculum and Instructional Goals",
+      "description": "Students can use curriculum guides such as NCTM content standards or Common Core State Standards to trace K-12 development of a central concept of mathematics for planning instruction appropriate to a particular grade level and topic."
+    },
+    {
+      "outcome": "Analyzing Classroom Instruction",
+      "description": "Students can analyze and describe the mathematical experiences of adolescents in terms of tasks, discourse, and learning environments observed in secondary classrooms and reconcile theoretical principles with classroom reality."
+    },
+    {
+      "outcome": "The Equity Principle",
+      "description": "Students identify a range of positions available to adolescents in mathematics classrooms and understand what it means to believe that all adolescents can learn mathematics."
+    }
+  ],
+  "grading_scale": {
+    "A": "94.0%-100%",
+    "A-": "90.0%-93.9%",
+    "B+": "87.0%-89.9%",
+    "B": "84.0%-86.9%",
+    "B-": "81.0%-83.9%",
+    "C+": "78.0%-80.9%",
+    "C": "74.0%-77.9%",
+    "C-": "71.0%-73.9%",
+    "D+": "68.0%-70.9%",
+    "D": "64.0%-67.9%",
+    "D-": "60.0%-63.9%",
+    "E": "Below 60%"
+  },
+  "graded_components": [
+    {
+      "component": "Classroom Observation Reflections",
+      "weight": "25%",
+      "description": "Reflection paper for each classroom observation visit"
+    },
+    {
+      "component": "Journal Reflections",
+      "weight": "15%",
+      "description": "Responses to questions about readings and personal reflections from weekly observations"
+    },
+    {
+      "component": "Conceptual Mathematics Explanations",
+      "weight": "20%",
+      "description": "Math problem solutions with written explanations of thinking process, solution method, mathematical connections, and justification"
+    },
+    {
+      "component": "Assignments",
+      "weight": "20%",
+      "description": "Two papers: 'Math Autobiography' and 'Student Identities' papers, plus a 'Becoming a Teacher' project of choosing"
+    },
+    {
+      "component": "Mathematics Education Association (MEA)",
+      "weight": "2%",
+      "description": "Participation in two MEA activities to experience collegiality with teacher colleagues"
+    },
+    {
+      "component": "Final Exam",
+      "weight": "18%",
+      "description": "Comprehensive exam covering readings and class discussions"
+    }
+  ],
+  "course_policies": {
+    "attendance": {
+      "expectation": "Daily in-person attendance required",
+      "absences_allowed": "Up to 3 absences with no penalty (makeup required if observation missed)",
+      "penalty": "1% grade drop for each absence after the first three"
+    },
+    "preparation": "Prompt attendance and completion of assigned readings are crucial. Students should participate actively in discussions and ask questions about mathematics and pedagogy.",
+    "classroom_environment": "Create atmosphere where sharing of ideas is valued, mistakes and misunderstandings are part of learning process, and students feel safe expressing lack of understanding.",
+    "field_experiences": {
+      "professionalism": "High level of professionalism required when visiting secondary schools",
+      "procedures": [
+        "Check in at school office before attending class",
+        "Arrive before class starts",
+        "Dress appropriately",
+        "Guests should be unobtrusive",
+        "Do not evaluate the lesson or teacher; observe for insights into teaching and learning",
+        "Seek permission to observe students in small group work",
+        "Acknowledge teacher's work before leaving",
+        "Take field notes outside classroom after observation"
+      ]
+    },
+    "late_assignments": "10% grade deduction for each class period late"
+  },
+  "university_policies": {
+    "honor_code": "Students must be honest in all academic work. Any work presented as your own must be your own. Violations may result in failing grade and disciplinary action. Students must adhere to BYU Dress and Grooming Standards. Contact Honor Code Office at 422-2847 for questions.",
+    "sexual_misconduct": "BYU prohibits sexual harassment, dating violence, domestic violence, sexual assault, and stalking. University employees must report all incidents to Title IX Coordinator at t9coordinator@byu.edu or (801) 422-8692. Resources available at http://titleix.byu.edu",
+    "student_disability": "BYU provides reasonable accommodations for qualified persons with disabilities. Contact University Accessibility Center (UAC) at 2170 WSC or 422-2767. UAC coordinates services with student and instructor."
+  },
+  "belonging_statement": "BYU strives to create a community of belonging united by common identity as children of God and commitment to restored gospel. All relationships should reflect devout love of God and concern for neighbor's welfare. The community values diversity of individual characteristics, experiences, perspectives, talents and gifts. Interactions should support environment of belonging, with focus on realizing each student's divine potential."
+}

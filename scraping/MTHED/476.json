@@ -1,0 +1,162 @@
+{
+  "courseCode": "476R",
+  "courseName": "Math Ed 476R: Secondary Mathematics Student-Teaching",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mathematics Education",
+  "coursePhilosophy": "Learning to teach mathematics requires more than surviving in classroom. Requires gaining experience thinking about important mathematical ideas and planning learning activities for student understanding through reflection on experiences to create pedagogical foundation for lifelong teaching process.",
+  "courseObjectives": [
+    "Gain experience and knowledge about students' mathematical thinking and understanding",
+    "Design and teach mathematics lessons engaging students in exploring and understanding important mathematical ideas",
+    "Understand overall expectations of a public-school teacher"
+  ],
+  "courseGrading": {
+    "format": "Credit or No-Credit",
+    "determination": "University supervisor with input from cooperating teacher and demonstrating competency in all BYU Professional Teacher Candidate Rubric (TCA) areas and passing EDA score (80% or higher)",
+    "feedback": "Formative rather than summative (comments rather than points)",
+    "factors": "Quality and consistency of work large factor in professionalism/competence determination"
+  },
+  "courseExpectations": {
+    "attendance": {
+      "importance": "Critical for student teaching capstone experience",
+      "policy": "BYU policy requires full-time students as teachers in classrooms with same commitment as employed teachers",
+      "requirement": "Keep contracted teacher days and hours from semester beginning to end",
+      "absences": "Must be approved in advance; may result in additional time to experience",
+      "sickness": "Notify both cooperating teacher and university supervisor"
+    },
+    "extracurriculars": "Expected to do extracurricular activities as appropriate for content area",
+    "competencies": "Must meet all required stated competencies as measured by BYU assessments"
+  },
+  "writingToLearn": {
+    "overview": "Writing component accompanies most learning-to-teach activities",
+    "rationale": [
+      {
+        "reason": "Teachers are communicators; develop facility to communicate about mathematics, learning, and teaching through writing"
+      },
+      {
+        "reason": "Build knowledge by sharing it; writing requires seeking connections among concepts and articulating them, leading to deeper exploration"
+      },
+      {
+        "reason": "Writing is lens on understanding; colleagues judge competence partly on writing quality as evidence of knowledge"
+      }
+    ]
+  },
+  "learningToTeachActivities": {
+    "overview": "Majority of assignments done during first half of field experience",
+    "dailyJournal": {
+      "timeline": "Weeks 1-2",
+      "description": "Brief writing assignments on social/socio-mathematical norms, mathematical/pedagogical conversations, student mathematical thinking",
+      "submission": "Weekly collection on Learning Suite at end of each week",
+      "value": "Constant reminder to keep eyes and ears open for insights"
+    },
+    "gettingToKnowStudents": {
+      "timeline": "First two weeks",
+      "components": [
+        "Make list of classroom and school resources with mentor teacher",
+        "Send email home to parents/guardians",
+        "Do getting-to-know-you activity for each class"
+      ],
+      "deliverable": "2-3 page paper including resources summary, student learnings, specific student examples, email to parents, implications for teaching",
+      "approval": "Get mentor teacher approval for any surveys"
+    },
+    "observationRecord": {
+      "timeline": "Weeks 1, 2, and 4 (two observations per week)",
+      "description": "Detailed notes on particular lesson aspects",
+      "selection": "Choose two lessons each week - one from cooperating teacher, one from another teacher",
+      "submission": "Due Saturday with 1-2 page synthesis and implications for own teaching",
+      "week1": "Classroom discourse",
+      "week2": "Student's Classroom Experience",
+      "week4": "Teachable Moments"
+    },
+    "lessonPlans": {
+      "timing": "Each week observed by university supervisor",
+      "submission": "At least night before teaching to supervisor",
+      "flexibility": "Any form acceptable but must include FMC, learning goals, task description, launch/explore/discuss, anticipated student thinking and questions"
+    },
+    "teachObserveReflect": {
+      "timeline": "Weeks 2-5 and week 14",
+      "structure": "Teach or observe peer student teachers, participate in reflection meetings",
+      "planning": "Plan lesson together with peer student teacher using chosen template",
+      "teaching": "Teach individual classes; distribute lesson plan copies to observers",
+      "observation": "Observers take notes on lesson plan about student responses - focus on student thinking not presentation",
+      "reflection": "Reflection meeting with peer sharing observations, goals, questions, then supervisor/cooperating teacher lead discussion on pedagogical principles"
+    },
+    "videoReflections": {
+      "week3": {
+        "activity": "One peer tapes lesson; both watch, look for student thinking evidence, discuss together",
+        "deliverable": "1-2 paragraph summary of observations and goals for next lesson by Saturday"
+      },
+      "week4": {
+        "activity": "Other peer tapes lesson; both watch for question types and who responded, discuss together",
+        "deliverable": "1-2 paragraph summary of observations and goals for next lesson by Saturday"
+      }
+    },
+    "studentInterview": {
+      "timeline": "Weeks 3 and 5",
+      "preparation": "Observe student in classroom; note what they do/say, imagine their experience",
+      "process": "Audio record interview; ask student to explain reasoning, avoid teaching",
+      "followup": "Can provide help after interview based on insights",
+      "deliverable": "2-3 page paper characterizing student's mathematical experience/understanding, discussing needs for increased understanding"
+    }
+  },
+  "weeklyAssignments": {
+    "week1": [
+      "Daily Journal",
+      "Paper on Classroom Discourse observations",
+      "Send email to parents"
+    ],
+    "week2": [
+      "Daily Journal",
+      "Paper on Student's Classroom Experience observations",
+      "Getting to know your students paper"
+    ],
+    "week3": [
+      "Student interview paper",
+      "Cluster student teachers lessons observations",
+      "Video Coding and 1-2 paragraph reflection",
+      "Lesson plan"
+    ],
+    "week4": [
+      "Cluster student teachers lessons observations",
+      "Paper on Teachable Moments observations",
+      "Video Coding and 1-2 paragraph reflection",
+      "Lesson plan"
+    ],
+    "week5": [
+      "Cluster student teachers lessons observations",
+      "Student interview",
+      "Lesson plan"
+    ],
+    "weeks6to13": "Take over teaching; send lesson plan for observed lessons",
+    "week14": [
+      "Gradually transition classes back to mentor teacher",
+      "Cluster student teachers lessons observations with digital dialogue prompt reflection"
+    ]
+  },
+  "universityPolicies": {
+    "honorCode": {
+      "standard": "Students expected to be honest in all academic work",
+      "definition": "Work presented as your own must in fact be your own work, not another's",
+      "violation": "May result in failing grade and additional university disciplinary action",
+      "dressAndGrooming": "Expected to adhere to Dress and Grooming Standards",
+      "questions": "Call Honor Code Office at 422-2847"
+    },
+    "sexualMisconduct": {
+      "prohibition": "Title IX prohibits unlawful sex discrimination and sexual harassment in education programs",
+      "scope": "Includes sexual violence, dating violence, domestic violence, stalking on basis of sex",
+      "reporting": {
+        "mandatory": "All faculty in teaching/supervisory role must report incidents",
+        "coordinator": "Title IX Coordinator at t9coordinator@byu.edu or (801) 422-8692",
+        "ethicsPoint": "https://titleix.byu.edu/report or 1-888-238-1062 (24 hours)",
+        "resources": "Confidential Victim Advocate and non-confidential resources available",
+        "website": "http://titleix.byu.edu"
+      }
+    },
+    "studentDisability": {
+      "commitment": "BYU committed to providing working and learning atmosphere with reasonable accommodations",
+      "definition": "Disability is physical or mental impairment substantially limiting major life activities",
+      "center": "Brigham Young University Accessibility Center (UAC)",
+      "assessment": "UAC can assess students for learning, attention, and emotional concerns"
+    }
+  }
+}
