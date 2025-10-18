@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import { toast } from "@/components/toast";
+import { useEffect, useMemo, useState } from "react";
 import programsData from "@/scraping/programs.json" with { type: "json" };
 
 const colors = [
@@ -25,13 +24,25 @@ export default function Home() {
   const [selectedMajors, setSelectedMajors] = useState<
     Array<{ id: string; name: string }>
   >([]);
+  const [selectedMajorId, setSelectedMajorId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+    const stored = localStorage.getItem("selectedMajorId");
+    if (stored) {
+      setSelectedMajorId(stored);
+    }
+  }, []);
 
   const toggleMajorSelection = (major: { id: string; name: string }) => {
     setSelectedMajors((prev) => {
       const isSelected = prev.some((m) => m.id === major.id);
       if (isSelected) {
         return prev.filter((m) => m.id !== major.id);
-      } else if (prev.length < 2) {
+      }
+      if (prev.length < 2) {
         return [...prev, major];
       }
       return prev;
@@ -82,20 +93,20 @@ export default function Home() {
           <p className="text-gray-600 text-lg">
             Select a college to explore available majors
           </p>
-          
+
           {/* Comparison Mode Toggle */}
           <div className="mt-6 flex items-center justify-center gap-3">
-            <label className="text-sm font-medium text-gray-700">
+            <span className="font-medium text-gray-700 text-sm">
               Compare majors?
-            </label>
+            </span>
             <button
-              onClick={handleComparisonToggle}
+              aria-checked={comparisonMode}
               className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
                 comparisonMode ? "bg-blue-600" : "bg-gray-300"
               }`}
-              type="button"
+              onClick={handleComparisonToggle}
               role="switch"
-              aria-checked={comparisonMode}
+              type="button"
             >
               <span
                 className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
@@ -104,7 +115,7 @@ export default function Home() {
               />
             </button>
             {comparisonMode && (
-              <span className="ml-2 text-xs text-blue-600 font-medium">
+              <span className="ml-2 font-medium text-blue-600 text-xs">
                 Select 2 majors to compare
               </span>
             )}
@@ -146,26 +157,40 @@ export default function Home() {
                         );
                         return comparisonMode ? (
                           <button
-                            key={major.id}
-                            onClick={() => toggleMajorSelection(major)}
-                            className={`w-full truncate rounded px-3 py-2 font-medium text-sm transition-all text-left ${
+                            className={`w-full truncate rounded px-3 py-2 text-left font-medium text-sm transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                               isSelected
                                 ? "bg-blue-500 text-white ring-2 ring-blue-700"
                                 : idx % 2 === 0
                                   ? "bg-gray-200 text-gray-900 hover:bg-gray-300"
                                   : "bg-gray-100 text-gray-900 hover:bg-gray-200"
-                            } ${selectedMajors.length === 2 && !isSelected ? "opacity-50 cursor-not-allowed" : ""}`}
+                            } ${selectedMajors.length === 2 && !isSelected ? "cursor-not-allowed opacity-50" : ""}`}
+                            disabled={
+                              selectedMajors.length === 2 && !isSelected
+                            }
+                            key={major.id}
+                            onClick={() => toggleMajorSelection(major)}
                             title={major.name}
-                            disabled={selectedMajors.length === 2 && !isSelected}
+                            type="button"
                           >
                             {major.name}
                             {isSelected && " ✓"}
                           </button>
                         ) : (
                           <Link
-                            key={major.id}
+                            className={`${idx % 2 === 0 ? "bg-gray-200" : "bg-gray-100"} block truncate rounded px-3 py-2 font-medium text-gray-900 text-sm transition-opacity hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${selectedMajorId === major.id ? "ring-2 ring-blue-500" : ""}`}
                             href={`/chat?majorId=${major.id}&majorName=${encodeURIComponent(major.name)}`}
-                            className={`${idx % 2 === 0 ? "bg-gray-200" : "bg-gray-100"} block truncate rounded px-3 py-2 font-medium text-gray-900 text-sm transition-opacity hover:opacity-90`}
+                            key={major.id}
+                            onClick={() => {
+                              try {
+                                localStorage.setItem(
+                                  "selectedMajorId",
+                                  major.id
+                                );
+                              } catch {
+                                /* ignore */
+                              }
+                              setSelectedMajorId(major.id);
+                            }}
                             title={major.name}
                           >
                             {major.name}
@@ -190,13 +215,13 @@ export default function Home() {
               <div className="mt-3 flex flex-wrap justify-center gap-2">
                 {selectedMajors.map((major) => (
                   <div
-                    key={major.id}
                     className="flex items-center gap-2 rounded-full bg-blue-500 px-4 py-2 text-white"
+                    key={major.id}
                   >
                     <span>{major.name}</span>
                     <button
-                      onClick={() => toggleMajorSelection(major)}
                       className="ml-1 text-lg hover:opacity-70"
+                      onClick={() => toggleMajorSelection(major)}
                       type="button"
                     >
                       ✕
@@ -208,8 +233,8 @@ export default function Home() {
 
             {selectedMajors.length === 2 && (
               <Link
-                href={`/chat/compare?major1=${encodeURIComponent(selectedMajors[0].id)}&major1Name=${encodeURIComponent(selectedMajors[0].name)}&major2=${encodeURIComponent(selectedMajors[1].id)}&major2Name=${encodeURIComponent(selectedMajors[1].name)}`}
                 className="mt-4 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-700"
+                href={`/chat/compare?major1=${encodeURIComponent(selectedMajors[0].id)}&major1Name=${encodeURIComponent(selectedMajors[0].name)}&major2=${encodeURIComponent(selectedMajors[1].id)}&major2Name=${encodeURIComponent(selectedMajors[1].name)}`}
               >
                 Compare These Majors
               </Link>
