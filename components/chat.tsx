@@ -163,7 +163,7 @@ export function Chat({
     if (autoDescribeMajor && majorName && !(window as any).__autoDescribeSent) {
       (window as any).__autoDescribeSent = true;
 
-      const instruction = `Please reply with exactly one assistant message in this exact format: \n\nHere's a short description of ${majorName}: SHORT_DESCRIPTION\n\nMake SHORT_DESCRIPTION 1-2 sentences, concise, student-friendly, and do NOT repeat only the major name. Do not include any tags or angle brackets.`;
+      const instruction = `Reply with exactly one assistant message only. Format the response exactly like this:\n\n## ${majorName}\n\nSHORT_DESCRIPTION\n\nSHORT_DESCRIPTION should be 1-2 sentences, student-friendly, concise, and should not repeat only the major name. Do NOT include HTML tags, angle brackets, or any extra commentary.`;
 
       // Send the user instruction to the model. We optimistically remove the user
       // message from the visible message list immediately so it doesn't appear in UI.
