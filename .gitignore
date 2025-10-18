@@ -42,4 +42,5 @@ yarn-error.log*
 /blob-report/
 /playwright/*
 
-./dev.sqlite
+dev.sqlite
+
