@@ -164,7 +164,37 @@ export function Chat({
     if (autoDescribeMajor && majorName && !alreadySent) {
       (window as any).__autoDescribeSentMap[chatKey] = true;
 
-      const instruction = `Reply with exactly one assistant message only. Format the response exactly like this:
+      // Check if this is a comparison (majorName contains "vs")
+      const isComparison = majorName?.includes(" vs ");
+      
+      let instruction: string;
+      
+      if (isComparison) {
+        // Extract major names from comparison format
+        const [major1, major2] = majorName.split(" vs ").map((m) => m.trim());
+        
+        instruction = `Compare these two majors side-by-side in an HTML table format:
+
+**${major1}** vs **${major2}**
+
+Create an HTML table with a two-column structure where the left column is ${major1} and the right column is ${major2}.
+
+Table rows should include these sections with bullet points in each cell:
+1. Overview/Description
+2. Curriculum & Coursework
+3. Career Outcomes
+4. Skills Developed
+5. Student Fit
+6. Key Advantages
+
+For each section, format as:
+| ${major1} | ${major2} |
+|-----------|-----------|
+| **Section Title**<br>• Bullet point 1<br>• Bullet point 2<br>• Bullet point 3 | **Section Title**<br>• Bullet point 1<br>• Bullet point 2<br>• Bullet point 3 |
+
+Use proper HTML table formatting with <table>, <tr>, <td> tags. Make section titles bold. Use <br> tags to separate bullet points within cells. Keep the tone student-friendly and concise.`;
+      } else {
+        instruction = `Reply with exactly one assistant message only. Format the response exactly like this:
 
 ## ${majorName}
 
@@ -189,6 +219,7 @@ Constraints:
 - SHORT_DESCRIPTION must be 3-4 sentences, student-friendly, concise, and should NOT repeat only the major name.
 - Each list should contain 3-4 short bullet points (phrases, not full sentences).
 - Use Markdown header and bullet lists exactly as shown. Do NOT include HTML tags, angle brackets, or any extra commentary. Do not add any text before or after this block.`;
+      }
 
       // Send the user instruction to the model. We optimistically remove the user
       // message from the visible message list immediately so it doesn't appear in UI.

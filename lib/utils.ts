@@ -98,14 +98,36 @@ export function sanitizeText(text: string) {
 }
 
 export function convertToUIMessages(messages: DBMessage[]): ChatMessage[] {
-  return messages.map((message) => ({
-    id: message.id,
-    role: message.role as 'user' | 'assistant' | 'system',
-    parts: typeof message.parts === 'string' ? JSON.parse(message.parts) : message.parts,
-    metadata: {
-      createdAt: formatISO(new Date(message.createdAt)),
-    },
-  }));
+  // Filter out autoprompt instruction messages
+  const autopromptPatterns = [
+    "Compare and contrast these two majors in detail:",
+    "Reply with exactly one assistant message only",
+  ];
+
+  return messages
+    .filter((message) => {
+      // Keep non-user messages and non-autoprompt user messages
+      if (message.role !== "user") return true;
+
+      const parts = typeof message.parts === "string" ? JSON.parse(message.parts) : message.parts;
+      const messageText = parts
+        .filter((p: any) => p.type === "text")
+        .map((p: any) => p.text)
+        .join("");
+
+      // Filter out if message starts with any autoprompt pattern
+      return !autopromptPatterns.some((pattern) =>
+        messageText.includes(pattern)
+      );
+    })
+    .map((message) => ({
+      id: message.id,
+      role: message.role as "user" | "assistant" | "system",
+      parts: typeof message.parts === "string" ? JSON.parse(message.parts) : message.parts,
+      metadata: {
+        createdAt: formatISO(new Date(message.createdAt)),
+      },
+    }));
 }
 
 export function getTextFromMessage(message: ChatMessage): string {
