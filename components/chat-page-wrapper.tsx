@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { Chat } from "@/components/chat";
 import { DataStreamHandler } from "@/components/data-stream-handler";
@@ -19,29 +19,26 @@ export function ChatPageWrapper({
   autoDescribeMajor: boolean;
 }) {
   const router = useRouter();
-  const [shouldRender, setShouldRender] = useState(false);
-  const [resolvedId, setResolvedId] = useState(id);
+  
+  // Check if we already have a chat for this major (synchronously on mount)
+  let existingChatId: string | null = null;
+  if (typeof window !== "undefined" && majorId) {
+    const storageKey = `major-chat-${majorId}`;
+    existingChatId = localStorage.getItem(storageKey);
+  }
+
+  const shouldRedirect = existingChatId && existingChatId !== id;
+  const [hasRedirected, setHasRedirected] = useState(false);
 
   useEffect(() => {
-    // Check if we already have a chat for this major
-    if (majorId) {
-      const storageKey = `major-chat-${majorId}`;
-      const existingChatId = localStorage.getItem(storageKey);
-
-      if (existingChatId && existingChatId !== id) {
-        // Redirect to existing chat instead of creating a new one
-        router.push(`/chat/${existingChatId}`);
-        return; // Don't render anything, just redirect
-      }
+    if (shouldRedirect && !hasRedirected) {
+      setHasRedirected(true);
+      router.push(`/chat/${existingChatId}`);
     }
+  }, [shouldRedirect, existingChatId, id, router, hasRedirected]);
 
-    // If no existing chat or no majorId, proceed with rendering
-    setResolvedId(id);
-    setShouldRender(true);
-  }, [id, majorId, router]);
-
-  // Don't render anything until we've checked localStorage
-  if (!shouldRender) {
+  // Don't render anything if we're redirecting
+  if (shouldRedirect) {
     return null;
   }
 
@@ -50,12 +47,11 @@ export function ChatPageWrapper({
       <Chat
         autoDescribeMajor={autoDescribeMajor}
         autoResume={false}
-        id={resolvedId}
+        id={id}
         initialChatModel={initialChatModel}
         initialMessages={[] as any[]}
         initialVisibilityType="private"
         isReadonly={false}
-        key={resolvedId}
         majorId={majorId}
         majorName={majorName}
       />

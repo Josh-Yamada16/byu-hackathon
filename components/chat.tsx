@@ -203,7 +203,7 @@ Constraints:
       });
 
       // Remove the instruction message from UI to keep it hidden.
-      // Use a small timeout to allow the optimistic message to be created, then filter it out.
+      // Use a timeout to allow the optimistic message to be created, then filter it out.
       setTimeout(() => {
         setMessages((prev) =>
           prev.filter(
@@ -214,7 +214,7 @@ Constraints:
               )
           )
         );
-      }, 50);
+      }, 100);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoDescribeMajor, majorName, id, sendMessage, setMessages]);
