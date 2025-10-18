@@ -1,8 +1,7 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { auth } from "@/app/(auth)/auth";
-import { Chat } from "@/components/chat";
-import { DataStreamHandler } from "@/components/data-stream-handler";
+import { ChatPageWrapper } from "@/components/chat-page-wrapper";
 import { DEFAULT_CHAT_MODEL } from "@/lib/ai/models";
 import { generateUUID } from "@/lib/utils";
 
@@ -26,50 +25,19 @@ export default async function Page({
       : undefined;
 
   const id = generateUUID();
-
-  // Do not pull any scraped description. Let the AI generate the short description.
-  const initialMessages = [] as any[];
   const autoDescribeMajor = Boolean(majorName);
 
   const cookieStore = await cookies();
   const modelIdFromCookie = cookieStore.get("chat-model");
-
-  // system prompt is handled in the API layer; no client-side use required here
-
-  if (!modelIdFromCookie) {
-    return (
-      <>
-        <Chat
-          autoDescribeMajor={autoDescribeMajor}
-          autoResume={false}
-          id={id}
-          initialChatModel={DEFAULT_CHAT_MODEL}
-          initialMessages={initialMessages}
-          initialVisibilityType="private"
-          isReadonly={false}
-          key={id}
-          majorId={majorId}
-          majorName={majorName}
-        />
-        <DataStreamHandler />
-      </>
-    );
-  }
+  const initialChatModel = modelIdFromCookie?.value || DEFAULT_CHAT_MODEL;
 
   return (
-    <>
-      <Chat
-        autoResume={false}
-        id={id}
-        initialChatModel={modelIdFromCookie.value}
-        initialMessages={initialMessages}
-        initialVisibilityType="private"
-        isReadonly={false}
-        key={id}
-        majorId={majorId}
-        majorName={majorName}
-      />
-      <DataStreamHandler />
-    </>
+    <ChatPageWrapper
+      id={id}
+      majorId={majorId}
+      majorName={majorName}
+      initialChatModel={initialChatModel}
+      autoDescribeMajor={autoDescribeMajor}
+    />
   );
 }

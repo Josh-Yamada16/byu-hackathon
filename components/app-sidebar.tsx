@@ -45,6 +45,14 @@ export function AppSidebar({ user }: { user: User | undefined }) {
     toast.promise(deletePromise, {
       loading: "Deleting all chats...",
       success: () => {
+        // Clear all major→chatId mappings from localStorage
+        for (let i = localStorage.length - 1; i >= 0; i--) {
+          const key = localStorage.key(i);
+          if (key?.startsWith("major-chat-")) {
+            localStorage.removeItem(key);
+          }
+        }
+        
         mutate(unstable_serialize(getChatHistoryPaginationKey));
         router.push("/");
         setShowDeleteAllDialog(false);

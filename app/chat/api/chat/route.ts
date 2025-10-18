@@ -165,18 +165,30 @@ export async function POST(request: Request) {
       country,
     };
 
-    await saveMessages({
-      messages: [
-        {
-          chatId: id,
-          id: message.id,
-          role: "user",
-          parts: JSON.stringify(message.parts),
-          attachments: JSON.stringify([]),
-          createdAt: Date.now(),
-        },
-      ],
-    });
+    // Check if this is an auto-describe prompt (should not be saved to DB)
+    const isAutoDescribePrompt =
+      message.role === "user" &&
+      message.parts.some(
+        (p: any) =>
+          p.type === "text" &&
+          p.text?.includes("Reply with exactly one assistant message only")
+      );
+
+    // Only save non-auto-describe messages to the database
+    if (!isAutoDescribePrompt) {
+      await saveMessages({
+        messages: [
+          {
+            chatId: id,
+            id: message.id,
+            role: "user",
+            parts: JSON.stringify(message.parts),
+            attachments: JSON.stringify([]),
+            createdAt: Date.now(),
+          },
+        ],
+      });
+    }
 
     const streamId = generateUUID();
     await createStreamId({ streamId, chatId: id });

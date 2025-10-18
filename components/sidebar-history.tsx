@@ -131,6 +131,18 @@ export function SidebarHistory({ user }: { user: User | undefined }) {
     toast.promise(deletePromise, {
       loading: "Deleting chat...",
       success: () => {
+        // Clear the localStorage entry if this chat was mapped to a major
+        for (let i = localStorage.length - 1; i >= 0; i--) {
+          const key = localStorage.key(i);
+          if (key?.startsWith("major-chat-")) {
+            const mappedChatId = localStorage.getItem(key);
+            if (mappedChatId === deleteId) {
+              localStorage.removeItem(key);
+              break; // Found and removed the mapping, no need to continue
+            }
+          }
+        }
+
         mutate((chatHistories) => {
           if (chatHistories) {
             return chatHistories.map((chatHistory) => ({

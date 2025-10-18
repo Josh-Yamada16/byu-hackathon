@@ -2,7 +2,7 @@
 
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport } from "ai";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import useSWR, { useSWRConfig } from "swr";
 import { unstable_serialize } from "swr/infinite";
@@ -69,6 +69,8 @@ export function Chat({
   const [showCreditCardAlert, setShowCreditCardAlert] = useState(false);
   const [currentModelId, setCurrentModelId] = useState(initialChatModel);
   const currentModelIdRef = useRef(currentModelId);
+
+  const router = useRouter();
 
   useEffect(() => {
     currentModelIdRef.current = currentModelId;
@@ -148,20 +150,19 @@ export function Chat({
   }, [query, sendMessage, hasAppendedQuery, id]);
 
   // When there's no scraped description available, prompt the model to generate
-  // a short description of the major automatically. This runs once on mount.
+  // a short description of the major automatically. This runs once per chat.
   useEffect(() => {
-    // run only once in the client (avoid React strict-mode double call)
+    // run only once per chat (use chatId as key to allow multiple majors)
     // store in a ref-like closure on window to avoid re-running across fast refreshes
-    const runOnce =
-      (window as any).__autoDescribeSent ||
-      (window as any).__autoDescribeSent === true;
-
-    if (!runOnce) {
-      (window as any).__autoDescribeSent = false;
+    if (!(window as any).__autoDescribeSentMap) {
+      (window as any).__autoDescribeSentMap = {};
     }
 
-    if (autoDescribeMajor && majorName && !(window as any).__autoDescribeSent) {
-      (window as any).__autoDescribeSent = true;
+    const chatKey = `${id}-${majorName}`;
+    const alreadySent = (window as any).__autoDescribeSentMap[chatKey];
+
+    if (autoDescribeMajor && majorName && !alreadySent) {
+      (window as any).__autoDescribeSentMap[chatKey] = true;
 
       const instruction = `Reply with exactly one assistant message only. Format the response exactly like this:
 
@@ -216,7 +217,44 @@ Constraints:
       }, 50);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [autoDescribeMajor, majorName, sendMessage, setMessages]);
+  }, [autoDescribeMajor, majorName, id, sendMessage, setMessages]);
+
+  // Store major → chatId mapping in localStorage for future redirects
+  useEffect(() => {
+    if (majorId && majorName) {
+      try {
+        const storageKey = `major-chat-${majorId}`;
+        localStorage.setItem(storageKey, id);
+      } catch (e) {
+        // localStorage might be unavailable, ignore
+      }
+    }
+  }, [id, majorId]);
+
+  // Redirect from /chat?majorId=... to /chat/{id} after first response
+  const redirectedRef = useRef(false);
+  useEffect(() => {
+    const hasMajorParams = majorId && majorName;
+    const hasAssistantResponse = messages.some((m) => m.role === "assistant");
+    const currentUrl = new URL(window.location.href);
+    const isOnMajorPage = currentUrl.pathname === "/chat" && currentUrl.search.includes("majorId");
+
+    // Only redirect if we have a solid assistant response (more than just step-start)
+    const hasRealContent = messages.some(
+      (m) =>
+        m.role === "assistant" &&
+        m.parts.some((p) => p.type === "text" || p.type?.startsWith("data-"))
+    );
+
+    if (hasMajorParams && hasRealContent && isOnMajorPage && !redirectedRef.current) {
+      // Redirect to the actual chat page to prevent duplicate chats on refresh
+      redirectedRef.current = true;
+      // Use setTimeout to ensure sendMessage has been fully processed
+      setTimeout(() => {
+        router.push(`/chat/${id}`);
+      }, 500);
+    }
+  }, [id, majorId, majorName, messages, router]);
 
   const { data: votes } = useSWR<Vote[]>(
     messages.length >= 2 ? `/api/vote?chatId=${id}` : null,
