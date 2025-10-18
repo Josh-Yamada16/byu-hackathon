@@ -249,10 +249,10 @@ Constraints:
     if (hasMajorParams && hasRealContent && isOnMajorPage && !redirectedRef.current) {
       // Redirect to the actual chat page to prevent duplicate chats on refresh
       redirectedRef.current = true;
-      // Use setTimeout to ensure sendMessage has been fully processed
+      // Use longer timeout to ensure messages are saved to database
       setTimeout(() => {
         router.push(`/chat/${id}`);
-      }, 500);
+      }, 1500);
     }
   }, [id, majorId, majorName, messages, router]);
 
