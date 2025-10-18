@@ -1,0 +1,446 @@
+Brigham Young University
+Department of Mechanical Engineering
+Course Title: Fluid Mechanics Course: ME EN 312
+Course Time: Section 1 MWF 10:00 – 10:50 a.m. Class Room: CB 230
+Section 2 MWF 1:00 – 1:50 p.m Class Room: CB 254
+Final Schedule: Section 1: Tuesday, December 16th, 7:00 – 10:00 a.m.
+Section 2: Monday, December 15th, 11:00 a.m. – 1:00 p.m.
+Professor: Dr. Daniel Maynes Office Hours: MTuWTh 2-3, TuW 3-4
+Office: 360K EB Email: maynes@byu.edu
+TAs: Dallin Rummler, Porter Nelson Office Hours: TBD – check LS
+Office: 350 CB Email: Check LS
+Course Meeting Structure: This course is an “in-person” course. Students are expected to be in attendance. Student
+success is strongly correlated with regular class attendance. Students who feel sick (fever; cough; shortness of
+breath/difficulty breathing; chills; muscle pain; sore throat; new loss of taste or smell; etc.) should not attend class
+and should work with the instructor to develop a study plan for the duration of the illness.
+Office Hours: The course TAs and Instructor will hold in-person office hours where you can ask questions. If
+preceded by reasonable personal effort, requests for help on all homework problems will always be cordially
+received by both the professor and the course TA.
+Prerequisites: ME EN 312 must be preceded by ME EN 321, ME EN 335, and Math 334. Any exceptions must be approved
+by the instructor.
+Text: 1. Munson, Young, and Okiishi’s Fundamentals of Fluid Mechanics, 9th edition, by Gerhart, Gerhart, and Hochstein,
+2021. Use of either the 7th or 8th editions of the text is also acceptable. You may choose to use an electronic version of the
+text. Note that any hard or electronic copies of the text that are used should be legal versions that have been paid for.
+2. ME EN 312 Course Packet, by D. Maynes. This packet is available at the Bookstore at the cost of printing. It is also
+located on Learning Suite. The packet should be brought to each class session since it includes several examples that we will
+work together.
+Overview: The study of fluid mechanics is exciting and insightful into the phenomena that exist in the world around us. It is
+also a subject that is rigorous and mathematical intensive. Thus, we will utilize the multivariable calculus, differential
+equations, and linear algebra you have already learned. Our approach will involve class discussions, text readings, working
+problems, special projects, and hands-on laboratory experiences. What you learn from this course will depend on your
+attitude and commitment to becoming an independent learner and your willingness to work with others. Recall that for each
+hour you spend in class, the expectation is that the average student will need to spend two hours outside of class on that
+subject. More time will be required to achieve excellence in a particular subject.
+Objectives: The objective of this course is to provide an understanding and ability to mathematically model fluid dynamics
+phenomena. Specifically, the course content is broken into the 10 core topics listed below. For each topic there are certain
+competencies that you should be able to perform upon completion of the course. These are also listed under the
+corresponding topic.
+Topics: Competencies (What you should be able to do upon completion of 312):
+1. Fluid Properties
+Understand viscosity as a fluid property and be able to compute shear stress involving Newtonian
+fluids. Understand the phenomena of surface tension and cavitation.
+2. Pressure in Fluids
+Understand variation in pressure in a static gas or liquid, and be able to compute hydrostatic forces and
+moments.
+3. Flowing Fluids\nBe able to evaluate the local, convective, and total acceleration and understand pressure distributions
+normal to and parallel to streamlines. Be able to appropriately apply Bernoulli's principle and
+recognize the limitations of it.
+4. Conservation of Mass
+Be able to apply the integral form of the conservation of mass for steady and unsteady flow situations
+with uniform or two-dimensional velocity distributions. Recognize and be able to utilize the
+differential form of conservation of mass.
+5. Global Force/Momentum Balances
+Be able to apply the integral form of the linear momentum principle and apply global force/momentum
+balances for stationary and constant velocity frames of reference with uniform or two-dimensional
+velocity distributions. Recognize the Navier-Stokes equations and solve them for simplified viscous
+flows.
+6. Dimensional Analysis
+Be able to determine appropriate dimensionless variables for a given dynamical situation and predict
+prototype behavior based on similitude, and understand the pitfalls of modelling.
+7. Mechanical Energy Equation
+Understand the mechanical energy equation and be able to apply it to laminar and turbulent flow with
+minor and major losses through pipe networks.
+8. Velocity Distributions, Form Drag and Flow Separation
+Be able to model velocity distributions in flat plate boundary layers in laminar and turbulent flows and
+to predict skin friction drag. Understand the phenomena of flow separation and its impact on the total
+drag.
+9. Real World Problem Solving
+Be able to utilize the principles of fluid dynamics to analyze and solve real world flow phenomena. Be
+able to use structured techniques (e.g. The 5 Ps of problem definition) to develop an engineering
+problem statement based on real-world applications of fluid mechanics and apply structured problem-
+solving techniques (e.g. SAFER) to solve fluids engineering problems.
+10. Investigate Phenomena and Communicate Results
+Be able to present results of fluid dynamic phenomena graphically in terms of appropriate
+dimensionless variables and effectively communicate results.
+Email/BYU Learning Suite: I will use email and the BYU Learning Suite to relay information relating to the class. Check
+your email and Learning Suite messages regularly. All assignments will be posted on the BYU Learning Suite with the due
+date specified.
+Homework: Homework will be due weekly on Wednesday by 11:59 p.m. and should be submitted electronically to
+Learning Suite. Homework assigned from the Munson text can be found on Learning Suite under the “Content” tab.
+Note that some assigned problems have a “R” number (i.e. 5.1.3R). These problems are not found in some versions
+of the printed textbook, but are located on LS with the uploaded Munson problem sets. The purpose of the
+homework is to solidify the principles discussed in class and the text so that mastery of the topic can be achieved.
+Some of the homework problems will be considered practice problems (answers will be available) and each week
+there will be a few mastery problems assigned. All homework will be turned in electronically through Learning
+Suite. Solutions to the practice problems should be prepared using an abbreviated SAFER method you learned in
+ME EN 101 on paper of your choice. Working with others on practice problems is encouraged as long as all
+contribute equally, copying another person’s work (or online solutions) is not acceptable. Students will complete an
+assessment on Learning Suite for each set of practice problems. Homework mastery problems should be completed
+without discussion with other members of the class. Communicating solutions to real-world engineering problems is
+a critical skill and is foundational to becoming an influential engineer. Thus, a significant portion of your score on
+homework mastery problems will be based on the professional nature of your solution. Solutions to all homework
+mastery problems should be prepared using the complete SAFER method and the problem-solving template
+available for purchase from the bookstore (shelved under author “Mechanical Engineering Department”), or
+downloaded from the course Learning Suite site. All mastery problems will be graded and returned. If preceded by
+reasonable personal effort, requests for help on all homework problems will always be cordially received by both the
+professor and the course TA. Late homework will be accepted only until 5:00 p.m. the day (Thursday) after the
+homework is due with a penalty of 15%.
+Reading: It is not possible to cover all relevant material in class, thus reading of the assigned material is expected before class
+time. This will not only increase your exposure to the subject, but it will also prompt questions and class discussion on items
+needing clarification. The reading you should read prior to each lecture period is shown on Learning Suite.\nLectures: Just as we cannot cover in class all of the information in the text, we will cover in class much information that is
+not found in text. Thus, it is most prudent to be an active participant in class in addition to being well-versed in the text. The
+topic for each lecture is shown on the schedule posted on Learning Suite.
+Labs and Special Problems: There will generally be one real-world problem, do-at-home experiment, laboratory exercise or
+other special problem assigned each week. The due date and deliverables for each will be specified when they are assigned.
+Quizzes: Approximately 10-12 quizzes will be given in-class during the semester; generally there will be at least one
+quiz/week. The quizzes will generally consist of conceptual questions derived from the text, lecture, homework assignments,
+viewed videos, and laboratory. The time requirement for each quiz will be typically about 5 minutes and the lowest two quiz
+scores will be dropped before the final grade is determined. When quizzes are returned, they can be picked up in the “Return
+Work” box located in the south hallway on the 3rd floor of the EB. When completing the quiz, do not write your name on the
+quiz, instead each student will put their chosen 4-digit identifier on the exam. To choose your 4-digit identifier, complete the
+extra-credit quiz assignment that is due on Friday September 5th.
+Exams: Two mid-term exams are scheduled in addition to a comprehensive final exam. All midterms will be administered in
+the Testing Center and will have a time limit of 90 minutes. The format of all exams will be closed book and closed note. An
+equation sheet will be provided in addition to any relevant information that is needed.
+Citizenship: As a student at BYU you are expected to adhere to the honor code. Academic dishonesty in any form will be
+justification for a failing grade in the class and has no place in the engineering profession. Class attendance and participation
+by asking and responding to questions is expected. Specific examples of good citizenship are: 1) asking well thought
+questions, 2) respectful response to questions, 3) respectfully addressing fellow classmates, the TA, and the Professor, 4)
+assisting others with difficult concepts, etc. Specific examples of bad citizenship include but are not limited to: 1) talking or
+texting with others during lecture, 2) arriving late to class, 3) cell phone interruption of class, etc. A citizenship record will
+be kept throughout the semester by the instructor.
+Grading Procedures:
+Homework Practice Problems 60
+Homework Mastery Problems 60
+Quizzes 100
+Special Problems/Laboratories 60
+Two Mid-Term Exams (100 pts. each) 200
+Comprehensive Final Exam 150
+Total 630 pts
+If performance on the final exam is greater than the lowest midterm or composite quiz score, the final score will replace this
+score. If everyone scores in the 90-100 range I will award everyone A’s. However, I reserve the right to curve the grades if
+the class average lies below 80%.
+Extra Credit: A few opportunities for extra credit will be given throughout the semester.
+Honor Code Standards: In keeping with the principles of the BYU Honor Code, students are expected to be honest
+in all of their academic work. Academic honesty means, most fundamentally, that any work you present as your
+own must in fact be your own work and not that of another. Violations of this principle may result in a failing grade
+in the course and additional disciplinary action by the university. Students are also expected to adhere to the Dress
+and Grooming Standards. Adherence demonstrates respect for yourself and others and ensures an effective learning
+and working environment. It is the university’s expectation, and my own expectation in class, that each student will
+abide by all Honor Code standards. Please call the Honor Code Office at 422-2847 if you have questions about
+those standards.
+Preventing Sexual Discrimination or Harassment: Sexual discrimination or harassment (including student-to-
+student harassment) is prohibited both by the law and by Brigham Young University policy. If you feel you are
+being subjected to sexual discrimination or harassment, please bring your concerns to the professor. Alternatively,
+you may lodge a complaint with the Equal Employment Office (D-240C ASB) or with the Honor Code Office.\nStudents with Disabilities: If you have a disability that may affect your performance in this course, you should get in
+touch with the office of Services for Students with Disabilities (1520 WSC). This office can evaluate your disability
+and assist the professor in arranging for reasonable accommodations.
+Aims of a BYU Education: The mission of Brigham Young University is "to assist individuals in their quest for
+perfection and eternal life" (hereafter Mission Statement). To this end, BYU seeks to develop students of faith,
+intellect, and character who have the skills and the desire to continue learning and to serve others throughout their
+lives.
+Mechanical Engineering Department’s BIG: “To be recognized as the best undergraduate mechanical engineering
+program in the world and the alma mater for the world’s most influential engineers.”
+Influential Engineers Develop:
+CHARACTER: Influential engineers have integrity and strong desires to serve their community and their profession.
+They do the right thing, even when no one is watching or when others oppose it. Their influence is derived from
+strong moral principles and mutual respect. Their sphere of influence expands as others recognize and trust their
+character.
+RESILIENCE: Influential engineers are resilient and learn from their failures. They persevere in pursuit of long-
+term goals. They embrace challenge and recognize effort is the path to mastery.
+TECHNICAL EXCELLENCE: Influential engineers are innovative experts in their field. They solve significant,
+real-world problems by building models based on basic concepts and fundamental laws. They use state-of-the-art
+engineering practices and technologies to solve their models and obtain results.
+COMMUNICATION SKILLS: Influential engineers communicate results and conclusions clearly and concisely.
+They persuasively present recommendations that prevent and solve problems. They are collaborative and always
+civil, particularly when others have differing viewpoints.
+LEADERSHIP: Influential engineers lead in ethical behavior regardless of their position. They focus more on the
+greater good than on personal achievement. They make tough decisions when necessary. They inspire with genuine
+praise, correct with kindness when necessary and generously recognize the contributions and accomplishments of
+colleagues.
+LIFELONG LEARNING AND SERVICE: Influential engineers consistently develop new skills and use their
+abilities and resources to enhance the lives of others.
+“Nothing in the world can take the place of persistence. Talent will not; nothing is more common than unsuccessful
+men of talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of
+educated derelicts. Persistence and determination alone are omnipotent.” – President Calvin Coolidge
+“And as all have not faith, seek ye diligently and teach one another words of wisdom; yea, seek ye out of the best
+books words of wisdom; seek learning, even by study and also by faith.” - D&C 88:118\nHomework, Labs, Special Problems/Videos
+Assignment #1 (Sept 10)
+Practice problems
+Reading: (1.1-1.7) - 25 pages
+1.6.14: 20°C: 1.765x10-5 N-s/m2 (Eq.), 1.76x10-5 N-s/m2 (Table);
+90°C: 2.13x10-5 N-s/m2 (Eq.), 2.14x10-5 N-s/m2 (Table);
+1.6.22: Non-Newtonian
+1.6.36: T = 0.0772 ft-lb
+1.7.5: Volume decrease of 0.0163 m3
+Mastery Problems
+1.6.27
+1.6.34
+Special Problems/Videos/Laboratories
+Navigate to the following website and watch the video “Surface Tension” in its entirety.
+Identify at least four new things you learned about surface tension and report these as part of the
+Learning Suite Video Quiz. Note that the video quality is much better if you select the “TechTV” link
+instead of the “YouTube” link.
+http://web.mit.edu/hml/ncfmf.html
+Assignment #2 (Sept 17)
+Practice Problems
+Reading: (1.8-1.10, 2.1-2.9) – 29 pages
+1.9.10: D = 0.061 in.
+max
+2.6.9: P = P = 15.0 psia, P = 15.5 psia
+A B C
+2.8.22: 1060 kN, 1010 kN, 1.37 x 106 N-m
+2.8.43: 1.88 ft
+Mastery Problems
+2.6.17
+2.8.23
+Special Problems/Videos/Laboratories
+Navigate to the following website and watch the video “Cavitation” in its entirety. Identify at least four
+new things you learned about cavitation and report these as part of the Learning Suite Video Quiz. Note
+that the video quality is much better if you select the “TechTV” link instead of the “YouTube” link.
+http://web.mit.edu/hml/ncfmf.html
+Assignment #3 (Sept 24)
+Practice Problems
+Reading: (2.10-2.12, 3.1-3.5) – 24 pages
+2.10.11: 64.4 kN
+3.2.3: (b) 39.9 psi
+3.6.9: 1248 lb/ft2
+3.3.3: 12 kPa, -20.1 kPa
+Mastery Problems
+2.10.17
+3.5.13
+Special Problems/Videos/Laboratories
+Cavitation Demo walk-in lab. Lab #1 assigned.\nAssignment #4 (Oct 1)
+Practice Problems
+Reading: (3.6-3.9, 4.1-4.3) - 37 pages
+3.6.21: 11.4 m3/s
+4.1.10: x2 + y2 = constant
+4.2.11: c = 0.49 1/s
+4.2.28: 3.13x10-5 m/s2, 2x10-3 m/s2
+Mastery Problems
+3.6.40
+4.2.15
+Special Problems/Videos/Laboratories
+Lab #1 Due
+Assignment #5 (Oct 8)
+Practice Problems
+Reading: (4.4-5.1)
+5.1.4: 3.66 slugs/s
+5.1.22: 1.78 ft/s
+3.6.73: 36.5 s
+HWP5.1. A slow leak develops in a tank of constant volume containing air. The pressure, P, in
+the tank is initially 60 psig. However, after three hours the pressure is 30 psig. The tank
+volume is 2 ft3 and the temperature in the tank remains constant at 60°F. The mass-flow rate of
+air is given by
+PA
+m˙ = 0.68
+RT
+where P is the tank pressure as a function of time, A is the area of the hole, R is the ideal gas constant f
+or air, and T is the tank temperature in Rankine. Determine the size of the hole in the tank.
+Answer: hole diameter = 0.0052 in
+Mastery Problems
+4.4.11
+5.1.3R (“R” problems are not found in some versions of the text, but can be found on LS)
+Special Problems/Laboratories
+Working in a group of not more than three individuals conduct an experiment to determine the
+time required for a 2-L pop bottle to drain when oriented in the normal vertical position. The bottle
+should drain through a small hole that you will drill into the bottle (put the hole near the bottom of the
+bottle but still in the constant diameter portion of the bottle). Measure the time to drain from some initial
+known volume to a final volume (where the only remaining fluid is just above the level of the drain
+hole). Repeat your experiment with the same initial volume 2-3 times to minimize your uncertainty and
+conduct the experiment for at least three different initial volumes (i.e. full, 2/3 full, and 1/3 full). Also
+perform a control volume analysis to predict the drain time utilizing the conservation of mass and
+Bernoulli’s principles we have learned in class. To do this you will need to make very careful
+measurements of all relevant variables (i.e. drain hole diameter, bottle inside diameter, total volume
+drained, initial and final water levels above the drain hole, etc.). Further, you will recall from your
+previous experiments with this 2-liter bottle that to obtain the correct mass flow rate from the bottle you
+need to use a contraction coefficient. For a thin-wall orifice and free-jet, the contraction coefficient is
+known to be 0.61. Compare your experimental results with the prediction graphically and comment on
+the discrepancy, if any.\nAssignment #6 (Oct 15) (Reduced set this week – Exam 1 10/14-10/16)
+Practice Problems
+Reading (5.1-5.2)
+5.2.4: 7.01 ft3/s and 674 lb
+5.2.5: 106 N
+5.2.13: 693 kN and 298 kN
+5.2.30: 66.6 N
+Mastery Problems
+5.2.32
+Special Problems/Laboratories
+Nothing due this week – Exam week
+Assignment #7 (Oct 22)
+Practice Problems
+Reading (5.3 and 6.1-6.2)
+5.3.12: 926 ft-lb/slug and 200 ft-lb/slug
+5.3.20: 0.052 m3/s
+5.3.33: solution in problem statement
+6.1.2: a = x, a = 2x2z + x2yz, a = x2z2 +y2z,
+x y z
+6.1.4: dilatation rate = 0, , not irrotational
+Mastery Problems
+5.3.29
+6.1.2
+Special Problems/Laboratories
+Nothing due this week. Lab #2 assigned.
+Assignment #8 (Oct 29)
+Practice Problems
+Reading (6.3-6.4.4, 6.8-6.10)
+6.2.2: irrotational, conservation of mass is satisfied
+6.9.1: 4.21 x 10-4 m2/s, 60 N/m2 in the flow direction, 0.158 m/s
+6.9.2: 43.2 lb/ft3, 0.75 ft/s
+6.9.12: 0.759 in
+Mastery Problems
+6.2.1R
+6.9.10
+Special Problems/Laboratories
+Lab #2 Due\nAssignment #9 (Nov 5)
+Practice Problems
+Reading: Chapter 7
+7.3.4:
+7.3.16: 𝑊̇ /𝜌𝜔!𝐷", 𝑄/𝜔𝐷!, 𝜇/𝜌𝜔𝐷#
+!.++
+7.7.3: ∆𝑃/𝜌𝑉# and 𝐷/𝑑 gives ∆% =0.5051 ( 2
+&’! )
+7.8.2: 29.3 ft/s and 75 rpm
+Mastery Problems
+7.3.15
+7.8.3R
+Special Problems/Laboratories
+You previously conducted experiments in the wind tunnel and measured the drag on five
+objects at five different speeds. Use this data and for each case compute the drag coefficient (𝐶 =
+#,"
+)
+) &-!.
+&-(
+and Reynolds number (𝑅𝑒= ). F is the drag force you measured in the lab, A is the frontal area of
+d
+/
+the shapes used (pD2/4), D is the diameter of the objects, U is the fluid speed, r is the air density in the
+wind tunnel, and µ is the air viscosity. Then plot your C vs. Re data on a single graph. It will be
+d
+important for to make sure that your values for C and Re are truly dimensionless.
+d
+Deliverables:
+1) Your plot showing C vs. Re for the five different shapes. This plot should be a high-quality
+d
+graphic and you should follow the instructions for preparing such a graph here:
+https://www.me.byu.edu/00000173-9298-d205-aff3-daddfc530000/how-to-make-a-figure-pdf
+2) A brief paragraph that accompanies your plot and describes whether the drag coefficient for
+each shape varies with Re and the implication of your observation.
+Based on your data predict for each shape the drag you think that would exist if water was flowing past
+these shapes at a speed of 1 m/s.
+Assignment #10 (Nov 12)
+Practice Problems
+Reading Sections 8.1-8.3 from the course text
+7.9.1: 27.8 psi
+8.1.3: viscosity 1000x is unmixed blue and yellow, viscosity 10x is green
+8.2.3: -7.4 lb/ft3, -69.8 lb/ft3, 55.0 lb/ft3
+8.3.2: 0.707 R, 0.750 R
+Mastery Problems
+7.9.6
+8.2.14
+Special Problems/Laboratories
+Real World Problem 1 – TBD
+Deliverables:
+1. Your work showing how you used the 5 Ps to consider the real-world problem and develop a
+problem statement.
+2. A complete and coherent engineering problem statement that you are confident that you
+could solve using principles learned in this class.
+3. A solution to your problem statement.\nAssignment #11 (Nov 19)
+Practice Problems
+Reading: The remainder of Chapter 8
+8.4.12: 21.0
+8.5.10: 520 hp, 147 psig
+8.5.15: 36.6 psi
+8.5.28: 0.29 ft3/s
+8.5.39: 0.535 to 0.563 ft or so
+8.5.53: 0.0180 m3/s
+Mastery Problems
+8.4.21
+8.5.34
+Special Problems/Laboratories
+None this week – extra practice problems
+Assignment #12 (Nov 26) (Reduced set this week – Exam 2 11/19-11/22, Thanksgiving)
+Practice Problems
+Reading: Sections 9.1-9.2
+9.2.4: 0.00718 m/s, 0.00229 m/s
+3."2
+9.2.10: 0 𝜌𝑢# =14.41 1 2 45
+# !23 67!
+Mastery Problems
+9.2.14
+Special Problems/Laboratories
+None this week
+Assignment #13 (Dec 3)
+Practice Problems
+Reading: None
+9.3.17: 0.0296 N
+9.3.22: 23.9 ft-lb
+Mastery Problems
+9.3.23
+Special Problems/Laboratories
+Real World Problem 2 – TBD
+Deliverables:
+1. Your work showing how you used the 5 Ps to consider the real-world problem and develop a
+problem statement.
+2. A complete and coherent engineering problem statement that you are confident that you
+could solve using principles learned in this class.
+3. A solution to your problem statement.\nAssignment #14 (Dec 10)
+Practice Problems
+Reading: Sections 9.3-9.4
+9.3.11: 0.10
+9.3.15: 1.88 x 10-4 lb, 33.3% reduction
+9.3.60: 53.5 kW, 4.46 kW, 42.0 kW
+9.4.4: 65.9 hp
+Mastery Problems
+9.1.4
+9.3.64
+Special Problems/Laboratories
+Static pressure measurements on the surface of a smooth cylinder (Diameter – 1.5 inches) were
+obtained in the wind tunnel in the basement of the CB. The static pressure was measured as a function of
+the angular location, q, where q = 0 corresponds to the stagnation point on the cylinder. The wind tunnel
+speed was U = 26 m/s, the atmospheric pressure was 86 kPa and the air temperature was 298 K. The
+¥
+data are tabulated below. P is the static pressure on the surface and P is the static pressure far from the
+s ¥
+cylinder. For this data, determine the following:
+a. Is the boundary layer on the cylinder laminar or turbulent? Explain how you know.
+b. Plot the pressure coefficient, C , as a function of q
+P
+b. Determine the drag coefficient using the data provided and compare it to values that are
+given in the Munson et al. text. (numerical integration will be required)
+INSTRUCTIONS FOR PRACTICE PROBLEMS
+For all homework practice problems, you are encouraged to work with other students and ask questions of the course
+instructor. Solutions to these problems should follow the abbreviated SAFER method and can be done on paper of
+your choice. Your work should be clear and easily followed. Submit images of your work through the Mastery
+Problems link. YOU NEED TO ALSO COMPLETE THE LEARNING SUITE QUESTIONNAIRE RELATED TO
+THESE PROBLEMS (DUE ONLINE AT THE TIME INDICATED ABOVE). Numerical answers to even
+numbered problems can be found on Learning Suite under the “Content” tab.
+All HW solutions (both practice and mastery) should be uploaded through the HW Mastery Problem (Launch
+External Plug-in) link. work should be submitted as a single file in .pdf format. Place the Mastery problems at the
+front, with the practice problems placed following the mastery problems. You may scan your work using any device
+that works for you. The SwiftScan app can be downloaded for free and is a quick effective method to use your
+phone to scan all of your work into a single file following the instructions for submitting HW found under the
+content tab on LS.
+INSTRUCTIONS FOR MASTERY PROBLEMS
+For homework mastery problems you are NOT to work with other students in developing your solution and they are
+to be solved following the complete SAFER method using the ME EN department problem solving template. A
+significant portion of the grade on mastery problems will be related to your following the complete SAFER
+approach. You can (and are encouraged to) ask questions of the course TA’s and instructor. However, these
+questions should be specific and aimed at helping you understand concepts you are struggling with. Questions that
+are simply checking to see if you got the “right” number will not be answered. Images of your solutions to these
+problems should be submitted to by the due date/time noted above.
+All HW solutions (both practice and mastery) should be uploaded through the HW Mastery Problems #1 link. Your
+work should be submitted as a single file in .pdf format. Place the Mastery problems at the front, with the practice
+problems placed following the mastery problems. You may scan your work using any device that works for you.
+The SwiftScan app can be downloaded for free and is a quick effective method to use your phone to scan all of your
+work into a single file.

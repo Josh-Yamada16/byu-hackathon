@@ -1,0 +1,140 @@
+{
+  "courseCode": "291",
+  "courseName": "ME EN 291: Job Finding",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mechanical Engineering",
+  "meetingStructure": {
+    "format": "Virtual via Zoom",
+    "zoomLink": "https://byu.zoom.us/j/94026717810",
+    "day": "Thursday",
+    "time": "11:00-11:50 a.m.",
+    "dateSchedule": "See course schedule for specific dates"
+  },
+  "instructors": [
+    {
+      "name": "Dr. Brad Adams",
+      "email": "brad.adams@byu.edu",
+      "office": "EB 360-I",
+      "officeHours": "By appointment"
+    },
+    {
+      "name": "Tony Jewkes",
+      "email": "tony_jewkes@byu.edu",
+      "office": "EB 246",
+      "officeHours": "By appointment"
+    }
+  ],
+  "requiredMaterials": [
+    {
+      "title": "The 2-Hour Job Search, Second Edition: Using Technology to Get the Right Job Faster",
+      "edition": "2nd Edition",
+      "author": "Steve Dalton",
+      "required": true
+    }
+  ],
+  "recommendedMaterials": [
+    {
+      "title": "The 20-Minute Networking Meeting - Graduate Edition: Learn to Network. Get a Job.",
+      "author": "Nathan A. Perez"
+    }
+  ],
+  "courseOverview": "The purpose of this course is to help students find success in life by learning detailed effective strategies for job finding. Starting the job search early is important. The course teaches how to implement the most efficient and successful job search method, providing you with skills needed for future job searches (typically in about 5 years on average).",
+  "coursePhilosophy": {
+    "motivation": "Job search is important but easy to procrastinate as there is no real pain until desperation sets in and no instant gratification",
+    "structure": "Course provides structure to keep moving toward career goals"
+  },
+  "grading": {
+    "gradeType": "Pass/Fail",
+    "requirements": "Attendance required at all classes; must complete all assignments to receive passing grade"
+  },
+  "courseSchedule": [
+    {
+      "date": "9/4",
+      "topic": "2-Hour Job Search Overview",
+      "assignment": "#1 List 40 Employers"
+    },
+    {
+      "date": "9/11",
+      "topic": "STEM Fair Prep/Interviewing",
+      "assignment": "#1a List 3 companies researched for STEM Fair"
+    },
+    {
+      "date": "9/18",
+      "topic": "No Class – STEM Fair",
+      "assignment": null
+    },
+    {
+      "date": "9/25",
+      "topic": "Finish LAMP List: Prioritize Target Employers",
+      "assignment": "#2 Finish LAMP List: Prioritize Target Employers"
+    },
+    {
+      "date": "10/2",
+      "topic": "Contact and Recruit: Email, Track, Research, Interview (3B7 Method)",
+      "assignment": "#3 Initiate the 3B7 method"
+    },
+    {
+      "date": "10/9",
+      "topic": "Follow Up and Continue (3B7): Informational Interviews",
+      "assignment": "#4 Follow-up & Continue 3B7",
+      "note": "General BYU Career Fair Day"
+    },
+    {
+      "date": "10/16",
+      "topic": "No Class – College Lecture",
+      "assignment": null
+    },
+    {
+      "date": "10/23",
+      "topic": "Contact, Recruit, Follow-Up (3B7): Support Teams",
+      "assignment": "#5 Informational Interview"
+    },
+    {
+      "date": "10/30",
+      "topic": "Career Planning / Professionalism in the Workplace",
+      "assignment": "#6 Academic Career Goals"
+    }
+  ],
+  "courseOutcomes": [
+    {
+      "outcome": "Career Planning",
+      "description": "Students will develop a plan for their academic career that will facilitate obtaining professional employment"
+    },
+    {
+      "outcome": "Interviewing",
+      "description": "Students will be able to professionally communicate relevant interests, skills, and experiences in an interview"
+    },
+    {
+      "outcome": "Job Search Skills",
+      "description": "Students will learn and implement a proven networking technique for obtaining employment"
+    },
+    {
+      "outcome": "Professionalism in the Workplace",
+      "description": "Students will be familiar with professional expectations in the workplace, including ethics, diversity, and communications"
+    }
+  ],
+  "jobSearchMethods": {
+    "methodology": "Combination of 2-Hour Job Search approach and 3B7 networking method",
+    "components": [
+      "LAMP List (employers)",
+      "Email and outreach",
+      "Research and tracking",
+      "Interviewing (informational and formal)",
+      "Follow-up and support teams"
+    ]
+  },
+  "policies": {
+    "titleIX": {
+      "overview": "BYU prohibits unlawful sex discrimination against participants in education programs and activities",
+      "scope": "Prohibited conduct includes sexual harassment, sexual violence, dating violence, domestic violence, sexual assault, and stalking",
+      "reporting": {
+        "requirement": "All university employees in teaching, managerial, or supervisory role must report all Sexual Misconduct incidents",
+        "coordinator": "Title IX Coordinator at t9coordinator@byu.edu or (801) 422-8692 or 1085 WSC",
+        "ethicsPoint": "Reports may also be submitted through EthicsPoint at BYU Title IX website or 1-888-238-1062 (24 hours)",
+        "confidential": true,
+        "confidentialResources": "Victim Advocate and non-confidential resources available"
+      }
+    }
+  }
+}

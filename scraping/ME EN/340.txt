@@ -1,0 +1,367 @@
+ME EN 340 HEAT TRANSFER
+Fall 2025, Section 3: MWF 3:00 – 3:50 pm, 321 EB
+Class Date Topic Reading* Homework** Due
+1 W Sep 3 Course introduction 1.1 Syllabus 1.2 HW1: 1.7(P), 1.12(P) 1.3 Tu Sep 9
+2 F Sep 5 Modes of heat transfer, Conservation of energy 1.1 – 1.7 HW2: 1.17, 1.27(P), 1.43 Tu Sep 9
+3 M Sep 8 Conduction and properties 2.1 – 2.2 HW3: 2.6, 2.15 Tu Sep 16
+4 W Sep 10 Heat diffusion eqn, boundary conditions 2.3 – 2.5 HW4: 2.23a-e, 2.43(P) Tu Sep 16
+5 F Sep 12 1D steady state conduction, thermal resistance 3.1 HW5: 3.5ab(P), 3.26a Tu Sep 16
+6 M Sep 15 Thermal resistance- radial systems 3.3 HW6: 3.45, 3.55(P) Tu Sep 23
+7 W Sep 17 Conduction with thermal energy generation 3.5 HW7: 3.64(P), 3.74 Tu Sep 23
+8 F Sep 19 Extended surfaces 3.6.1 – 3.6.2 HW8: 3.99(P), 3.115 Tu Sep 23
+9 M Sep 22 Extended surfaces- effectiveness and efficiency 3.6.3 – 3.6.5, 3.8 HW9: 3.106, 3.107(P) Tu Sep 30
+10 W Sep 24 2D steady state conduction- numerical 4.1, 4.4, 4.5 HW10: 4.50(P), BHTE Tu Sep 30
+11 F Sep 26 Transient conduction- lumped capacitance 5.1 – 5.3 HW11: 5.7, 5.13(P) Tu Sep 30
+12 M Sep 29 Transient conduction- spatial effects 5.4 – 5.7 HW12: 5.61, 5.67(P) Fri Oct 3
+13 W Oct 1 Transient conduction- numerical 5.10 HW13: 5.88, 5.98(P) Fri Oct 3
+14 F Oct 3 Conduction review
+15 M Oct 6 Exam 1
+16 W Oct 8 Introduction to convection 6.1 – 6.3 HW14: 6.1(P), 6.11 Tu Oct 14
+17 F Oct 10 Boundary layer equations, similarity 6.4 – 6.6 HW15: 6.10(P), 6.30 Tu Oct 14
+18 M Oct 13 External flow- flat plate 7.1 – 7.3 HW16: 7.16, 7.33(P) Tu Oct 21
+19 W Oct 15 External flow- spheres and cylinders 7.4, 7.5 HW17: 7.41(P), 7.65ab Tu Oct 21
+20 F Oct 17 Internal flow- boundary layers 8.1 HW18: 8.7, 8.9 Tu Oct 21
+21 M Oct 20 Internal flow- energy balance 8.2, 8.3 HW19: 8.12(P), 8.14 Tu Oct 28
+22 W Oct 22 Convection correlations- laminar and turbulent circular 8.4, 8.5 HW20: 8.27, 8.29(P) Tu Oct 28
+23 F Oct 24 Convection correlations- non-circular 8.6, 8.10 HW21: 8.64, 8.66(P) Tu Oct 28
+24 M Oct 27 Convection practice HW22: 8.37 Tu Nov 4
+25 W Oct 29 Laminar free convection 9.1 – 9.3 HW23: 9.10(P), 9.15 Tu Nov 4
+26 F Oct 31 Free convection correlations 9.4 – 9.6 HW24: 9.31(P), 9.45a Tu Nov 4
+27 M Nov 3 Heat exchangers 11.1 – 11.3 HW25: 11.2(P), 11.9 Th Nov 6
+28 W Nov 5 Convection review
+29 F Nov 7 Exam 2
+30 M Nov 10 Radiation concepts, intensity 12.1 – 12.3 HW26: 12.9(P), 12.12 Tu Nov 18
+31 W Nov 12 Blackbody radiation 12.4 HW27: 12.14(P), 12.16 Tu Nov 18
+32 F Nov 14 Real surfaces- absorption, reflection, transmission 12.5 – 12.6 HW28: 12.27 Tu Nov 18
+33 M Nov 17 Kirchoff’s Law, gray surfaces 12.7 – 12.8 HW29: 12.33, 12.76a-d(P) Tu Nov 25
+34 W Nov 19 Environmental radiation 12.9 – 12.10 HW30: 12.87(P), 12.101(P) Tu Nov 25
+35 F Nov 21 View factors 13.1 HW31: 13.1, 13.9(P) Tu Nov 25
+36 M Nov 24 Blackbody radiation exchange 13.2 HW32: 13.18(P), 13.23 Tu Dec 9
+-- W Nov 26 Thanksgiving: No class
+-- F Nov 28 Thanksgiving: No class
+37 M Dec 1 Radiation exchange- diffuse, gray surfaces 13.3.1, 13.3.2 HW33: 13.31(P), 13.67 Tu Dec 9
+38 W Dec 3 Radiation exchange- two-surface enclosures, radiation shields 13.3.3, 13.3.4 HW34: 13.44 Tu Dec 9
+39 F Dec 5 Multimode heat transfer 13.4 – 13.5, 13.7 HW35: 13.72a, 13.84(P) Tu Dec 9
+40 M Dec 8 Radiation review
+41 W Dec 10 Final review
+W Dec 17 Comprehensive Final Exam (3-6 pm)
+* This schedule and syllabus serve as an outline and guide for our course. I may modify it with reasonable notice to you; changes will be
+announced in class and posted on Learning Suite.
+** Homework is from the 8th edition of the textbook. (P) indicates Practice Problems for which solutions are posted on Learning Suite.
+- 1 -\nInstructor: Christopher R. Dillon
+Email: chris.dillon@byu.edu
+Office: EB 360F
+Phone: 801-422-3650 (office)
+Office hours: MWF 2-2:50 pm
+M 4-5 pm
+Th 10-11 am
+Favorite author: Roald Dahl
+An old favorite song: Hoppípolla, by Sigur Rós
+A new favorite song: Good Together, by Lake Street Dive
+A favorite scripture: D&C 90:24
+Favorite children: Claire, Rosalie, Mira, and Benjamin
+Favorite sports: Basketball, ballroom dancing, frisbee,
+volleyball, baking, kitchen dancing
+Office hours
+My office hours are right before class! If you are unable to meet at that time or would like to meet a
+different time, feel free to email or drop by my office. If my door is closed, don’t hesitate to knock. If
+another student is already talking to me, and we’re jabbering away, make your presence known.
+Office hours are for YOU! This is time that I have set aside each week to dedicate to helping students.
+Do not feel like you are taking advantage of my time by coming—that is what the time is for! Don’t feel
+like you need to stop by exactly at the start time—any time during the entire window is fair game. And
+don’t feel pressured into making it quick, especially if no one else is waiting: if you want to spend the
+whole block of time hashing out some things or getting help for whatever reason, that’s okay!
+Many think that office hours are only for homework help or if you didn’t understand the lecture. That’s
+just the start! You can come into office hours to talk about anything—other things related to the class,
+other engineering classes, some fun project idea you’re thinking about, guidance on picking a research
+lab, talking about graduate programs or career plans, shooting the breeze about baking, etc. This is your
+chance to have dedicated one-on-one time with me, regardless of whether it has to do with heat transfer.
+I love it when students come by, and you should feel comfortable doing so, for whatever reason.
+Office hours are a good way for me to get to know you. If you end up applying to graduate/law/med
+school or jobs that require letters of recommendations, I can’t really write a good one if you were “just”
+another student in my class. But if you’ve come to office hours and given me a chance to get to know
+you, I can write a better letter for you when it’s needed.
+O, one might reach heroic heights
+By one strong burst of power.
+He might endure the whitest lights
+Of heaven for an hour;—
+But harder is the daily drag,
+To smile at trials which fret and fag,
+And not to murmur—nor to lag.
+The test of greatness is the way
+One meets the eternal Everyday.
+- Edmund Vance Burke
+- 2 -
+em
+tuobA
+nehW
+esopruP
+ssucsid
+ot
+tahW
+sunoB
+meop
+etirovaF\nTA hours
+Gaining mastery of heat transfer isn’t easy. Along the way, it can be messy and frustrating and very
+demanding. Don’t try to push through alone! TAs can help guide your path through the muck. That’s
+why we have them! The TA office is also a fantastic place to find fellow students grappling with the
+material. Learn from and teach one another. Effective teamwork is essential for influential engineers.
+TA office hours are held in room CB 350. They are posted on Learning Suite under the “Content” tab.
+Teagan Matthews Emma Bowden Muhammad Taha Josh Cannon
+tkm36@byu.edu eebowden@byu.edu tahabyu@byu.edu jrcannon@byu.edu
+TA Office
+CB 350
+Course Overview
+Heat transfer is the study of energy transfer due to a temperature difference, the rates of that transfer,
+and the resulting temperature distributions. This course is designed to provide advanced undergraduate
+engineering students with a knowledge and understanding of the fundamentals of conduction,
+convection and radiation heat transfer modes and of relations used to calculate heat transfer rates.
+Textbook
+Bergman, Lavine, Incropera, and Dewitt, Fundamentals of Heat and Mass
+Transfer, Eighth Edition, Wiley, 2011.
+• Because the technical content changes very little from one edition to the
+next students may use the Seventh or Eighth Edition. However, all
+sections referenced on the syllabus come from the Eighth Edition, and
+students will be held responsible for content in that edition.
+• Those who still need a textbook may purchase a looseleaf copy or rent
+an Eighth Edition E-book at BYU’s My Booklist:
+https://booklist.byu.edu/Home/Mybooklist
+Me En 340 Course Learning Outcomes
+1. Conservation Principles. Each student can model heat transfer processes in idealized and practical
+systems by identifying relevant heat transfer modes and applying conservation of mass and energy.
+2. Conduction. Each student can describe the physical mechanisms involved in conduction heat transfer
+and use Fourier's law to model the conduction heat rate. Each student can apply conservation principles
+to develop the heat diffusion equation, apply appropriate boundary conditions, solve the heat diffusion
+equation for simplified scenarios (e.g. lumped/1D/2D, steady/transient, with/without generation) using
+analytical and/or numerical methods and apply these solutions in appropriate modeling scenarios.
+3. Convection. Each student can describe the physical phenomena associated with convection, use non-
+dimensional parameters and empirical correlations to predict local and global convective heat transfer
+coefficients for laminar or turbulent flows. Each student can apply Newton's law of cooling to calculate
+external or internal, forced or free convection heat transfer.
+- 3 -
+slliks
+&
+egdelwonK
+poleved
+ll’uoy\n4. Radiation. Each student can describe the physical mechanisms involved in radiation heat transfer and
+apply appropriate relations to model intensity and radiative heat flux to/from a surface. Each student can
+determine total, hemispherical radiative properties of a surface from spectral, directional quantities and
+apply appropriate models to obtain the net radiative heat rate at a surface and radiative heat exchange
+between diffuse, gray surfaces forming an enclosure.
+5. Problem Solving. Each student can identify heat transfer phenomena in real-world scenarios, use a
+structured method to define the scenario (e.g. 5 Ps of Problem Definition), apply conservation principles
+and fundamental laws with appropriate approximations to build a model that represents the scenario,
+solve the model using a systematic method (e.g., SAFER), and document their analysis/results using an
+organized structure (e.g., IMRaD) to convey conclusions and recommendations.
+Me En 340 Course Expectations
+• Attend the lectures, ask questions, give answers! When we do mini reviews or practice problems
+during lectures, actively work with the people around you. The value of class time increases with the
+level of your engagement.
+• This is a difficult course. To be successful, it will require your consistent and diligent effort. Each
+reading assignment will take about ½ hour. Homework problems take a significant amount of time to
+be mastered, so avoid procrastination.
+• While difficult, heat transfer is awesome! There are incredible ways that heat transfer affects and
+enriches our lives. I’m excited to share with you and learn about these things together.
+• As you put forth your honest best effort, I will provide every opportunity I can for you to thrive. If
+you’re struggling with an assignment, come talk to me. If you have questions about the reading,
+come talk to me. If you feel overwhelmed, come talk to me. If you have special circumstances or
+needs, come talk to me. I want to help you succeed in this course and in your engineering career.
+• Finally, I expect personal integrity from my students and myself. I encourage group studying and
+hope you will collaborate on homework but copying from others or from AI without being
+intellectually engaged is cheating. I consider using an online or prior semester’s solution manual
+(other than what I post for you on Learning Suite) for Homework Practice or Homework Mastery
+problems to be plagiarism. This will be considered a violation of the Honor Code. Cheating isn’t
+worth it. Let’s work together to learn the material and we can have a great semester.
+Course Purpose
+Advance along the developmental path from a BYU student to an engineer in the world
+that solves problems, gives your best, embraces the Holy Ghost, lives authentic
+discipleship, and finds joy and balance in career, family, social, and gospel living.
+Homework
+This class has two types of homework: 1. Practice and 2. Mastery.
+Practice problems are intended to help you learn the material but not necessarily to assess your
+knowledge. To facilitate learning, solutions to Practice problems are posted on Learning Suite. You
+should attempt these problems on your own or with other students and check the posted solution as
+a last resort for clues or to confirm that you are doing the problems correctly. Please do not to
+copy/save the posted Practice solutions. They are only for review as you do the homework.
+Mastery problems are intended to assess your ability to apply concepts to new problems. Solutions
+to the Mastery problems are not posted prior to the due date. You may confer with other students on
+these problems and with the TA and the instructor if you have a conceptual question. The TA will
+not show you the key or give answers to these problems so please do not request that.
+Homework Practice and Mastery problems are due at midnight on the date specified in the syllabus.
+Your solutions to homework should be orderly and follow a structured format. Scanned copies of both
+- 4 -
+slliks
+&
+egdelwonK
+retsemes
+taerg
+a
+rof
+epicer
+ehT
+poleved
+ll’uoy
+erutcip
+gib
+ehT\nPractice and Mastery solutions should be uploaded digitally on Learning Suite. Immediately after the
+due date/time, all homework solutions will be posted on Learning Suite. You will have 48 hours to
+grade your own homework following the ME EN 340 Homework Self-Grading Procedure below and
+to submit a grade under “Homework Report” in Learning Suite. Self-grading helps you learn where you
+went wrong while the homework is still fresh in your mind.
+ME 340 HOMEWORK SELF-GRADING PROCEDURE
+Homework solutions will be published on Learning Suite (“Content” tab) immediately after the
+homework submission deadline. Students should review the posted solutions and grade their own work.
+Each assigned homework problem should be graded using the following general grading rubric,
+with 10 points possible for each problem:
+Work Points
+Appropriate schematic with control volume and energy interactions 2
+Clearly stated assumptions/approximations 2
+Correct use of energy, rate, or other fundamental equations 2
+Clear and appropriate solution process 2
+Correct numerical answer and units 1
+Reflection on solution’s appropriateness and limitations 1
+The total score for the assignment should be summed and then input in the “HW XX Report” in the
+“Exams” tab on Learning Suite. Scoring buttons are listed in 5-point increments (e.g., 5, 10, 15, ..., 50,
+55, 60). Input the self-graded total homework score using the buttons, rounded up the nearest 5-point
+option.
+Late Policy
+In general, late Homework will not be accepted. However, you are allowed one exception to submit a
+late assignment with no penalty. To do so, complete the work when you can and email the scanned
+copies of your solutions and self-graded score directly to our TA Teagan Matthews (tkm36@byu.edu).
+Late Homework Reports have their own policy. If you email Teagan your self-graded score with 24
+hours of the deadline, there is a 5-point penalty applied to your score. If the score is emailed to Teagan
+greater than 24 hours from the deadline, a 15-point penalty will be applied.
+Portfolios
+You will develop two portfolios of heat transfer applications during the course. For each portfolio, you
+will take identify a real-life heat transfer problem, perform an analysis for the observed heat transfer
+process, and then present results and a critical evaluation of your solution. More details of the portfolios
+will be presented in class.
+Quizzes
+There will be occasional quizzes throughout the semester that emphasize key concepts and prepare you
+for exams. These quizzes may be given in class, with or without advance notice, or on Learning Suite.
+Service
+“I have tried to imagine [Jesus Christ] bustling between meetings or multitasking to get a list of urgent
+things accomplished,” President Dieter F. Uchtdorf said. “I can’t see it. Instead, I see the compassionate
+and caring Son of God purposefully living each day” (Of Regrets and Resolutions, October 2012 GC).
+While each of our semesters will unquestionably be busy, it is important to take time for the most
+important things. I have reduced your Homework load this semester to free up time for service. Details
+of this assignment will be presented in class.
+Education and service in your 20s leads to a happier, more regret-free life in your 30s
+Service and BYU’s 150th
+- 5 -\nExams
+There will be two midterm exams and a final exam. The format for each exam will be presented in
+class. The final exam will be comprehensive on the date shown in the syllabus.
+Grades
+Total scores for homework, portfolios, and exams are averaged and then weighted by the percentage
+given below. The grade scale can be found on Learning Suite. Importantly, note that the grade
+computed on Learning Suite throughout the semester is not predictive of your final grade.
+Homework 18%
+Portfolios and Quizzes 15%
+Service 2%
+Exam 1 20%
+Exam 2 20%
+Final Exam 25%
+Honor Code
+In keeping with the principles of the BYU Honor Code, students are expected to be honest in all their
+academic work. Academic honesty means, most fundamentally, that any work you present as your own
+must in fact be your own work and not that of another. Violations of this principle may result in a failing
+grade in the course and additional disciplinary action by the university. Students are also expected to
+adhere to the Dress and Grooming Standards. Adherence demonstrates respect for yourself and others
+and ensures an effective learning and working environment. It is the university's expectation, and every
+instructor's expectation in class, that each student will abide by all Honor Code standards. Please call the
+Honor Code Office at 422-2847 if you have questions about those standards.
+What’s black and white and goes round and round?
+A penguin in a revolving door.
+Use of AI
+Elder Gerrit W. Gong recently taught, “We are not afraid of artificial intelligence, nor do we think it is
+the answer to every problem. As we work hard and smart, AI can be a valuable tool to enhance but not
+replace our own efforts… Artificial intelligence cannot replace revelation or generate truth from God.
+We have the responsibility to ensure that the Holy Ghost can attest to the truth and authenticity of all we
+say and share—in our form and in our content. As we seek the Lord’s wisdom and understanding, He
+will continue to guide and bless us.” (BYU Devotional, 8/19/2025)
+You will need to know how to use generative AI software, like ChatGPT, in your engineering career. I
+want you to learn to use such tools now, so you’re not disadvantaged at graduation. At the same time, I
+want you to learn thermodynamics and how to solve problems. Leaning too much on AI, which can
+easily solve many of the problems we look at in this class, will impede your growth as an engineer.
+With that in mind, here are a few principles:
+1. You may use generative AI to help you prepare for class, study for exams, and brainstorm for
+assignments. AI software should not be used to replace course materials such as assigned readings,
+nor should it be used for reading quizzes.
+2. For homework, you may use generative AI sparingly to help you get unstuck. I discourage it though,
+and prefer you look to the textbook, fellow students, TAs, and my office hours first. Growth comes
+from overcoming difficult challenges. The work you submit should reflect your intellectual
+engagement with and understanding of the material. A copy or cut and paste approach from AI is no
+different than copying from another student. Please don’t do it.
+3. Generative AI software may not be used for any purpose in any exam situation.
+What do you call a penguin in the desert?
+Lost.
+- 6 -\nPreventing & Responding to Sexual Misconduct
+The health and well-being of students is of paramount importance at Brigham Young University.
+If you or someone you know has experienced sexual harassment (including sexual violence),
+there are many resources available for assistance.
+In accordance with Title IX of the Education Amendments of 1972, BYU prohibits unlawful sex
+discrimination, including sexual harassment, against any participant in its education programs or
+activities. The university also prohibits sexual harassment by its personnel and students. Sexual
+harassment occurs when
+• a person is subjected to unwelcome sexual speech or conduct so severe, pervasive, and offensive
+that it effectively denies their ability to access any BYU education program or activity;
+• any aid, benefit, or service of BYU is conditioned on a person’s participation in unwelcome
+sexual conduct; or
+• a person suffers sexual assault, dating violence, domestic violence, or stalking based on sex.
+University policy requires all faculty members to promptly report incidents of sexual harassment that
+come to their attention in any way, including through face-to-face conversations, a written class
+assignment or paper, class discussion, email, text, or social media post. Incidents of sexual harassment
+should be reported to the Title IX Coordinator at t9coordinator@byu.edu or (801) 422-8692 or 1085
+WSC. Reports may also be submitted online at https://titleix.byu.edu/report or 1-888-238-1062.
+BYU offers confidential resources for those affected by sexual harassment, including the university’s
+Sexual Assault Survivor Advocate, as well as non-confidential resources and services that may be
+helpful. Additional information about Title IX, the Sexual Harassment Policy, reporting requirements,
+and resources are found at http://titleix.byu.edu or by contacting the university’s Title IX Coordinator.
+What is black and white and black and white and black and white and black and white and black and
+white and black and white and black and white?
+A penguin rolling down a hill.
+Student Disability
+Brigham Young University is committed to providing a working and learning atmosphere that
+reasonably accommodates qualified persons with disabilities. A disability is a physical or mental
+impairment that substantially limits one or more major life activities. Whether an impairment is
+substantially limiting depends on its nature and severity, its duration or expected duration, and its
+permanent or expected permanent or long-term impact. Examples include vision or hearing impairments,
+physical disabilities, chronic illnesses, emotional disorders (e.g., depression, anxiety), learning disorders,
+and attention disorders (e.g., ADHD). If you have a disability which impairs your ability to complete
+this course successfully, please contact the University Accessibility Center (UAC), 2170 WSC or 801-
+422-2767 to request a reasonable accommodation. The UAC can also assess students for learning,
+attention, and emotional concerns. If you feel you have been unlawfully discriminated against on the
+basis of disability, please contact the Equal Opportunity Office at 801-422-5895, eo_manager@byu.edu,
+or visit https://hrs.byu.edu/equal-opportunity for help.”
+What’s black and white and laughing?
+The penguin that pushed him.
+Devotional Attendance
+President C. Shane Reese recently said, "Our BYU devotionals are such an important part of our
+uniqueness at BYU. They provide us as students, faculty, and staff an opportunity to blend the sacred
+elements of the restored gospel of Jesus Christ with elements of academic disciplines. Devotionals help
+each of us to develop our full divine potential, which is central to all that we do at BYU. BYU strives to
+emit a unique light for the benefit of the world—a light that will enable BYU to be counted among the
+exceptional universities in the world and an essential example for the world. I love that each of you has
+made it a priority to participate in our devotional today." (Opening remarks, 5/23/23 Devotional). Your
+- 7 -\nattendance at each forum and devotional is strongly encouraged. You are welcome to join the faculty
+each Tuesday (meet at 10:45 am in the Me En front offices) to walk to the Marriott Center and enjoy the
+devotional together.
+To be clear, Dr. Dillon does not condone the pushing of penguins or people.
+A Prophetic Message
+I hope that you are not afraid of tough classes… I hope that you are not afraid of lengthy periods of
+preparation… You simply have to apply yourself. I hope that you want to be so well equipped that you
+can compete in this competitive world. I hope that you will learn to take responsibility for your
+decisions, whether they be in your courses of study which you elect to take, or whether they be in the
+direction of the academic attainments which you strive to achieve.
+Should you become discouraged or feel burdened down, remember that others have passed this same
+way; they have endured and then have achieved. When we have done all that we are able to do, we can
+then rely on God's promised help.
+You have access to the lighthouse of the Lord. There is no fog so dense, no night so dark, no mariner so
+lost, no gale so strong as to render useless the lighthouse of the Lord. It beckons through the storms of
+life. It seems to call to you and me: "This way to safety; this way to home."
+Don't say to yourselves, "I'm not wise enough, or I can't apply myself sufficiently well to study this
+difficult subject or in this difficult field, so I shall choose the easier way." I plead with you to tax your
+talent, and our Heavenly Father will make you equal to those decisions.
+-President Thomas S. Monson, Life’s Greatest Decisions, CES Young Adult Fireside, September
+7, 2003
+- 8 -

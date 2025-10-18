@@ -1,0 +1,143 @@
+Brigham Young University
+Department of Mechanical Engineering
+Course Title: Static Systems in ME EN Course No.: ME EN 101
+Course Time: Sec 1 MWF 10:00-10:50 Classroom: 321 EB
+Sec 2 MWF 2:00-2:50 254 CB
+Final Schedule:
+Instructor: Dr. Ben Terry Office Hours: MTuWF 3:00-4:00
+Office: EB 360M email: ben_terry@byu.edu
+Class TAs: Several course TA’s will be available in room CB 110 to answer questions.
+Use of AI in the class:
+The course components are designed to help you learn mechanical engineering statics. Use of AI in any way on
+graded work circumvents the learning process, is not allowed, and is an ethics and honor code violation. You are
+encouraged to use AI as you see fit to help you learn the material (e.g. explain concepts and generate quizzes and
+additional practice problems), but again, you may not use it in any way on any aspect of graded work.
+Course Meeting Structure: This course is an “in-person” course. Students are expected to be in attendance. Student
+success is strongly correlated with regular class attendance. Students who feel sick (fever; cough; shortness of
+breath/difficulty breathing; chills; muscle pain; sore throat; new loss of taste or smell; etc.) should not attend class
+and should work with the instructor to develop a study plan for the duration of the illness.
+Office Hours: The course TA’s will hold hours where you can ask questions throughout a large portion of the
+week. Specifics of the times and location to contact the TA’s will be posted to Learning Suite during the first
+week of classes. Office hours for Professor Terry will be in person at his office.
+Prerequisites: PHSCS 121 and MATH 112: If you have not completed the prerequisites you should drop this course.
+Text: Plesha, Gray, and Costanzo, Statics: Engineering Mechanics, 2nd edition.
+Overview: The study of engineering statics is exciting and insightful into the phenomena that exist in the world around us. It
+is also a subject that is rigorous and mathematically intensive. Our approach will involve class discussions, text readings,
+working problems, special projects, and considering real-world static scenarios. What you learn from this course will depend
+upon your attitude and your commitment to becoming an independent learner and your willingness to work with others.
+Recall that for a B grade, for each hour you spend in class, the expectation is that the average student will need to spend at
+least two hours outside of class on that subject. More time will be required to achieve excellence (an A grade) in a particular
+subject.
+Objectives: The objective of this course is to provide an understanding and ability to mathematically model engineering
+statics systems, to learn a structured approach to solving real world problems, and to understand the broader mechanical
+engineering discipline. Specifically, the course content is broken into the 10 core topics listed below and for each topic there
+are certain competencies that you should achieve upon completion of the course.
+Topics: Competencies (What you should be able to do upon completion of 101):
+1. Vector Analysis: An understanding of forces and moments and an ability to perform mathematical
+manipulation of them using vector analysis.
+2. Free-Body Diagrams: An ability to construct free-body diagrams and to calculate the reactions necessary
+to ensure static equilibrium for particles and rigid bodies.
+3. Force and Moment Systems: An understanding of the analysis of systems of forces and moments and
+distributed loads and an ability to determine internal forces and moments in members.
+4. Basic Computing for Parametric Evaluation: An ability to apply basic computing techniques to explore
+solutions of elementary static systems by changing variables and to produce publication quality
+figures.
+5. Centroids and Moments of Inertia: An ability to calculate centroids and moments of inertia of 2-D and 3-
+D objects.
+6. Friction: An understanding of friction and how to model it in static systems.\n7. Static System Design: An understanding of the basic design process, including professional and ethical
+responsibilities, and an ability to apply that process to design, build, and test a static structure and meet
+competing constraints.
+8. Real World Problem Solving: An ability to describe the ME EN Real-world Problem Solving Process
+and to transform real world scenarios (using the 5 P’s) into analyzable statics problems.
+9. Communicating Results of an Engineering Analysis: An ability to use a structured problem solving
+approach (SAFER) that effectively communicates the steps, results, and objectives of an engineering
+analysis to others.
+10. Mechanical Engineering Discipline An understanding of Mechanical Engineering as a discipline and
+how statics principles relate to core ME EN topics and to becoming an influential engineer.
+Email/BYU Learning Suite: Learning Suite will be used to relay information relating to the class (HW assignments, hints on
+homework, etc.). Check your email and Learning Suite messages regularly. Homework assignments will be posted on the
+BYU Learning Suite with the due date specified.
+Homework: Homework will be due weekly on Tuesdays by 11:59 p.m. The purpose of the homework is to solidify
+the principles discussed in class and the text so that mastery of the topic can be achieved. There will be two types of
+problems assigned: homework practice and homework mastery. Solutions to homework practice problems can be
+prepared using an abbreviated SAFER method on paper of your choice. Answers to even numbered homework
+problems from the text can be found at: www.mhhe.com/pgc2e. Working with others on homework practice
+problems is encouraged as long as all contribute equally, copying another person’s work (or AI/online solutions) is
+not acceptable. Homework practice problems will be turned in digitally and students will complete an assessment on
+Learning Suite for each set of homework practice problems. Homework mastery problems should be completed
+without discussion with other members of the class. Both practice and mastery problems are to be submitted as a
+single file (pdf format) as explained in the individual homework assignment sheets. You may scan your work using
+any device that works for you. The SwiftScan app can be downloaded for free and is a quick effective method to use
+your phone to scan all of your work into a single file. Communicating solutions to real world engineering problems
+is a critical skill and is foundational to becoming an influential engineer. Thus, a significant portion of your score on
+homework mastery problems will be based on the professional nature of your solution. Solutions to all homework
+mastery problems should be prepared using the complete SAFER method and the problem solving template
+available for purchase from the bookstore for $2.95/pad (shelved under author “Mechanical Engineering
+Department”), or downloaded from the course Learning Suite site. If preceded by reasonable personal effort,
+requests for help on all homework problems will always be cordially received by both the professor and the course
+TAs. Late homework will be accepted until 11:59 p.m. the day (Wednesday) after it is due at a penalty of 15%.
+Reading: It is not possible to cover all relevant material in class, thus reading of the assigned material is expected prior to
+class time. The material to be read prior to class period is shown on Learning Suite. This will not only increase your
+exposure to the subject, but it will also prompt questions and class discussion on items needing clarification.
+Lectures: Just as we cannot cover in class all of the information in the text, we will cover in class much information that is
+not found in text. Thus, it is most prudent to be an active participant in class in addition to being well versed in the text. The
+topic of each class session for the entire semester is shown on Learning Suite.
+Special Problems/Projects: There will be multiple special problems and two design projects in conjunction with the course.
+The due date of the special problems/projects and the type of reporting required will be specified when they are assigned.
+Quizzes: Quizzes will be due most days before class. The quizzes will generally consist of conceptual questions derived from
+the text, lecture, homework assignments, and special problems. The time requirement for each quiz will be typically less
+than 5 minutes and the lowest three quiz scores will be dropped before the final grade is determined. Make up quizzes will
+not be given.
+Exams: Two mid-term exams and a final are scheduled, and the format will be closed book and closed note and will be
+administered in the testing center. An equation sheet will be provided in addition to any relevant information that is needed.
+Please plan now to be here on those days as university policy precludes giving of a final exam outside of its’ regularly
+scheduled time.
+Extra Credit: A few opportunities for extra credit will be given throughout the semester.
+Grading Procedures:
+Refer to LearningSuite for the breakdown of points for homework and mastery problems, quizzes, special problems, exams,
+etc.\nIf performance on the final exam is greater than the lowest midterm, the final exam score will replace this score. If everyone
+scores in the 90-100 range I will award everyone A’s. However, I reserve the right to curve the grades if the class average
+lies below 80%.
+If your cumulative grade on the Mid Term Exams and Final Exam (including all parts of those exam grades, e.g. extra
+credit, etc.) is less than 80%, then that cumulative exam grade will be your final grade in the class.
+Example:
+Exam 1 grade: 20%
+Exam 2 grade: 90%
+Exam 3 grade: 90%
+Cumulative exam grade: 90%. This is not less than 80%, so your final grade will include all other course grades. Note:
+the 20% grade on Exam 1 was replaced with an 90% from the final exam.
+Honor Code Standards: In keeping with the principles of the BYU Honor Code, students are expected to be honest
+in all of their academic work. Academic honesty means, most fundamentally, that any work you present as your
+own must in fact be your own work and not that of another nor that of AI. Violations of this principle may result in
+a failing grade in the course and additional disciplinary action by the university.
+Students are also expected to adhere to the Dress and Grooming Standards. Adherence demonstrates respect for
+yourself and others and ensures an effective learning and working environment. It is the university’s expectation,
+and my own expectation in class, that each student will abide by all Honor Code standards. Please call the Honor
+Code Office at 422-2847 if you have questions about those standards.
+Mechanical Engineering Department’s BIG: “To be recognized as the best undergraduate mechanical engineering
+program in the world and the alma mater for the world’s most influential engineers.”
+Influential Engineers Develop:
+CHARACTER: Influential engineers have integrity and strong desires to serve their community and their profession.
+They do the right thing, even when no one is watching or when others oppose it. Their influence is derived from
+strong moral principles and mutual respect. Their sphere of influence expands as others recognize and trust their
+character.
+RESILIENCE: Influential engineers are resilient and learn from their failures. They persevere in pursuit of long-
+term goals. They embrace challenge and recognize effort is the path to mastery.
+TECHNICAL EXCELLENCE: Influential engineers are innovative experts in their field. They solve significant,
+real-world problems by building models based on basic concepts and fundamental laws. They use state-of-the-art
+engineering practices and technologies to solve their models and obtain results.
+COMMUNICATION SKILLS: Influential engineers communicate results and conclusions clearly and concisely.
+They persuasively present recommendations that prevent and solve problems. They are collaborative and always
+civil, particularly when others have differing viewpoints.
+LEADERSHIP: Influential engineers lead in ethical behavior regardless of their position. They focus more on the
+greater good than on personal achievement. They make tough decisions when necessary. They inspire with genuine
+praise, correct with kindness when necessary and generously recognize the contributions and accomplishments of
+colleagues.
+LIFELONG LEARNING AND SERVICE: Influential engineers consistently develop new skills and use their
+abilities and resources to enhance the lives of others.
+Preventing Sexual Discrimination or Harassment: Sexual discrimination or harassment (including student-to-
+student harassment) is prohibited both by the law and by Brigham Young University policy. If you feel you are
+being subjected to sexual discrimination or harassment you may lodge a complaint with the Equal Employment
+Office (D-240C ASB) or with the Honor Code Office.\nStudents with Disabilities: If you have a disability that may affect your performance in this course, you should get in
+touch with the office of Services for Students with Disabilities (1520 WSC). This office can evaluate your disability
+and assist the professor in arranging for reasonable accommodations.

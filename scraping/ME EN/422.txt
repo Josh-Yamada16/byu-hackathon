@@ -1,0 +1,182 @@
+Applied Thermodynamics ME EN 422 Fall 2025
+Instructor: Dale R. Tree Teaching Assistant: Matt Linnell
+Office: 435T CTB Office: 350 CB
+Office Hours: M:2-4; W:2-4; Open Door Office Hours: M: 2-5, Tu: 2-6, F:11-12
+Phone: 422-8306 email: treed@byu.edu e-mail ML553@byu.edu
+Class: M,W,F 369 CB 1-2 pm Prerequisites: ME EN 321
+Required Text: Thermodynamics, an Engineering Approach, 10th Edition , By: Y. Cengel and M. Boles, Kanoglu, M.
+Date Class Material or Reading Formative Hmwk. Sum. Due Reading
+Hmwk 10th Edition
+Sep. 3 Chp. 1-6 Syllabus, Energy and Entropy Eqns. #1 4_24, 60E, 76, 115 4_62 Sep. 9 1-5
+Sep. 5 Chp. 1-5 Energy Eqn. Review 5_44, 81, 120, 123 5_46 5-7
+M Sep. 8 Chp. 6-7 Entropy Eqn. Review 7_133E 8
+Sep. 10 Chp. 7 Entropy Eqn. Review #2 7_136, 7_141, 8_12, 8_14, 8_20E, 7_154 Sep. 16 8
+8_21
+Sep. 12 Chp. 8.1-8.2 Exergy, Rev. Work, Irreversibility 8_22E, 8:28 8_17, 9.1 – 9.3
+8_23
+M Sep. 15 Chp. 8.3 Second Law Eff. 9.4 – 9.6
+Sep. 17 Chp. 8.4 Exergy Equation #3 8_33, 51, 59, 63, 66, 80 8_58, 76E Sep. 23 9.7 – 9.8
+Sep. 19 Chp. 8.5-8.7 Exergy Open, Closed Systems 9.7 – 9.8
+M Sep. 22 Chp. 8.7-8.9 Exergy Open, Closed Systems 9.7 – 9.8
+W Sep. 24 Review
+F Sep. 26 Exam 1 Chps 1-8
+Sep. 29 Chp 12 Return Exam, Thermo. Prop. 11:2
+Oct. 1 Chp. 12 Thermodynamic Properties, Maxwell’s #4 12_5, 12_16, 12_17, 12_40, 12_43 12_28E, Oct 7 11:3
+relations 94E
+Oct. 3 Chp. 12 H, U, S, C, C, and Joule Thompson 59, 61E, 72, 79, 92 12:4-6
+p v
+Oct. 6 Chp. 12 Enthalpy Change of Real Gas, Tables 13:1-2
+Oct. 8 Chap. 13 Mixtures #5 13_11. 32, 37, 53 13_50, Oct. 14 13:3-4
+14_41
+Oct. 10 Chp. 13 Gas Mixtures, Dalton’s, Amagat’s Laws 14_25, 31E, 39 14:1-3
+Oct. 13 Chp. 14 Humidity, Dew Point 14:4-5
+Oct. 15 Chp. 14 Wet Bulb Temp., Psych. Chart #6 14_64, 76, 85, 94, 109, 122E, 136 14_73, 87, Oct. 21
+100,
+Begin Lab 1: Swamp Cooler – Full Report Swamp Cooler Lab Oct 28 14:6
+Oct. 17 Chp. 14 Air Conditioning, Swamp Coolers 14:7
+Oct. 20 Chp. 14 Mixing or Air streams
+Oct. 22 Review
+Oct. 24 Exam 15:1,2
+Oct. 27 Chp. 15 Ideal Combustion Swamp Cooler Report Due Oct. 28
+Oct. 29 Chp. 15 Enthalpy of Combustion #7 15_15, 19, 22, 42, 54E, 56, 73 15_17, 56, Nov. 4 15:3
+Oct. 31 Chp. 15 Adiabatic Flame Temp. 15:4,5
+Nov. 3 Chp. 15 Adiabatic Flame Temp.
+Nov. 5 Chp. 9 Otto. Diesel, #8 9_33, 50, 71, 72E, 87, 109, 144 9_36E, Nov. 11
+104, 146
+Nov. 7 Chp. 9 Stirling, Erricsson 15:6-7
+Nov. 10 Chp. 9 Brayton, Brayton with regeneration 15:8
+Nov. 12 Chp. 9 Brayton, 2nd law #9 10_34, 48, 69, 77 10_72 Nov. 18 9:1-4
+Nov. 14 Chp. 10 Rankine Cycle 9:5-7
+Nov. 17 Chp. 10 Rankine Cycle 9:8
+Nov. 19 Review
+Nov. 21 Exam 9:9-10
+Nov. 24 Chp. 11 Ideal Vap. Refrigeration Cycle #10 11_13, 17, 32a,b, 43, 87E 11_ 58 Dec. 5 9:12-13
+Dec. 1 Chp. 11 Actual Vap. Refrig. Cycle
+Dec. 3 Chp. 11 Cascade, and Absorption Refrig. Cycles
+Dec. 5 Chp 18 Renewables #11 18_3, 4 18_30 Dec. 10 10:1-4
+Dec. 8 Chp 18 Renewables 10:5-6
+Dec. 10 Review 10:7
+Dec. 15 Final Exam 11 a.m. – 2 p.m. 10:8-11
+The instructor reserves the right to make changes in this schedule and in the course policy, procedures and grading with advanced notice to the
+students.\nClass Operations
+Reading Assignments: Suggested reading material is given in the table above. We will cover chapters 8-15 and it is
+suggested that you skim the text proceeding the lecture on the topic. After the lecture and homework have identified the
+content you need to understand, read slowly and carefully areas of the text where you need an improved understanding
+and of specific content needed.
+Quizzes: There will be approximately 10 - 15 quizzes per semester. Quizzes will be unannounced and may occur at
+any time during any class. They will be short, approximately 5 minutes long. Each quiz will be worth 10 points and
+will cover material identified in previous lectures. The best way to study for quizzes is to listen carefully in class for
+hints on what will be covered in the quiz and then review a few minutes before class. There will be no make up
+quizzes. You may drop two quizzes. Do not ask me to make up a quiz unless you have already missed two quizzes.
+If you miss more than two quizzes and have good reasons, see me and we will work out something equitable.
+Homework: Homework will be due at 11:55pm on the designated date. Turn in two separate digital documents for each
+assignment. One is formative and the other summative. The solution for each assignment will be posted right after the
+assignment is due. There will be no late homework accepted.
+Formative Homework – The intent of this homework is to help you learn. You should attempt the problem first on your
+own but if you are stuck or need help you are encouraged to ask a friend, TA, instructor or use an AI tool such as chat
+GPT. Comparing your solution with an AI solution or the solution manual is encouraged before the work is turned
+in. You should not copy the work of others, but you may use the work of others to assess your work and adjust it before
+you turn it in.
+Summative Homework: These problems are intended to help you test yourself and your ability to solve problems
+independently. You may not use AI tools or the solution manual to guide or assess your work on these problems.
+The work you turn in for these problems should represent your ability to solve the problem and not the work of others.
+You may ask the TA, the instructor or a classmate for help. When you grade these Summative problems, the rubric will
+ask you to validate the independence of your work.
+Grading: The solutions to all problems will be posted within 10 minutes of the due date and time. Each student should
+then grade their own problems and post their score on learning suite within 24 hrs. The homework rubric and procedure
+are outlined in a separate document posted on learning suite.
+Late Homework: Late homework will generally not be accepted. One exception for each student will be granted for
+those who miss the grading deadline.
+Labs: There will be one lab experience during the semester with the intention of improving technical writing. It will be
+a walk-in lab experience and will be described in a separated document.
+Lab Write - Ups: Student may work in teams of 2 or individually to design their experiment and collect data but each
+individual will write a separate lab report.
+Exams: You will have three exams and a final. The exams will all be in-class. The final will be given on the date and
+time designated by the university. You must be present in person and take the final in the classroom at the
+designated time.
+Exam grading: I want to correct any grading errors. Submit mis-graded exams to me with a written explanation or a
+note pointing out the area you would like to have re-graded. Do not submit exams for re-grade when you are seeking a
+one or two point correction because you feel the grading was too severe. Talk to me or a TA whenever you do not
+understand an exam problem.
+Grading: A final score will be obtained from a weighted average. The weighting for the grades is shown below. The
+grade scale will not be increased to make a grade more difficult to obtain but the scale may be lowered if the class GPA
+falls below 3.1. I do not use Learning Suite to Calculate the Grade
+Practice Hmwk: 15% Mastery Hmwk 15% Exams: 35% Final Exam: 25% Quizzes: 5%
+Lab Report 5%\n93 -100 A 73 - 77 C
+90 - 93 A- 70 - 73 C-
+87 - 90 B+ 67 - 70 D+
+83 - 87 B 63 - 67 D
+80 - 83 B- 60 - 63 D-
+77 - 80 C+ below 60 E
+Self-Grading of homework
+Homework will be self-graded by taking a homework quiz and answering the questions on the
+homework quiz. The following is a rubric that will represent the scoring the will be present in the
+quiz.
+For a typical Formative Homework problem worth 10 pts.
+1. Demonstrated Attempt Using a Structured Approach: 0 – 4 pts
+The written approach contains a structure including given information (Given:), requested
+information (Find:) assumptions, diagrams, control volumes, a step-by-step approach, identified
+solution and summary comment.
+2. Fundamental Concepts Demonstrated: 0 – 4 pts
+The written solution uses fundamental concepts correctly and demonstrates a correct understanding
+of the concepts.
+3. Correct Answer: 0 – 2 pts
+The answer is correct. The answer should match the posted solution within reasonable error limits.
+Calculation errors, sign errors, incorrect table lookup, unit conversions etc. are examples of these
+errors.
+For a typical Summative Homework problem worth 10 pts.
+1. Demonstrated Attempt Using a Structured Approach 0 – 4 pts
+The written approach contains a structured including given information (Given:), requested
+information (Find:) assumptions, diagrams, control volumes, a step-by-step approach, identified
+solution and summary comment.
+2. Fundamental Concepts Demonstrated 0 – 4 pts
+The written solution uses fundamental concepts correctly and demonstrates a correct understanding
+of the concepts.
+3. Correct Answer: 0 – 2
+The answer is correct. The answer should match the posted solution within reasonable error limits.
+Calculation errors, sign errors, incorrect table lookup, unit conversions etc. are examples of these
+errors.
+4. Intellectual Integrity - If this answer is false, the score for the homework problem is -10
+pts.
+True of False – The work represented is my own. I did not use an AI tool, a solution manual, or
+copy someone else’s work. I may have conversed with a fellow student or a TA to get ideas. I may
+have also asked questions and received answers interacting with a human but after doing so, I
+understood what is written and can explain and fully understand the reasoning and work presented. I
+may have also read the book or sought answers to conceptual questions on the internet or through
+AI, but I did not seek a specific answer to the homework question.\nProblem Solving
+Each student can identify issues related to thermodynamics in real world problems, use basic
+concepts and fundamental laws to construct thermodynamic models, apply mathematical principles
+to solve these models, draw conclusions based on these solutions and formulate sound
+recommendations based on these conclusions.
+Concepts and Laws of Thermodynamics
+Each student can select a system, identify the heat, work, exergy and mass flow interactions
+occurring between the system and its surroundings and build models of steady-flow devices and
+transient thermodynamic systems.
+Thermodynamic Property Relationships
+Each student can use thermodynamic concepts and laws to develop relationships between
+observable thermodynamic properties and thermodynamic properties that cannot be directly
+measured.
+Gas Power Cycles
+Each student can use the basic concepts and fundamental laws of thermodynamics to model the
+performance of various gas power cycles. Each student can evaluate the impact of modifications
+such as reheat, regeneration and intercooling on the efficiency and net power produced by a gas
+power cycle and draw conclusions regarding the implementation of these modifications.
+Jet Propulsion Cycles
+Each student can use the basic concepts and fundamental laws of thermodynamics to analyze,
+evaluate and draw conclusions regarding the performance of jet propulsion cycles.
+Vapor Power Cycles
+Each student can use the basic concepts and fundamental laws of thermodynamics to analyze,
+evaluate and draw conclusions regarding the performance of Rankine cycles, geothermal power
+cycles, and combined cycles.
+Refrigeration Cycles
+Each student can use the basic concepts and fundamental laws of thermodynamics to analyze,
+evaluate and draw conclusions regarding the performance of vapor-compression refrigeration
+cycles, absorption refrigeration cycles, multistage refrigeration cycles and cascade refrigeration
+cycles.
+Alternative Energy Systems
+Each student can use the concepts and laws of thermodynamics to analyze and evaluate renewable
+energy systems and to draw conclusions regarding the performance of these systems.
+Psychometrics
+Each student can calculate the properties of mixtures of air and water vapor to analyze, evaluate and
+draw conclusions regarding the performance of evaporative cooling systems, cooling towers,
+humidifiers and dehumidifiers.

@@ -1,0 +1,127 @@
+{
+  "courseCode": "422",
+  "courseName": "ME EN 422: Applied Thermodynamics",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Department of Mechanical Engineering",
+  "meetingStructure": {
+    "days": "Monday, Wednesday, Friday",
+    "time": "1:00-2:00 p.m.",
+    "classroom": "369 CB"
+  },
+  "instructor": {
+    "name": "Dale R. Tree",
+    "office": "435T CTB",
+    "phone": "801-422-8306",
+    "email": "treed@byu.edu",
+    "officeHours": [
+      "Monday 2:00-4:00 p.m.",
+      "Wednesday 2:00-4:00 p.m.",
+      "Open door policy"
+    ]
+  },
+  "teachingAssistant": {
+    "name": "Matt Linnell",
+    "office": "350 CB",
+    "email": "ML553@byu.edu",
+    "officeHours": [
+      "Monday 2:00-5:00 p.m.",
+      "Tuesday 2:00-6:00 p.m.",
+      "Friday 11:00 a.m.-12:00 p.m."
+    ]
+  },
+  "prerequisites": [
+    "ME EN 321"
+  ],
+  "requiredMaterials": [
+    {
+      "title": "Thermodynamics, an Engineering Approach",
+      "edition": "10th Edition",
+      "authors": "Y. Cengel, M. Boles, M. Kanoglu"
+    }
+  ],
+  "courseContent": {
+    "coverage": "Chapters 8-15",
+    "topics": [
+      "Energy and entropy equations",
+      "Exergy and reversible work",
+      "Irreversibility and second law efficiency",
+      "Thermodynamic properties and Maxwell's relations",
+      "Enthalpy and internal energy of real gases",
+      "Mixtures and gas laws (Dalton's, Amagat's)",
+      "Humidity and psychrometric charts",
+      "Air conditioning and swamp coolers",
+      "Combustion and adiabatic flame temperature",
+      "Power cycles: Otto, Diesel, Stirling, Brayton, Rankine",
+      "Refrigeration cycles: vapor-compression, cascade, absorption",
+      "Renewable energy systems"
+    ]
+  },
+  "readingAssignments": {
+    "approach": "Suggested reading material given in schedule",
+    "strategy": "Skim text preceding lecture; read slowly and carefully after homework identifies needed understanding"
+  },
+  "courseComponents": {
+    "quizzes": {
+      "frequency": "Approximately 10-15 per semester",
+      "format": "Unannounced, may occur at any time",
+      "duration": "Short, approximately 5 minutes",
+      "pointsEach": 10,
+      "content": "Covers material from previous lectures",
+      "drops": "May drop two quizzes",
+      "makeups": "No make-up quizzes unless special circumstances (see instructor)"
+    },
+    "homework": {
+      "dueTime": "11:55 p.m. on designated date",
+      "submission": "Two separate digital documents per assignment",
+      "types": [
+        {
+          "type": "Formative Homework",
+          "purpose": "Help you learn",
+          "approach": "Attempt problems first on your own; if stuck, encouraged to ask friends, TA, instructor, or use AI tools like ChatGPT",
+          "allowedResources": "Comparing with AI solutions or solution manual encouraged before submission",
+          "restriction": "Should not copy others' work but may use to assess your work"
+        },
+        {
+          "type": "Summative Homework",
+          "purpose": "Test yourself and ability to solve problems independently",
+          "restriction": "May not use AI tools or solution manual",
+          "collaboration": "May ask TA, instructor, or classmate for help",
+          "validation": "Grading rubric asks you to validate independence of work"
+        }
+      ],
+      "grading": "Solutions posted within 10 minutes of due date; student grades own work and posts score within 24 hours",
+      "latePolicy": "Late homework generally not accepted; one exception granted per student"
+    },
+    "labs": {
+      "frequency": "One lab experience during semester",
+      "purpose": "Improve technical writing",
+      "format": "Walk-in lab experience",
+      "labDescription": "Separate document provided",
+      "teamwork": "May work in teams of 2 or individually to design experiment and collect data",
+      "reportWriting": "Each individual writes separate lab report",
+      "example": "Swamp Cooler Lab with full report"
+    },
+    "exams": {
+      "schedule": "Three exams throughout semester plus final",
+      "format": "In-class exams; final at university-designated date and time",
+      "attendance": "Must be present in person for final",
+      "location": "Classroom"
+    }
+  },
+  "examGrading": {
+    "process": "Instructor wants to correct grading errors",
+    "regrade": "Submit mis-graded exams with written explanation",
+    "noMinorReevaluations": "Do not submit for re-grade of 1-2 point corrections",
+    "clarification": "Talk to instructor or TA if you don't understand exam problem"
+  },
+  "coursePolicy": {
+    "modifications": "Instructor reserves right to make changes in schedule, policy, procedures, and grading with advanced notice"
+  },
+  "gradingCategories": {
+    "quizzes": "10-15 throughout semester",
+    "homework": "Formative and summative components",
+    "labs": "Technical writing emphasis with Swamp Cooler example",
+    "exams": "3 midterms and 1 final"
+  }
+}
