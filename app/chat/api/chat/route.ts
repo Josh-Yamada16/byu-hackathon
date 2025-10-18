@@ -135,9 +135,15 @@ export async function POST(request: Request) {
         return new ChatSDKError("forbidden:chat").toResponse();
       }
     } else {
-      const title = await generateTitleFromUserMessage({
-        message,
-      });
+      // Use majorName as title if provided, otherwise generate from message
+      let title: string;
+      if (majorName) {
+        title = majorName;
+      } else {
+        title = await generateTitleFromUserMessage({
+          message,
+        });
+      }
 
       await saveChat({
         id,
