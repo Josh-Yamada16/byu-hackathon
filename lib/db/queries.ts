@@ -58,7 +58,11 @@ export async function createUser(email: string, password: string) {
   const hashedPassword = generateHashedPassword(password);
 
   try {
-    return await db.insert(user).values({ email, password: hashedPassword });
+    return await db.insert(user).values({ 
+      id: generateUUID(),
+      email, 
+      password: hashedPassword 
+    });
   } catch (_error) {
     throw new ChatSDKError("bad_request:database", "Failed to create user");
   }
@@ -100,7 +104,7 @@ export async function saveChat({
   try {
     return await db.insert(chat).values({
       id,
-      createdAt: new Date(),
+      createdAt: Date.now(),
       userId,
       title,
       visibility,
@@ -290,13 +294,13 @@ export async function voteMessage({
     if (existingVote) {
       return await db
         .update(vote)
-        .set({ isUpvoted: type === "up" })
+        .set({ isUpvoted: type === "up" ? 1 : 0 })
         .where(and(eq(vote.messageId, messageId), eq(vote.chatId, chatId)));
     }
     return await db.insert(vote).values({
       chatId,
       messageId,
-      isUpvoted: type === "up",
+      isUpvoted: type === "up" ? 1 : 0,
     });
   } catch (_error) {
     throw new ChatSDKError("bad_request:database", "Failed to vote message");
@@ -336,7 +340,7 @@ export async function saveDocument({
         kind,
         content,
         userId,
-        createdAt: new Date(),
+        createdAt: Date.now(),
       })
       .returning();
   } catch (_error) {
@@ -386,18 +390,19 @@ export async function deleteDocumentsByIdAfterTimestamp({
   timestamp: Date;
 }) {
   try {
+    const timestampMs = timestamp.getTime();
     await db
       .delete(suggestion)
       .where(
         and(
           eq(suggestion.documentId, id),
-          gt(suggestion.documentCreatedAt, timestamp)
+          gt(suggestion.documentCreatedAt, timestampMs)
         )
       );
 
     return await db
       .delete(document)
-      .where(and(eq(document.id, id), gt(document.createdAt, timestamp)))
+      .where(and(eq(document.id, id), gt(document.createdAt, timestampMs)))
       .returning();
   } catch (_error) {
     throw new ChatSDKError(
@@ -459,11 +464,12 @@ export async function deleteMessagesByChatIdAfterTimestamp({
   timestamp: Date;
 }) {
   try {
+    const timestampMs = timestamp.getTime();
     const messagesToDelete = await db
       .select({ id: message.id })
       .from(message)
       .where(
-        and(eq(message.chatId, chatId), gte(message.createdAt, timestamp))
+        and(eq(message.chatId, chatId), gte(message.createdAt, timestampMs))
       );
 
     const messageIds = messagesToDelete.map(
@@ -535,9 +541,7 @@ export async function getMessageCountByUserId({
   differenceInHours: number;
 }) {
   try {
-    const twentyFourHoursAgo = new Date(
-      Date.now() - differenceInHours * 60 * 60 * 1000
-    );
+    const twentyFourHoursAgo = Date.now() - differenceInHours * 60 * 60 * 1000;
 
     const [stats] = await db
       .select({ count: count(message.id) })
@@ -571,7 +575,7 @@ export async function createStreamId({
   try {
     await db
       .insert(stream)
-      .values({ id: streamId, chatId, createdAt: new Date() });
+      .values({ id: streamId, chatId, createdAt: Date.now() });
   } catch (_error) {
     throw new ChatSDKError(
       "bad_request:database",
