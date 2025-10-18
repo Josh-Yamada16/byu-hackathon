@@ -2,6 +2,10 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+<<<<<<< HEAD
+=======
+import { toast } from "@/components/toast";
+>>>>>>> 32502624a36aca0c1d11c63ffc8f276510e7d480
 import programsData from "@/scraping/programs.json" with { type: "json" };
 
 const colors = [
@@ -20,6 +24,7 @@ const colors = [
 ];
 
 export default function Home() {
+<<<<<<< HEAD
   const [comparisonMode, setComparisonMode] = useState(false);
   const [selectedMajors, setSelectedMajors] = useState<
     Array<{ id: string; name: string }>
@@ -42,6 +47,11 @@ export default function Home() {
     setSelectedMajors([]);
   };
 
+=======
+  const [recentlyClicked, setRecentlyClicked] = useState<
+    Record<string, boolean>
+  >({});
+>>>>>>> 32502624a36aca0c1d11c63ffc8f276510e7d480
   // Extract and group majors by college
   const collegeGroups = useMemo(() => {
     const grouped = (programsData as any).data
@@ -140,6 +150,7 @@ export default function Home() {
                 <div className="absolute inset-0 flex flex-col overflow-hidden bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   <div className="flex-1 overflow-y-auto">
                     <div className="space-y-2 p-3">
+<<<<<<< HEAD
                       {college.majors.map((major, idx) => {
                         const isSelected = selectedMajors.some(
                           (m) => m.id === major.id
@@ -172,6 +183,39 @@ export default function Home() {
                           </Link>
                         );
                       })}
+=======
+                      {college.majors.map((major, idx) => (
+                        // biome-ignore assist/source/useSortedAttributes: false positive
+                        <Link
+                          key={major.id}
+                          href={`/chat?majorId=${major.id}&majorName=${encodeURIComponent(major.name)}`}
+                          className={`${idx % 2 === 0 ? "bg-gray-200" : "bg-gray-100"} block truncate rounded px-3 py-2 font-medium text-gray-900 text-sm transition-opacity hover:opacity-90 ${recentlyClicked[major.id] ? "ring-2 ring-indigo-400 ring-offset-1" : ""}`}
+                          title={major.name}
+                          onClick={() => {
+                            // show toast feedback and add a short-lived highlight
+                            toast({
+                              type: "success",
+                              description: `Opening ${major.name}`,
+                            });
+                            setRecentlyClicked((s) => ({
+                              ...s,
+                              [major.id]: true,
+                            }));
+                            setTimeout(
+                              () =>
+                                setRecentlyClicked((s) => {
+                                  const copy = { ...s };
+                                  delete copy[major.id];
+                                  return copy;
+                                }),
+                              1200
+                            );
+                          }}
+                        >
+                          {major.name}
+                        </Link>
+                      ))}
+>>>>>>> 32502624a36aca0c1d11c63ffc8f276510e7d480
                     </div>
                   </div>
                 </div>
