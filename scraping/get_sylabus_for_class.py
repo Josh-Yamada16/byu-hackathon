@@ -61,24 +61,34 @@ with open("teaching_areas.json", "w") as json_file:
 for teaching_area in teaching_areas:
     if not os.path.isdir(f"./scraping/{teaching_area}"):
         os.makedirs(f"./scraping/{teaching_area}")
-    driver.find_element(By.XPATH, f"//ul/li/span[contains(text(),'{teaching_area}')]").click()
-    elements = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH, "//h2/button/span/span")))
+    driver.find_element(
+        By.XPATH, f"//ul/li/span[contains(text(),'{teaching_area}')]"
+    ).click()
+    elements = WebDriverWait(driver, 10).until(
+        EC.presence_of_all_elements_located((By.XPATH, "//h2/button/span/span"))
+    )
     print(len(elements))
     for element in elements:
         eltext = element.text.strip()
         if not os.path.isdir(f"./scraping/{teaching_area}/{eltext}"):
             os.makedirs(f"./scraping/{teaching_area}/{eltext}")
-        driver.find_element(By.XPATH, f"//h2/button/span/span[contains(text(),'{eltext}')]").click()
-        try: # wait for some a elements to have text view syllabus
-            WebDriverWait(driver,10).until(EC.presence_of_all_elements_located((By.XPATH, "//a/span[contains(text(),'View Syllabus')]")))
+        driver.find_element(
+            By.XPATH, f"//h2/button/span/span[contains(text(),'{eltext}')]"
+        ).click()
+        try:  # wait for some a elements to have text view syllabus
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_all_elements_located(
+                    (By.XPATH, "//a/span[contains(text(),'View Syllabus')]")
+                )
+            )
         except Exception as e:
             print("no syllabus links found: ", e)
-        
+
         all_anchors = driver.find_elements(By.XPATH, "//a")
         for anchor in all_anchors:
-            if anchor.find_element(By.XPATH, "//span[contains(text(), 'View Syllabus')]"):
-                print(anchor.get_property('href'))
-        sleep(100)
+            if "View Syllabus" in anchor.text:
+                print(anchor.get_property("href"))
 
+        sleep(100)
 
     sleep(30000)
