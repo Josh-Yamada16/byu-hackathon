@@ -2,18 +2,8 @@
 
 import Link from "next/link";
 import { useMemo } from "react";
-import programsData from '@/scraping/programs.json';
+import programsData from '@/scraping/programs.json' with { type: "json" };
 
-interface Major {
-  id: string;
-  name: string;
-  color: string;
-}
-
-interface College {
-  name: string;
-  majors: Major[];
-}
 
 const colors = [
   'bg-blue-600',
@@ -66,40 +56,42 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
-      <div className="w-full max-w-7xl mx-auto p-4">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4">Welcome</h1>
-          <p className="text-lg text-gray-600">
+      <div className="mx-auto w-full max-w-7xl p-4">
+        <div className="mb-12 text-center">
+          <h1 className="mb-4 font-bold text-4xl">Welcome</h1>
+          <p className="text-gray-600 text-lg">
             Select a college to explore available majors
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {collegeGroups.map((college) => (
-            <div
+            // biome-ignore assist/source/useSortedAttributes: false positive
+<div
               key={college.name}
-              className="group relative h-48 rounded-lg overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
+              className="group relative h-48 cursor-pointer overflow-hidden rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-2xl"
             >
               {/* Background card - visible by default */}
-              <div className={`${college.color} absolute inset-0 flex items-center justify-center text-white p-6 transition-opacity duration-300 group-hover:opacity-0`}>
+              <div className={`${college.color} absolute inset-0 flex items-center justify-center p-6 text-white transition-opacity duration-300 group-hover:opacity-0`}>
                 <div className="text-center">
-                  <h2 className="text-xl font-bold">{college.name}</h2>
-                  <p className="text-sm mt-2 opacity-90">{college.majors.length} majors</p>
+                  <h2 className="font-bold text-xl">{college.name}</h2>
+                  <p className="mt-2 text-sm opacity-90">{college.majors.length} majors</p>
                 </div>
               </div>
 
               {/* Scrollable majors list - visible on hover */}
-              <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 overflow-hidden flex flex-col">
-                <div className="bg-gray-100 px-4 py-3 border-b border-gray-200 flex-shrink-0">
+              <div className="absolute inset-0 flex flex-col overflow-hidden bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <div className="flex-shrink-0 border-gray-200 border-b bg-gray-100 px-4 py-3">
                   <h3 className="font-bold text-gray-800 text-sm">{college.name}</h3>
                 </div>
                 <div className="flex-1 overflow-y-auto">
-                  <div className="p-3 space-y-2">
+                  <div className="space-y-2 p-3">
                     {college.majors.map((major) => (
-                      <Link
+                      // biome-ignore assist/source/useSortedAttributes: false positive
+<Link
                         key={major.id}
                         href={`/chat?majorId=${major.id}&majorName=${encodeURIComponent(major.name)}`}
-                        className={`${major.color} text-white px-3 py-2 rounded text-sm font-medium hover:opacity-90 transition-opacity block truncate`}
+                        className={`${major.color} block truncate rounded px-3 py-2 font-medium text-sm text-white transition-opacity hover:opacity-90`}
                         title={major.name}
                       >
                         {major.name}
