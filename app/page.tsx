@@ -42,7 +42,7 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {majors.length > 0 ? (
-            majors.map((major: Major) => (
+            majors.map((major) => (
               <Link
                 key={major.id}
                 href={`/chat?majorId=${major.id}&majorName=${encodeURIComponent(major.name)}`}
