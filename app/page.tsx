@@ -124,9 +124,8 @@ export default function Home() {
 
         <div className="flex justify-center">
           <div
-            className="grid gap-6"
+            className="flex flex-wrap justify-center gap-6"
             style={{
-              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
               width: "100%",
               maxWidth: "1120px",
             }}
@@ -135,7 +134,7 @@ export default function Home() {
               // biome-ignore assist/source/useSortedAttributes: false positive
               <div
                 key={college.name}
-                className="group relative h-48 cursor-pointer overflow-hidden rounded-lg border border-black bg-white shadow-lg transition-shadow duration-300 hover:shadow-2xl"
+                className="group relative h-48 w-[220px] cursor-pointer overflow-hidden rounded-lg border border-black bg-white shadow-lg transition-shadow duration-300 hover:shadow-2xl"
               >
                 {/* Background card - visible by default (white with thin black outline) */}
                 <div className="absolute inset-0 flex items-center justify-center bg-white p-6 text-black transition-opacity duration-300 group-hover:opacity-0">
