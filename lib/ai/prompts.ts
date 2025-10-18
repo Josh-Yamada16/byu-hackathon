@@ -53,17 +53,26 @@ About the origin of user's request:
 export const systemPrompt = ({
   selectedChatModel,
   requestHints,
+  majorId,
+  majorName,
 }: {
   selectedChatModel: string;
   requestHints: RequestHints;
+  majorId?: string;
+  majorName?: string;
 }) => {
   const requestPrompt = getRequestPromptFromHints(requestHints);
-
-  if (selectedChatModel === "chat-model-reasoning") {
-    return `${regularPrompt}\n\n${requestPrompt}`;
+  
+  let basePrompt = regularPrompt;
+  if (majorId && majorName) {
+    basePrompt = `You are a helpful academic assistant specialized in ${majorName}. Help students with questions related to their major, coursework, and career advice in this field. Keep your responses concise and helpful.`;
   }
 
-  return `${regularPrompt}\n\n${requestPrompt}\n\n${artifactsPrompt}`;
+  if (selectedChatModel === "chat-model-reasoning") {
+    return `${basePrompt}\n\n${requestPrompt}`;
+  }
+
+  return `${basePrompt}\n\n${requestPrompt}\n\n${artifactsPrompt}`;
 };
 
 export const codePrompt = `
