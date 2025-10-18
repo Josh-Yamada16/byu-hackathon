@@ -1,4 +1,4 @@
-import { gateway } from "@ai-sdk/gateway";
+import { openai } from "@ai-sdk/openai";
 import {
   customProvider,
   extractReasoningMiddleware,
@@ -25,12 +25,13 @@ export const myProvider = isTestEnvironment
     })()
   : customProvider({
       languageModels: {
-        "chat-model": gateway.languageModel("xai/grok-2-vision-1212"),
+        // Use OpenAI provider models for local development. Replace model IDs as needed.
+        "chat-model": openai.languageModel("gpt-4o-mini"),
         "chat-model-reasoning": wrapLanguageModel({
-          model: gateway.languageModel("xai/grok-3-mini"),
+          model: openai.languageModel("gpt-4o-mini"),
           middleware: extractReasoningMiddleware({ tagName: "think" }),
         }),
-        "title-model": gateway.languageModel("xai/grok-2-1212"),
-        "artifact-model": gateway.languageModel("xai/grok-2-1212"),
+        "title-model": openai.languageModel("gpt-4o-mini"),
+        "artifact-model": openai.languageModel("gpt-4o-mini"),
       },
     });

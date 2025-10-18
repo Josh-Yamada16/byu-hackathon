@@ -58,10 +58,10 @@ export async function createUser(email: string, password: string) {
   const hashedPassword = generateHashedPassword(password);
 
   try {
-    return await db.insert(user).values({ 
+    return await db.insert(user).values({
       id: generateUUID(),
-      email, 
-      password: hashedPassword 
+      email,
+      password: hashedPassword,
     });
   } catch (_error) {
     throw new ChatSDKError("bad_request:database", "Failed to create user");
@@ -255,8 +255,36 @@ export async function getChatById({ id }: { id: string }) {
 
 export async function saveMessages({ messages }: { messages: DBMessage[] }) {
   try {
-    return await db.insert(message).values(messages);
+    // Sanitize messages for SQLite bindings: ensure parts and attachments are strings
+    // and createdAt is a number (timestamp). SQLite3 driver only accepts numbers, strings,
+    // bigints, buffers, and null when binding parameters.
+    const sanitized = messages.map((m) => {
+      const parts =
+        typeof m.parts === "string" ? m.parts : JSON.stringify(m.parts);
+      const attachments =
+        typeof m.attachments === "string"
+          ? m.attachments
+          : JSON.stringify(m.attachments);
+      const createdAt =
+        typeof m.createdAt === "number"
+          ? m.createdAt
+          : m.createdAt instanceof Date
+            ? m.createdAt.getTime()
+            : Date.now();
+
+      return {
+        ...m,
+        parts,
+        attachments,
+        createdAt,
+      };
+    });
+
+    return await db.insert(message).values(sanitized);
   } catch (_error) {
+    // Log the original error for debugging
+    // eslint-disable-next-line no-console
+    console.error("saveMessages error:", _error);
     throw new ChatSDKError("bad_request:database", "Failed to save messages");
   }
 }
