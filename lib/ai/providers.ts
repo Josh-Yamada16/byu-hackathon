@@ -26,12 +26,12 @@ export const myProvider = isTestEnvironment
   : customProvider({
       languageModels: {
         // Use OpenAI provider models for local development. Replace model IDs as needed.
-        "chat-model": openai.languageModel("gpt-5-nano"),
+        "chat-model": openai.languageModel("gpt-4o-mini"),
         "chat-model-reasoning": wrapLanguageModel({
-          model: openai.languageModel("gpt-5-nano"),
+          model: openai.languageModel("gpt-4o-mini"),
           middleware: extractReasoningMiddleware({ tagName: "think" }),
         }),
-        "title-model": openai.languageModel("gpt-5-nano"),
-        "artifact-model": openai.languageModel("gpt-5-nano"),
+        "title-model": openai.languageModel("gpt-4o-mini"),
+        "artifact-model": openai.languageModel("gpt-4o-mini"),
       },
     });
