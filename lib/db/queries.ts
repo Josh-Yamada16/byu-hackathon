@@ -553,7 +553,7 @@ export async function updateChatLastContextById({
   try {
     return await db
       .update(chat)
-      .set({ lastContext: context })
+      .set({ lastContext: JSON.stringify(context) as unknown as AppUsage })
       .where(eq(chat.id, chatId));
   } catch (error) {
     console.warn("Failed to update lastContext for chat", chatId, error);

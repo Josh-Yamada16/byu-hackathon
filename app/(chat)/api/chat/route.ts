@@ -251,9 +251,9 @@ export async function POST(request: Request) {
           messages: messages.map((currentMessage) => ({
             id: currentMessage.id,
             role: currentMessage.role,
-            parts: currentMessage.parts,
-            createdAt: new Date(),
-            attachments: [],
+            parts: JSON.stringify(currentMessage.parts),
+            createdAt: Date.now(),
+            attachments: JSON.stringify([]),
             chatId: id,
           })),
         });
