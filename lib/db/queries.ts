@@ -1,5 +1,6 @@
 import "server-only";
 
+import Database from "better-sqlite3";
 import {
   and,
   asc,
@@ -12,8 +13,7 @@ import {
   lt,
   type SQL,
 } from "drizzle-orm";
-import { drizzle } from "drizzle-orm/postgres-js";
-import postgres from "postgres";
+import { drizzle } from "drizzle-orm/better-sqlite3";
 import type { ArtifactKind } from "@/components/artifact";
 import type { VisibilityType } from "@/components/visibility-selector";
 import { ChatSDKError } from "../errors";
@@ -39,7 +39,8 @@ import { generateHashedPassword } from "./utils";
 // https://authjs.dev/reference/adapter/drizzle
 
 // biome-ignore lint: Forbidden non-null assertion.
-const client = postgres(process.env.POSTGRES_URL!);
+const sqliteFile = process.env.SQLITE_FILE || "./dev.sqlite";
+const client = new Database(sqliteFile, { verbose: console.log });
 const db = drizzle(client);
 
 export async function getUser(email: string): Promise<User[]> {
@@ -68,10 +69,15 @@ export async function createGuestUser() {
   const password = generateHashedPassword(generateUUID());
 
   try {
-    return await db.insert(user).values({ email, password }).returning({
-      id: user.id,
-      email: user.email,
-    });
+    // SQLite doesn't support RETURNING with the current driver in all cases,
+    // so generate an id and insert, then select the created row.
+    const id = generateUUID();
+    await db.insert(user).values({ id, email, password });
+    const [created] = await db
+      .select({ id: user.id, email: user.email })
+      .from(user)
+      .where(eq(user.id, id));
+    return created ? [created] : [];
   } catch (_error) {
     throw new ChatSDKError(
       "bad_request:database",
@@ -134,7 +140,7 @@ export async function deleteAllChatsByUserId({ userId }: { userId: string }) {
       return { deletedCount: 0 };
     }
 
-    const chatIds = userChats.map(c => c.id);
+    const chatIds = userChats.map((c) => c.id);
 
     await db.delete(vote).where(inArray(vote.chatId, chatIds));
     await db.delete(message).where(inArray(message.chatId, chatIds));

@@ -11,6 +11,7 @@ import {
   uuid,
   varchar,
 } from "drizzle-orm/pg-core";
+import { sqliteTable } from "drizzle-orm/sqlite-core";
 import type { AppUsage } from "../usage";
 
 export const user = pgTable("User", {
@@ -171,3 +172,10 @@ export const stream = pgTable(
 );
 
 export type Stream = InferSelectModel<typeof stream>;
+
+export const users = sqliteTable("users", {
+  id: text("id").primaryKey(),
+  name: text("name").notNull(),
+  email: text("email").notNull(),
+  created_at: timestamp("created_at").defaultNow().notNull(),
+});
