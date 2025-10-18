@@ -1,0 +1,201 @@
+{
+  "courseCode": "404",
+  "courseName": "ACC 404: Financial Accounting 2",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Marriott School of Business (Junior Core)",
+  "coreValues": [
+    "Faith in Jesus Christ",
+    "Integrity in Action",
+    "Respect for All",
+    "Excellence"
+  ],
+  "coursePurpose": [
+    "Analyze complex economic events to identify and extract relevant information necessary to record technical accounting transactions with transparency and accuracy in accordance with U.S. Generally Accepted Accounting Principles",
+    "Recognize estimates, judgements, and assumptions on financial statements",
+    "Critically evaluate financial reporting decisions, including recognizing the impact of accounting policies on financial statements"
+  ],
+  "topicsCovered": [
+    "Equity and stock-based compensation",
+    "Earnings per share calculations and reporting",
+    "Leases (lessee and lessor)",
+    "Error corrections",
+    "Derivatives",
+    "Accounting for income taxes",
+    "Consolidations",
+    "Foreign currency translation",
+    "Statement of cash flows",
+    "Sustainability"
+  ],
+  "learningOutcomes": [
+    "Apply the BYU Marriott Values to class and classmate interactions to improve learning and the classroom experience for yourself and others",
+    "Apply financial accounting standards and concepts to various business situations",
+    "Use the FASB Accounting Standards Codification to understand and apply U.S. GAAP",
+    "Apply ethical considerations to financial reporting issues",
+    "Demonstrate effective communication skills via class discussion and ability to discuss subject matter in ad hoc discussions"
+  ],
+  "requiredMaterials": [
+    {
+      "title": "Intermediate Accounting",
+      "edition": "18th edition",
+      "authors": "Kieso, Weygandt & Warfield",
+      "publisher": "Wiley, 2022",
+      "format": "Both digital platform and loose-leaf print version",
+      "note": "Purchase both - digital not always available, deadlines not adjusted for technical issues"
+    },
+    {
+      "title": "Financial Calculator",
+      "recommended": "HP10bII Plus",
+      "restrictions": "No programmable/graphing calculators (e.g., TI-85), no smartphones, smartwatches, AI, or apps on exams"
+    }
+  ],
+  "characteristicsOfSuccessfulStudents": [
+    "Bring optimism and grit - hard things are doable with steady effort",
+    "Define success by inputs - set goals for preparation and practice",
+    "Prepare before class - skim/read, attempt problems, arrive with questions",
+    "Practice first, then check - do problems before looking at solutions",
+    "Ask early - use TAs and faculty office hours before you're stuck",
+    "Support each other - people learn at different speeds, help and learn together",
+    "Have fun - this is challenging and you're capable"
+  ],
+  "grading": {
+    "overview": "Grading with flexibility for Sections 1 & 2. Students choose grading path at beginning of each section.",
+    "section1And2": {
+      "optionA": {
+        "name": "Default Option",
+        "graded": [
+          "Pre-class knowledge demonstrations",
+          "Post-class reviews",
+          "Learning reflections",
+          "Exams"
+        ],
+        "preClassKnowledge": 50,
+        "postClassReviews": 50,
+        "learningReflections": 25,
+        "exam": "225 (100 pts MC, 125 pts workout)",
+        "subtotal": 350
+      },
+      "optionB": {
+        "name": "Opt-In Option",
+        "graded": [
+          "Exams",
+          "Learning reflections"
+        ],
+        "learningReflections": 25,
+        "exam": "325 (200 pts MC, 125 pts workout)",
+        "subtotal": 350,
+        "remappOpportunity": "If score below 75% on multiple-choice portion of exam, can complete exam rework to raise multiple-choice score up to 75%",
+        "reworkNote": "Must be completed individually, intended to help master key foundational concepts"
+      }
+    },
+    "section3": {
+      "preClassKnowledge": 50,
+      "conceptMiniAssessments": 125,
+      "learningReflections": 25,
+      "cumulativeProject": 100,
+      "subtotal": 300,
+      "note": "No final exam - replaced with cumulative project"
+    },
+    "courseTotals": {
+      "section1": 350,
+      "section2": 350,
+      "section3": 300,
+      "total": 1000
+    }
+  },
+  "assessmentComponents": {
+    "learningReflections": {
+      "frequency": "Generally at end of each class",
+      "process": "Reflect on faculty-provided question, record thoughts",
+      "grading": "Four Canvas quizzes during semester assess participation and insights",
+      "points": 25
+    },
+    "preClassKnowledgeDemonstrations": {
+      "dueTime": "30 minutes prior to class",
+      "purpose": "Aid in preparation for class",
+      "format": "Open book, open notes, strictly individual (no AI)",
+      "sections1And2": "Graded in Option A, ungraded in Option B",
+      "section3": "Required and graded for all students",
+      "practiceExercises": "Ungraded practice exercises available before graded demonstrations",
+      "dropPolicy": "Only count five highest scores per section (provides flexibility for unexpected absences, illness, personal conflicts)"
+    },
+    "postClassReviews": {
+      "timing": "Available few days after material covered in class",
+      "purpose": "Review material before students forget concepts",
+      "format": "Open book, open notes, can discuss but must submit own answers",
+      "attempts": "Four attempts with no loss of points",
+      "sections1And2": "Graded in Option A, ungraded but encouraged in Option B",
+      "section3": "Replaced with mini assessments",
+      "noDrops": "Not eligible to be dropped - allow four attempts over 2 days"
+    },
+    "miniAssessments": {
+      "section": "Section 3 only",
+      "description": "Short, targeted assignments designed to deepen understanding of key concepts",
+      "types": "May include short problems, brief written responses, or applied analysis tasks",
+      "purpose": "Reinforce learning, provide timely feedback, prepare for final project",
+      "points": 125
+    },
+    "exams": {
+      "sections1And2": "One exam at end of each section",
+      "format": "Multiple-choice and workout problems",
+      "coverage": "Readings, classroom discussions, quizzes, other assignments",
+      "reworkOption": "Available for Option B if score below 75% on multiple-choice portion"
+    },
+    "cumulativeProject": {
+      "section": "Section 3 (replaces final exam)",
+      "type": "Individual final project",
+      "description": "Apply course concepts in new context, communicate analysis in thoughtful, professional way",
+      "purpose": "Demonstrate technical accounting excellence while practicing professional communication",
+      "timing": "Due during finals week",
+      "points": 100
+    }
+  },
+  "classOrganization": {
+    "preClassPreparation": "Canvas Pages for each class list pre-class assignments",
+    "ungradedExercises": "Ungraded pre-class exercises and homework suggested for most classes",
+    "encouragement": "Use textbooks, notes, Codification, study-buddies",
+    "aiDiscouragement": "Google or AI not good way to internalize material",
+    "inClassAssessments": "Typically unannounced, can occur any class period"
+  },
+  "classroomAbsences": {
+    "notification": "Notify faculty in advance with brief explanation",
+    "healthPriority": "If unwell or may be contagious, stay home",
+    "noRecording": "Class sessions will not be recorded",
+    "noIndividualNotes": "Faculty will not provide individualized notes for missed classes",
+    "materialsPosted": "In-class materials will be posted after each session",
+    "support": "Reach out to classmates, TA, or faculty for additional clarification"
+  },
+  "professionalism": {
+    "standards": "Emerging professionals - consistent preparation, respectful participation, thoughtful communication, emotional intelligence, contributions to positive class culture",
+    "handling": "If concerns arise, will meet to plan improvement. Ongoing unprofessional behavior will affect grade"
+  },
+  "honorCode": "Students expected to be honest. Any work presented as your own must be your own work and not that of another or of AI. Violations may result in failing grade and university disciplinary action.",
+  "aiPolicy": {
+    "acknowledgement": "Growing influence of Generative AI in academic and business settings",
+    "generalUsage": "May use GenAI to support learning and enhance deliverables but not as shortcut to avoid learning",
+    "restriction": "Use of AI in assessments of knowledge (knowledge demonstrations, review quizzes, exams, reflections, projects) constitutes academic dishonesty",
+    "includesAnyUse": "Including brainstorming or editing"
+  },
+  "policies": {
+    "mentalHealth": {
+      "service": "BYU Counseling and Psychological Services (CAPS)",
+      "location": "1500 WSC",
+      "phone": "801-422-3035",
+      "website": "caps.byu.edu",
+      "wellnessSpecialist": "Aliah Hall - Tanner 438, 801-422-5139"
+    },
+    "studentDisability": {
+      "contact": "University Accessibility Center",
+      "phone": "801-422-2767",
+      "accommodation": "Reasonable accommodations reviewed for qualified students",
+      "discrimination": "Contact Equal Employment Office at 801-422-5895"
+    },
+    "sexualMisconduct": {
+      "contact": "Title IX Coordinator at t9coordinator@byu.edu or 801-422-8692 or 1085 WSC",
+      "onlineReport": "https://titleix.byu.edu/report or 1-888-238-1062 (24 hours)",
+      "advocacy": "Confidential Sexual Assault Survivor Advocate available"
+    },
+    "respectfulEnvironment": "No demeaning comments about career or major choices. Personal agency is fundamental. No right to criticize lawful choices of another.",
+    "financialNeed": "Contact Professor Brant Christensen (bchristensen@byu.edu or 801-422-2455) for financial assistance resources"
+  }
+}

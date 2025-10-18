@@ -1,0 +1,85 @@
+ACC 401 Syllabus
+Fall 2025
+Professor William G. Heninger
+Office: Tanner Building 5th Floor Office 530
+Office Phone: (801) 422-6899
+Email: heninger@byu.edu
+Office Hours: Tuesday & Thursday 3:30 pm – 5:00 pm and by appointment
+Professor Jeffrey Pickerd
+Office: Tanner Building 5th Floor Office 521
+Office Phone: (801) 422-0155
+Email: jeffrey.pickerd@byu.edu
+Office Hours: Tuesday & Thursday 3:30 pm – 5:00 pm and by appointment
+Required Text and Materials:
+Romney, Steinbart, Summers & Wood, Accounting Information Systems (16th Ed.) Pearson 2024
+Arens and Dewey, System Understanding Aid 10th Ed. Armond Dalton Publishers 2020
+The Romney, Steinbart, Summers and Wood text is included in the bookstore's Inclusive Access
+Program. This program grants you access to your required course materials by the first day of
+class at a discounted rate. Your student account will be charged this discounted rate after the
+add/drop period. If for any reason you decide to purchase your materials elsewhere you can opt-
+out of this program by the add/drop deadline and your account will not be charged.
+Catalog Course Description:
+Inputs, processing, outputs, and files of several transaction-processing subsystems. Foundation
+for understanding internal control. Variety of tools used to design, create, or document
+accounting information systems (AIS) to achieve organizational objectives.
+Extended Course Description:
+Welcome to the world of business processes as represented by the flows of data through the
+organization. These flows of data typically originate with transactions of one form or another.
+The flows of data are ultimately aggregated to form representations about the organization.
+These representations are of significant importance for the decision makers within the business
+and for participants in our capital markets based economy. Assuring that the flows of data are
+properly collected, stored and processed into meaningful information is the responsibility of
+accounting professionals.
+The control environment of the business is discussed. We will look at this environment from a
+corporate perspective and then again from an information systems perspective. Examining
+control environments necessarily involves assessing the risks that a business faces and the
+controls set to mitigate those risks. Management’s information needs will also be a prime object
+of conversation and consideration.
+Course Purpose:
+This course is designed to provide accounting professionals with the information, skills, and
+insights that they will need to use, manage, and ultimately evaluate the information systems that
+must provide reliable and timely information to organizational stakeholders. Much of the
+material for the course comes from professional standards; principally COBIT and COSO.
+Course Goals
+• Understand the transaction processing systems that are common to most businesses.
+• Understand the control environment and control frameworks that are relevant to an
+accounting information system.
+Competencies and Learning Outcomes:
+• Analyze a set of business processes and report control deficiencies
+o Evaluated through the cycle reports, homework, quizzes, and exams.
+• Learn how to evaluate the appropriateness of various controls
+o Evaluated through homework, quizzes, and exams.
+• Learn data visualization and Excel to support accounting decision making
+o Evaluated through homework, quizzes, and exams
+• Communicate effectively both in writing and in presentations
+o Evaluated through cycle presentations, cycle reports, and data visualizations
+• Develop the Christlike attributes necessary to work in teams
+o Evaluated through peer evaluations
+• Serve the community by applying the principles taught in class
+o Evaluated through cycle presentations and cycle reports
+• Learn how integrity and accountability are important spiritual and accounting principles
+o Evaluated through homework, quizzes, and exams
+Participation:
+We expect each of you to participate in this educational experience. If you come to class without
+having prepared by reading, you will not be able to contribute. Please bring thoughtful questions
+to class. Come prepared to challenge the material and apply it to live scenarios.
+Point Allocation*:
+Exam 1 165
+Exam 2 200
+Final Exam 250
+Quizzes 16+ @ 10 pts (drop 2-3) 140
+Homework 50
+Excel & Data Visualization 50
+Cycle Project 60
+Waren Case 85
+TOTAL 1,000
+*The point allocation is subject to change.
+Assignment Preparation:
+All reports, appeals, memos, assignments, etc. should be written with a word processor and have
+a professional appearance. Unless otherwise noted, all assignments will be turned in via Canvas.
+Professionalism:
+Unprofessional behavior outside of the classroom or any time during the Jr. Core “year” can
+affect your professionalism score in your Jr. Core classes.
+Classroom Policies
+We abide by all Marriot School classroom policies. These are available for review at
+https://marriottschool.byu.edu/policies/classroom/

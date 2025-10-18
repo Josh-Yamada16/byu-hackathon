@@ -1,0 +1,161 @@
+{
+  "courseCode": "403",
+  "courseName": "ACC 403: Financial Accounting (Accounting Junior Core)",
+  "semester": "Fall 2025",
+  "institution": "Brigham Young University",
+  "school": "Marriott School of Business",
+  "coreValues": [
+    "Faith in Jesus Christ",
+    "Integrity in Action",
+    "Respect for All",
+    "Excellence"
+  ],
+  "coursePurpose": [
+    "Work effectively in a group and independently to manage workload and meet regularly scheduled deadlines",
+    "Analyze complex economic events to identify and extract relevant information necessary to record technical accounting transactions with transparency and accuracy in accordance with U.S. Generally Accepted Accounting Principles",
+    "Demonstrate understanding of recent accounting and regulatory updates",
+    "Critically evaluate financial statement data and apply critical thinking and ethical reasoning to choose a course of action in various business contexts",
+    "Identify how principles of accounting illustrate or illuminate principles of the gospel and their application to personal journeys of faith in Jesus Christ"
+  ],
+  "topicsCovered": [
+    "The conceptual framework",
+    "The FASB codification",
+    "Primary financial statements",
+    "Financial statement articulation",
+    "Revenue recognition",
+    "Inventory valuation, analyses and reporting",
+    "Time value of money",
+    "Acquisition, disposal, and impairment of long-term assets",
+    "Investments in marketable securities",
+    "Long-term debt"
+  ],
+  "learningOutcomes": [
+    "Apply the Marriott Values to class and team interactions to improve learning and the Junior Core experience for yourself and others",
+    "Apply financial accounting standards and concepts to various business situations",
+    "Use the FASB Accounting Standards Codification to understand and apply U.S. GAAP",
+    "Apply ethical considerations to financial reporting issues including understanding of relevant regulations related to sustainability disclosures",
+    "Work effectively within a team",
+    "Demonstrate effective communication skills via class discussion and the ability to discuss subject matter in ad hoc discussions",
+    "Meet regularly scheduled deadlines",
+    "Demonstrate the value of regular reflection to deepen understanding of financial accounting concepts and draw connections between observed world and principles of the gospel"
+  ],
+  "requiredMaterials": [
+    {
+      "title": "Intermediate Accounting",
+      "authors": "Spiceland, Nelson, Thomas and Winchel",
+      "year": 2025,
+      "format": "Digital version",
+      "access": "Via Canvas link",
+      "billing": "Billed directly to student account after add/drop deadline"
+    },
+    {
+      "title": "Three Course Packets",
+      "contents": "Pre-class study questions, in-class handouts, exam review preparation materials",
+      "distribution": "First packet provided during Junior Core orientation on first day",
+      "billing": "Billed directly to student account after add/drop deadline"
+    },
+    {
+      "title": "Financial Calculator",
+      "preferred": "HP10bII Plus",
+      "alternatives": "TI Ba II Plus or other financial calculator",
+      "restrictions": "No programmable calculators, graphing calculators, smartphones, or phone apps for exams",
+      "note": "Recommended to start semester with calculator to practice before exams"
+    }
+  ],
+  "characteristicsOfSuccessfulStudents": [
+    "Choose to be optimistic and grateful for the opportunity to learn",
+    "Create your own definition of success based on your input, not outcomes",
+    "Focus on learning and helping others to learn",
+    "Develop a learning approach that works for you",
+    "Think critically about principles of accounting",
+    "Ask questions in a timely manner when you do not understand",
+    "Practice application of your understanding by doing problems before checking answers",
+    "Meet with your professor early and often in the semester if you are struggling",
+    "Have fun",
+    "Limit or avoid working - recommend no more than 10 hours per week if working"
+  ],
+  "grading": {
+    "breakdown": {
+      "learningReflections": 45,
+      "preClassKnowledgeDemonstrations": 200,
+      "reviewQuizzes": 100,
+      "warenFinancialStatements": 55,
+      "midtermExam1": 175,
+      "midtermExam2": 200,
+      "finalExam": 225,
+      "total": 1000
+    }
+  },
+  "assessmentDetails": {
+    "learningReflections": {
+      "description": "Reflect on questions provided at end of each class and record thoughts in course packet",
+      "grading": "Three Canvas quizzes during semester assess participation and insights gained",
+      "basis": "Thoughtful completion of reflections, commitment to personal growth in BYU Marriott Values"
+    },
+    "preClassKnowledgeDemonstrations": {
+      "description": "Graded pre-class quizzes due prior to class",
+      "purpose": "Ensure important information is understood and help formulate questions for class",
+      "collaboration": "Individual work (INDIVIDUAL RED) - no AI, no note material from others",
+      "ungraded": "Ungraded practice quizzes available before graded knowledge demonstration - can work with group on these",
+      "practiceExam": "One practice exam in testing center before first midterm - full credit for completing on time",
+      "drops": "Two pre-class quizzes can be dropped for unexpected absences, illness, computer issues",
+      "additionalDrop": "One additional drop available by participating in research project"
+    },
+    "reviewQuizzes": {
+      "description": "Post-class quizzes to facilitate review of prior material",
+      "availability": "Available a few days following class coverage",
+      "collaboration": "After first attempt - open book, open notes, can discuss with classmates but submit own answers (INDIVIDUAL YELLOW)",
+      "attempts": "Generally four attempts with no loss of points",
+      "drops": "Only one automatically dropped - no additional drops"
+    },
+    "warenFinancialStatements": {
+      "description": "Compile financial statements for the Waren case (Systems Understanding Aid)",
+      "purpose": "Helpful preparation for first mid-term exam",
+      "note": "Waren case also used in Accounting Information Systems course"
+    },
+    "exams": {
+      "dates": "As indicated on overall Junior Core calendar",
+      "coverage": "Material from reading, classroom discussions, quizzes, and all assignments",
+      "format": "Specific details provided prior to each exam",
+      "perspective": "Exams are important but only one measure at one point in time"
+    }
+  },
+  "professionalism": {
+    "evidencedIn": "Class preparation and demeanor, class interactions and participation, communication with peers and faculty, contributions to positive class culture, emotional intelligence in all interactions, effective group engagement",
+    "unprofessionalBehavior": "Will result in conversation with faculty. Ongoing unprofessional behavior will detrimentally impact your grade"
+  },
+  "classOrganization": {
+    "preClassPreparation": "Canvas Modules for each class list pre-class assignments",
+    "ungradedQuizzes": "Ungraded pre-class quizzes and optional problems for almost every class meeting",
+    "optionalProblems": "From end-of-chapter textbook problems with selected solutions posted to Canvas"
+  },
+  "aiPolicy": {
+    "exploration": "Encourage responsible exploration of AI technologies like ChatGPT",
+    "caution": "AI is not yet a very good professional accountant",
+    "restriction": "Use of AI in assessments of knowledge (pre-class demonstrations, review quizzes, exams, reflections, assignments) constitutes academic dishonesty"
+  },
+  "honorCode": "Students expected to be honest. Any work presented as your own must be your own work and not that of another student or AI. Violations may result in failing grade and university disciplinary action.",
+  "policies": {
+    "sexualMisconduct": {
+      "contact": "Title IX Coordinator at t9coordinator@byu.edu or (801) 422-8692 or 1085 WSC",
+      "onlineReport": "https://titleix.byu.edu/report or 1-888-238-1062 (24 hours)",
+      "sexualAssaultAdvocate": "Available for confidential support"
+    },
+    "studentDisability": {
+      "contact": "University Accessibility Center - 2170 WSC or 801-422-2767",
+      "accommodation": "Reasonable accommodations reviewed for qualified students"
+    },
+    "mentalHealth": {
+      "service": "BYU Counseling and Psychological Services (CAPS)",
+      "location": "1500 WSC",
+      "phone": "801-422-3035",
+      "website": "caps.byu.edu"
+    },
+    "mentalHealthSpecialist": {
+      "location": "Marriott School Wellness and Prevention Specialist - Tanner 438",
+      "phone": "801-422-5139"
+    },
+    "respectfulEnvironment": "No demeaning comments about career or major choices. Personal agency is fundamental. No right to criticize lawful choices of another.",
+    "financialNeed": "Contact Professor Brant Christensen (bchristensen@byu.edu or 801-422-2455) for financial assistance resources"
+  }
+}
