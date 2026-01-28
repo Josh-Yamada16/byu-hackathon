@@ -1,70 +1,114 @@
-<a href="https://chat.vercel.ai/">
-  <img alt="Next.js 14 and App Router-ready AI chatbot." src="app/(chat)/opengraph-image.png">
-  <h1 align="center">Chat SDK</h1>
-</a>
+# BYU Major Decision AI Agent
 
-<p align="center">
-    Chat SDK is a free, open-source template built with Next.js and the AI SDK that helps you quickly build powerful chatbot applications.
-</p>
+*Hackathon Project — BYU REDO Hackathon*
 
-<p align="center">
-  <a href="https://chat-sdk.dev"><strong>Read Docs</strong></a> ·
-  <a href="#features"><strong>Features</strong></a> ·
-  <a href="#model-providers"><strong>Model Providers</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#running-locally"><strong>Running locally</strong></a>
-</p>
-<br/>
+An intelligent AI agent designed to assist **Brigham Young University students** in exploring and selecting academic majors by analyzing BYU-specific data and providing major maps and summaries.
 
-## Features
+This project was developed as part of the **BYU REDO Hackathon** — a collaborative event where students build creative solutions to real student challenges using emerging technologies like AI.
 
-- [Next.js](https://nextjs.org) App Router
-  - Advanced routing for seamless navigation and performance
-  - React Server Components (RSCs) and Server Actions for server-side rendering and increased performance
-- [AI SDK](https://ai-sdk.dev/docs/introduction)
-  - Unified API for generating text, structured objects, and tool calls with LLMs
-  - Hooks for building dynamic chat and generative user interfaces
-  - Supports xAI (default), OpenAI, Fireworks, and other model providers
-- [shadcn/ui](https://ui.shadcn.com)
-  - Styling with [Tailwind CSS](https://tailwindcss.com)
-  - Component primitives from [Radix UI](https://radix-ui.com) for accessibility and flexibility
-- Data Persistence
-  - [Neon Serverless Postgres](https://vercel.com/marketplace/neon) for saving chat history and user data
-  - [Vercel Blob](https://vercel.com/storage/blob) for efficient file storage
-- [Auth.js](https://authjs.dev)
-  - Simple and secure authentication
+---
 
-## Model Providers
+## 🚀 Overview
 
-This template uses the [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) to access multiple AI models through a unified interface. The default configuration includes [xAI](https://x.ai) models (`grok-2-vision-1212`, `grok-3-mini`) routed through the gateway.
+Choosing a major is one of the most important and challenging decisions for college students. Our AI agent helps simplify this process by:
 
-### AI Gateway Authentication
+* Accessing structured data related to BYU majors, curricula, and outcomes
+* Providing major summaries and class information.
+* Prompting and answering follow-up questions to provide the student with more relevent information.
 
-**For Vercel deployments**: Authentication is handled automatically via OIDC tokens.
+This tool leverages Python for backend logic and data processing, along with web or chat interfaces for user interaction.
 
-**For non-Vercel deployments**: You need to provide an AI Gateway API key by setting the `AI_GATEWAY_API_KEY` environment variable in your `.env.local` file.
+---
 
-With the [AI SDK](https://ai-sdk.dev/docs/introduction), you can also switch to direct LLM providers like [OpenAI](https://openai.com), [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), and [many more](https://ai-sdk.dev/providers/ai-sdk-providers) with just a few lines of code.
+## 🧠 Key Features
 
-## Deploy Your Own
+✔️ **AI-Powered Recommendation Engine**
+Uses natural language understanding to interpret user input and match it with major options.
 
-You can deploy your own version of the Next.js AI Chatbot to Vercel with one click:
+✔️ **Data-Driven Insights**
+Incorporates major-specific data from BYU resources for accurate advising.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/templates/next.js/nextjs-ai-chatbot)
+✔️ **Interactive Interface**
+Accepts conversational input and supports dynamic follow-ups.
 
-## Running locally
+✔️ **Extendable Python Architecture**
+Clear modules and components for easy enhancement or integration.
 
-You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
+---
 
-> Note: You should not commit your `.env` file or it will expose secrets that will allow others to control access to your various AI and authentication provider accounts.
+## 🛠️ Architecture & Components
 
-1. Install Vercel CLI: `npm i -g vercel`
-2. Link local instance with Vercel and GitHub accounts (creates `.vercel` directory): `vercel link`
-3. Download your environment variables: `vercel env pull`
+The repository includes the following key directories:
 
-```bash
-pnpm install
-pnpm dev
+```
+byu-hackathon/
+├── app/                      # Main application code
+├── components/               # UI or agent modules
+├── scripts/                  # Data processing and training scripts
+├── tests/                    # Unit and integration tests
+├── .env.example              # Environment variable template
+├── README.md                 # This file
+├── IMPLEMENTATION_GUIDE.md   # Developer reference guide
 ```
 
-Your app template should now be running on [localhost:3000](http://localhost:3000).
+---
+
+## 📦 Installation
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/Josh-Yamada16/byu-hackathon.git
+   cd byu-hackathon
+   ```
+
+2. **Create and activate a Python environment**
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set up environment variables**
+
+   Copy `.env.example` to `.env` and fill in API keys or config values.
+
+---
+
+## ▶️ Running the Agent
+
+To start the AI recommendation agent:
+
+```bash
+python app/main.py
+```
+
+Then follow the prompts to interact with the AI.
+
+---
+
+## 🧪 Tests
+
+Run unit tests with:
+
+```bash
+pytest
+```
+
+---
+
+## 📄 License
+
+This project is released under the **MIT License**.
+
+---
+
+## 🏷️ Acknowledgements
+
+Thanks to the **BYU REDO Hackathon community** and mentors for the opportunity to build creative student-centered solutions.
